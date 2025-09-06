@@ -592,6 +592,24 @@ Los veterinarios constituyen un actor clave dentro de PetLink, ya que son los re
 
 Con estas herramientas, los veterinarios pueden mejorar la calidad del cuidado, reducir el tiempo en la gestión administrativa y ofrecer una atención más transparente y confiable a los dueños.
 
+**Segmento 2: Dueños de Mascotas**
+
+Los dueños representan el segundo pilar de PetLink, ya que son quienes buscan tranquilidad y confianza en el cuidado de sus animales.
+
+**Funciones principales para este segmento:**
+
+- Acceso a su cuenta personal para visualizar la información de una o varias mascotas.
+
+- Consulta de la historia clínica digital resumida, con datos de vacunas, antecedentes y diagnósticos compartidos por el veterinario.
+
+- Revisión del tratamiento actual, incluyendo recetas, evolución y recomendaciones activas.
+
+- Recepción de alertas y notificaciones automáticas en caso de novedades en el tratamiento o cambios en la salud de su mascota.
+
+- En internamientos, acceso a reportes básicos del monitoreo IoT, con información clara sobre la evolución, signos de alerta o estado estable de su mascota.
+
+De esta manera, los dueños participan activamente en el cuidado preventivo, fortalecen su relación con el veterinario y se benefician de la tranquilidad que otorga contar con información confiable en tiempo real.
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
