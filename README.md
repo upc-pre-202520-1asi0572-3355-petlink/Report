@@ -614,6 +614,111 @@ De esta manera, los dueños participan activamente en el cuidado preventivo, for
 
 ## 2.1. Competidores
 
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th colspan="6">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <td>¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="5">Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.</td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+    <td>PetWatch <img src="Capitulo 2/Gemini_Generated_Image_47c82d47c82d47c8.png" width="80"></td>
+    <td>Trackisafe <img src="Capitulo 2/TrackiSafe.png" width="80"></td>
+    <td>Invoxia <img src="Capitulo 2/invoxia.png" width="80"></td>
+    <td>Weenect <img src="Capitulo 2/Weenect.png" width="80"></td>
+  </tr>
+  <tr>
+    <td rowspan="2" style="transform: rotate(180deg); writing-mode: vertical-lr; text-align: center;">Perfil</td>
+    <td>Overview</td>
+    <td>La pechera inteligente que permite monitorear en tiempo real el pulso y ritmo cardíaco del animal mientras está en observación veterinaria, brindando tranquilidad al dueño y apoyo al especialista.</td>
+    <td>Un dispositivo GPS compacto que ofrece rastreo en tiempo real, geovallas, alertas y botón SOS.</td>
+    <td>El dispositivo permite monitorear salud integral del perro: ritmo cardíaco, actividad, apetito, comportamiento, además de GPS</td>
+    <td>Rastrea la ubicación mediante GPS, con actualizaciones cada 30 segundos. Ligero (43 g), resistente al agua, y permite geovallas y alertas de batería baja.</td>
+  </tr>
+  <tr>
+    <td>Ventaja competitiva ¿Qué valor ofrece a los clientes? </td>
+    <td>Monitorea la salud del animal (signos vitales) en tiempo real, ofreciendo seguridad y apoyo directo a veterinarios y tranquilidad a dueños.</td>
+    <td>Rastreo en tiempo real con geovallas y botón SOS.</td>
+    <td>Tecnología avanzada que combina GPS y monitoreo de salud con IA.</td>
+    <td>Rastreo GPS en tiempo real con actualizaciones rápidas y app intuitiva.</td>
+  </tr>
+  <tr>
+    <td rowspan="2" style="transform: rotate(180deg); writing-mode: vertical-lr; text-align: center;">Perfil de Marketing</td>
+    <td >Mercado objetivo</td>
+    <td>Clínicas veterinarias, hospitales de animales, dueños preocupados por la salud en consultas y hospitalización.</td>
+    <td>Dueños de mascotas que temen que su animal se pierda.</td>
+    <td>Dueños de perros, interesados en salud preventiva y seguridad.</td>
+    <td>Dueños de perros y gatos que salen frecuentemente.</td>
+  </tr>
+  <tr>
+    <td>Estrategias de marketing </td>
+    <td>Alianzas con veterinarias, demostraciones en ferias de mascotas, campañas en redes sociales dirigidas a dueños responsables.</td>
+    <td>Venta online global, destacando seguridad y tranquilidad.</td>
+    <td>Asociaciones con ferias de innovación, premios tecnológicos.</td>
+    <td>Venta en tiendas online de mascotas y veterinarias.</td>
+  </tr>
+  <tr>
+    <td rowspan="3" style="transform: rotate(180deg); writing-mode: vertical-lr; text-align: center;">Perfil de Producto</td>
+    <td >Productos & Servicios </td>
+    <td>Pechera con sensores + plataforma de monitoreo en tiempo real + alertas automáticas + aplicación.</td>
+    <td>Dispositivo GPS + app de rastreo + plan de suscripción.</td>
+    <td>Dispositivo con GPS + sensores de salud + app + servicios de IA.</td>
+    <td>Localizador GPS con SIM integrada + aplicación.</td>
+  </tr>
+  <tr>
+    <td>Precios & Costos</td>
+    <td>Modelo de venta directa a veterinarias o alquiler por uso; costos moderados comparados con dispositivos importados.</td>
+    <td>Dispositivo + suscripción mensual (~2 €/mes).</td>
+    <td>Alto precio (gama premium) + suscripción incluida un tiempo.</td>
+    <td>Precio medio + planes de recarga (6 o 12 meses).</td>
+  </tr>
+  <tr>
+    <td>Canales de distribución (Web y/o Móvil)</td>
+    <td>Plataforma web y app móvil para acceso a datos en vivo.</td>
+    <td>App móvil + Web.</td>
+    <td>Web oficial y app móvil.</td>
+    <td>App móvil + web de proveedores locales.</td>
+  </tr>
+  <tr>
+    <td rowspan="5" style="transform: rotate(180deg); writing-mode: vertical-lr; text-align: center;">Análisis SWOT</td>
+    <td colspan="5">
+      Realice esto para su <b>startup</b> y sus competidores. 
+      Sus fortalezas deberían apoyar sus oportunidades y contribuir 
+      a lo que ustedes definen como su posible ventaja competitiva.
+    </td>
+  </tr>
+  <tr>
+    <td>Fortalezas</td>
+    <td>Nicho poco explorado (veterinarias), enfoque en salud, bajo costo.</td>
+    <td>Alta precisión, cobertura global.</td>
+    <td>Innovación premiada, funciones completas.</td>
+    <td>Disponible en Perú, buena integración con app.</td>
+  </tr>
+  <tr>
+    <td>Debilidades</td>
+    <td>Producto nuevo sin reputación en el mercado, requiere pruebas clínicas para ganar confianza.</td>
+    <td>Batería de corta duración, depende de señal móvil.</td>
+    <td>Costo elevado, puede ser inaccesible para mercados emergentes.</td>
+    <td>Solo rastrea ubicación, sin datos de salud.</td>
+  </tr>
+  <tr>
+    <td>Oportunidades</td>
+    <td>Creciente interés en IoT para mascotas, veterinarias buscando diferenciarse con tecnología.</td>
+    <td>Expansión en países con problemas de mascotas perdidas.</td>
+    <td>Creciente interés en wellness para mascotas.</td>
+    <td>Mercado latinoamericano abierto a soluciones de rastreo.</td>
+  </tr>
+  <tr>
+    <td>Amenazas</td>
+    <td>Avance rápido de marcas internacionales, desconfianza inicial en un producto local.</td>
+    <td>Competidores con mejor batería o sin costos de suscripción.</td>
+    <td>Alternativas más baratas con funcionalidades similares.</td>
+    <td>Competidores más completos (con salud incluida).</td>
+  </tr>
+</table>
+
 ### 2.1.1. Análisis competitivo
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
