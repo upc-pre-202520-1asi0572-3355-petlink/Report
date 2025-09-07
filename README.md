@@ -280,9 +280,17 @@ del ABET – EAC - Student Outcome 5.
 
 PetLink es una startup tecnológica que busca transformar la forma en que se cuida y gestiona la salud de los animales domésticos, integrando soluciones IoT con plataformas digitales web y móviles. Nuestro objetivo es ofrecer una experiencia completa, tanto para veterinarios como para dueños de mascotas, permitiendo un seguimiento continuo, confiable y en tiempo real del estado de cada animal.
 
-La solución está compuesta por un collar IoT inteligente, equipado con sensores para medir variables críticas de salud y comportamiento (como ritmo cardíaco, ubicación y nivel de actividad). Estos datos son transmitidos en tiempo real hacia una aplicación móvil y una plataforma web, donde se procesan, almacenan y muestran en formatos fáciles de interpretar.
+La solución está compuesta por una **pechera IoT inteligente**, equipada con sensores para medir variables críticas de salud y comportamiento (como el ritmo cardíaco y el nivel de actividad). A diferencia de los dispositivos convencionales, la pechera también incluye un **sistema de luz LED integrado**, que funciona como un indicador visual del estado de la mascota:
 
-Este sistema no solo mejora la atención veterinaria, sino que también promueve un cuidado preventivo y fortalece el vínculo entre las mascotas, sus dueños y los profesionales de la salud animal.
+- **Verde:** Estado estable.
+
+- **Amarillo:** Condición de alerta leve.
+
+- **Rojo:** Signo crítico que requiere atención inmediata.
+
+Los datos captados por la pechera son transmitidos en tiempo real hacia una **aplicación móvil** y una **plataforma web**, donde se procesan, almacenan y presentan en un formato claro y accesible tanto para veterinarios como para dueños.
+
+Esta integración asegura una **supervisión continua** en internamientos veterinarios y una mayor **confianza y tranquilidad** para los dueños, eliminando la dependencia de observaciones manuales y favoreciendo un cuidado preventivo más eficiente.
 
 La innovación de PetLink radica en la integración de tres componentes claves:
 
@@ -571,6 +579,8 @@ A continuación, se plantean las hipótesis que proponen una solución a la prob
 ---
 
 #### 1.2.2.4. Lean UX Canvas
+
+<img src="Capítulo 1/Canvas.jpg" width="800px">
 
 ## 1.3. Segmentos objetivo
 
