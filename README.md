@@ -614,6 +614,36 @@ De esta manera, los dueños participan activamente en el cuidado preventivo, for
 
 ## 2.1. Competidores
 
+Es vital para la estrategia y planificación de nuestro producto conocer a fondo el panorama competitivo. Por ello, en este apartado explicaremos quiénes son nuestros competidores y describiremos sus aspectos más relevantes.
+
+<table border="1">
+  <tr>
+    <th>Empresa</th>
+    <th>Descripción</th>
+    <th>Logo</th>
+  </tr>
+  <tr>
+    <td>Trackisafe</td>
+    <td>Dispositivo compacto de rastreo GPS con geovallas, botón SOS y conexión global a través de red móvil. Está orientado principalmente a la localización de mascotas, aunque no incluye monitoreo de salud.</td>
+    <td><img src="Capitulo 2/TrackiSafe.png" width="80"></td>
+  </tr>
+  <tr>
+    <td>Invoxia</td>
+    <td>Solución avanzada que combina localización GPS con monitoreo de salud (ritmo cardíaco, respiración, actividad, apetito). Ganador en ferias de innovación, dirigido al segmento premium de dueños de mascotas preocupados por la salud preventiva.</td>
+    <td><img src="Capitulo 2/invoxia.png" width="80"></td>
+  </tr>
+  <tr>
+    <td>Weenect</td>
+    <td>Rastreador GPS en tiempo real disponible en Perú, que incluye app con funciones como geovallas y alertas de batería. Está diseñado para perros y gatos, aunque se limita a localización sin datos médicos.</td>
+    <td><img src="Capitulo 2/Weenect.png" width="80"></td>
+  </tr>
+</table>
+
+
+### 2.1.1. Análisis competitivo
+
+En esta sección analizaremos nuestros competidores de manera profunda. Investigaremos sobre sus fortalezas, debilidades, oportunidades, amenazas, el perfil la empresa y de la solución, lo que brindan. Así, podemos refinar nuestras características y saber que es lo que tenemos en nuestro producto que capte más la atención de nuestro mercado objetivo.
+
 <table border="1" cellspacing="0" cellpadding="5">
   <tr>
     <th colspan="6">Competitive Analysis Landscape</th>
@@ -719,18 +749,302 @@ De esta manera, los dueños participan activamente en el cuidado preventivo, for
   </tr>
 </table>
 
-### 2.1.1. Análisis competitivo
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+<table border="1">
+  <tr>
+    <th>Estrategia</th>
+    <th>Tácticas</th>
+  </tr>
+  <tr>
+    <td>
+      <ul>
+        <li>Diferenciación enfocada en salud veterinaria: ofrecer monitoreo de pulso y ritmo cardíaco, un nicho poco cubierto por competidores que priorizan ubicación GPS.</li>
+        <li>Estrategia de precios accesibles frente a dispositivos premium internacionales, facilitando adopción en clínicas veterinarias locales.</li>
+        <li>Generar confianza mediante pruebas piloto en veterinarias y testimonios de especialistas para compensar la falta de reputación inicial.</li>
+        <li>Alianzas estratégicas con clínicas y hospitales veterinarios como canal de entrada y difusión.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Lanzar campañas educativas en redes sociales dirigidas a dueños de mascotas sobre la importancia del monitoreo de signos vitales.</li>
+        <li>Realizar demostraciones gratuitas en veterinarias para mostrar la utilidad del producto en la práctica.</li>
+        <li>Aprovechar las debilidades de competidores (alto costo, dependencia de GPS, poca disponibilidad local) para posicionar la pechera como una solución más cercana, útil y accesible.</li>
+        <li>Desarrollar un MVP escalable: iniciar con monitoreo básico (pulso y ritmo cardíaco) y agregar funciones futuras (temperatura, historial clínico digital) según feedback del mercado.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas.
 
-A continuación, se diseñaron entrevistas dirigidas a los dos segmentos objetivos definidos para el proyecto. Las preguntas fueron elaboradas con el fin de generar respuestas abiertas y detalladas por parte de los entrevistados, permitiendo así obtener información valiosa que nos ayude a comprender mejor sus necesidades. Cabe mencionar que las preguntas de introducción no están incluidas en esta lista; sin embargo, se realizarán al inicio de cada entrevista.
+A continuación, se diseñaron entrevistas dirigidas a los dos segmentos objetivos definidos para el proyecto. Las preguntas fueron elaboradas con el fin de generar respuestas abiertas y detalladas por parte de los entrevistados, permitiendo así obtener información valiosa que nos ayude a comprender mejor sus necesidades.
+
+**Datos generales**
+* Nombre completo
+* Edad
+* Distrito
+* Ocupación
+* Tipo de mascota(s) que tiene o atiende
+* Tiempo de experiencia (si es veterinario)
+
+---
+
+**Segmento Objetivo: Dueños de mascotas**
+* ¿Qué es lo que más le preocupa respecto a la salud de su mascota?
+* ¿Cómo suele monitorear la salud de su mascota actualmente?
+* ¿Le gustaría recibir información en tiempo real sobre el estado de salud de su mascota mientras está en la veterinaria?
+* ¿Qué valor le daría a un dispositivo que avise si hay una anomalía en el pulso o ritmo cardíaco de su mascota?
+* ¿Cuánto estaría dispuesto a invertir en un servicio de este tipo?
+
+**Preguntas complementarias**
+* ¿Alguna vez ha tenido una mala experiencia en la veterinaria por falta de información oportuna?
+* ¿Confía en dispositivos tecnológicos para el cuidado de su mascota?
+
+---
+
+**Segmento Objetivo: Veterinarios**
+* ¿Qué métodos usan actualmente para monitorear signos vitales de los animales en observación?
+* ¿Qué dificultades suelen tener para controlar continuamente a los pacientes?
+* ¿Qué tan útil sería contar con un sistema que envíe alertas automáticas sobre pulso y ritmo cardíaco?
+* ¿Qué características considera imprescindibles en un dispositivo de monitoreo para que lo adopte en su clínica?
+* ¿Estaría dispuesto a incorporar esta tecnología en su práctica diaria? ¿Bajo qué condiciones?
+
+**Preguntas complementarias**
+* ¿Cuántos animales promedio atienden al mes en observación?
+* ¿Considera que los dueños de mascotas estarían dispuestos a pagar más por este tipo de servicio?
 
 ### 2.2.2. Registro de entrevistas
+
+Link a las entrevistas: [URL]()
+
+**Segmento Objetivo: Dueños de mascotas**
+
+_Entrevistado 1_
+
+<table border="1" style="text-align: left;">
+	<tr>
+		<td colspan="1" rowspan="3"><img src="assets/Entrevista - Empresario Pesquero - 1.png" alt="" width="400" height="174"></td>
+    <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
+      <br></strong>Fernando<br>Escobar
+    </td>
+	</tr>
+  <tr>
+    <td>
+      <strong>Edad:<br></strong> 46 años
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Distrito:</strong><br>Los Olivos
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">
+      <strong>Nombre del entrevistador:</strong>
+      <br>Maria Fernanda Fernandez Alva
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Timming: </strong>00:00<br>
+      <strong>Duración: </strong>04:19
+    </td>
+  </tr>    
+</table>
+
+<strong>Resumen: </strong><br>
+resumen detallado
+
+_Entrevistado 2_
+
+<table border="1" style="text-align: left;">
+	<tr>
+		<td colspan="1" rowspan="3"><img src="assets/Entrevista - Empresario Pesquero - 1.png" alt="" width="400" height="174"></td>
+    <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
+      <br></strong>Fernando<br>Escobar
+    </td>
+	</tr>
+  <tr>
+    <td>
+      <strong>Edad:<br></strong> 46 años
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Distrito:</strong><br>Los Olivos
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">
+      <strong>Nombre del entrevistador:</strong>
+      <br>Maria Fernanda Fernandez Alva
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Timming: </strong>00:00<br>
+      <strong>Duración: </strong>04:19
+    </td>
+  </tr>    
+</table>
+
+<strong>Resumen: </strong><br>
+resumen detallado
+
+_Entrevistado 3_
+
+<table border="1" style="text-align: left;">
+	<tr>
+		<td colspan="1" rowspan="3"><img src="assets/Entrevista - Empresario Pesquero - 1.png" alt="" width="400" height="174"></td>
+    <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
+      <br></strong>Fernando<br>Escobar
+    </td>
+	</tr>
+  <tr>
+    <td>
+      <strong>Edad:<br></strong> 46 años
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Distrito:</strong><br>Los Olivos
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">
+      <strong>Nombre del entrevistador:</strong>
+      <br>Maria Fernanda Fernandez Alva
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Timming: </strong>00:00<br>
+      <strong>Duración: </strong>04:19
+    </td>
+  </tr>    
+</table>
+
+<strong>Resumen: </strong><br>
+resumen detallado
+
+---
+
+**Segmento Objetivo: Veterinarios**
+
+_Entrevistado 1_
+
+<table border="1" style="text-align: left;">
+	<tr>
+		<td colspan="1" rowspan="3"><img src="assets/Entrevista - Empresario Pesquero - 1.png" alt="" width="400" height="174"></td>
+    <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
+      <br></strong>Fernando<br>Escobar
+    </td>
+	</tr>
+  <tr>
+    <td>
+      <strong>Edad:<br></strong> 46 años
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Distrito:</strong><br>Los Olivos
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">
+      <strong>Nombre del entrevistador:</strong>
+      <br>Maria Fernanda Fernandez Alva
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Timming: </strong>00:00<br>
+      <strong>Duración: </strong>04:19
+    </td>
+  </tr>    
+</table>
+
+<strong>Resumen: </strong><br>
+resumen detallado
+
+_Entrevistado 2_
+
+<table border="1" style="text-align: left;">
+	<tr>
+		<td colspan="1" rowspan="3"><img src="assets/Entrevista - Empresario Pesquero - 1.png" alt="" width="400" height="174"></td>
+    <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
+      <br></strong>Fernando<br>Escobar
+    </td>
+	</tr>
+  <tr>
+    <td>
+      <strong>Edad:<br></strong> 46 años
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Distrito:</strong><br>Los Olivos
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">
+      <strong>Nombre del entrevistador:</strong>
+      <br>Maria Fernanda Fernandez Alva
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Timming: </strong>00:00<br>
+      <strong>Duración: </strong>04:19
+    </td>
+  </tr>    
+</table>
+
+<strong>Resumen: </strong><br>
+resumen detallado
+
+_Entrevistado 3_
+
+<table border="1" style="text-align: left;">
+	<tr>
+		<td colspan="1" rowspan="3"><img src="assets/Entrevista - Empresario Pesquero - 1.png" alt="" width="400" height="174"></td>
+    <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
+      <br></strong>Fernando<br>Escobar
+    </td>
+	</tr>
+  <tr>
+    <td>
+      <strong>Edad:<br></strong> 46 años
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Distrito:</strong><br>Los Olivos
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">
+      <strong>Nombre del entrevistador:</strong>
+      <br>Maria Fernanda Fernandez Alva
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Timming: </strong>00:00<br>
+      <strong>Duración: </strong>04:19
+    </td>
+  </tr>    
+</table>
+
+<strong>Resumen: </strong><br>
+resumen detallado
   
 ### 2.2.3. Análisis de entrevistas
+
+Despues de las entrevistas listas
 
 ## 2.3. Needfinding
 En esta sección, se buscarán las necesidades implícitas y explícitas de las personas o segmentos para poder diseñar y adaptar el producto solución de manera apropiada.
