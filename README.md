@@ -293,7 +293,7 @@ del ABET – EAC - Student Outcome 5.
     <td rowspan="7"><strong>TB1:</strong>En esta primera entrega, como grupo logramos ejercer un liderazgo compartido en las distintas etapas del trabajo, ya que cada integrante asumió la responsabilidad de coordinar y liderar tareas específicas como la elaboración de cuadros comparativos, el diseño de entrevistas, la construcción de user personas y la definición de matrices y escenarios. Esta distribución equitativa permitió que el equipo funcione de manera organizada, sin depender de un único líder, y que se avance de forma colaborativa en los capítulos I a IV del proyecto.</td>
   </tr>
   <tr>
-    <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> escribir</td>
+    <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> Desarrolló los perfiles de los dos segmentos objetivo mediante la construcción de user personas, el empathy mapping y el as-is scenario. Estas actividades se realizaron en coordinación grupal para integrar diferentes perspectivas.</td>
   </tr>
   <tr>
     <td><strong>Pilares Pocohuanca, Maria</strong><br><strong>TB1:</strong> escribir</td>
@@ -316,7 +316,7 @@ del ABET – EAC - Student Outcome 5.
     <td rowspan="7"><strong>TB1:</strong> En esta primera entrega, el equipo desarrolló un entorno colaborativo e inclusivo, donde se integraron las ideas de todos los miembros mediante el uso de herramientas como Miro y UXPressia, además de la comunicación constante en reuniones. Se establecieron metas claras en cada capítulo del proyecto (Introducción, Requirements Elicitation & Analysis, Requirements Specification y Solution Software Design), se distribuyeron las tareas de manera equitativa y se cumplieron los objetivos planificados. Este trabajo coordinado aseguró que el proyecto avance de manera ordenada, inclusiva y con un alto nivel de compromiso por parte de todos los integrantes.</td>
   </tr>
   <tr>
-    <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> escribir</td>
+    <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> Utilizó herramientas digitales como UXPressia y Miro para elaborar y organizar los requisitos del proyecto, asegurando la claridad y trazabilidad de los mismos dentro del proceso de diseño.</td>
   </tr>
   <tr>
     <td><strong>Pilares Pocohuanca, Maria</strong><br><strong>TB1:</strong> escribir</td>
