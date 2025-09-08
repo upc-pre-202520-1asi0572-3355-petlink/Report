@@ -1063,17 +1063,100 @@ En esta sección, se buscarán las necesidades implícitas y explícitas de las 
 
 Se realiza las User Persona, personaje ficticio para reflejar al cliente ideal, estos user persona son creados en base a la investigación de capitulos previos para identificar a los diferentes tipos de clientes que podrían usar el producto solución. Se utilizó la herramienta UXPressia.
 
+**Segmento Objetivo: Dueño de mascota**
+
+<div style="text-align: center;">
+	<img src="Capitulo 2/DUEÑO DE MASCOTA/Diana Cortez.png" alt="user person diana">
+</div>
+
+**Segmento Objetivo: Veterinario**
+
+<div style="text-align: center;">
+	<img src="Capitulo 2/Doctor/Dr. Jorge Ramírez.png" alt="user person dr Jorge">
+</div>
+
 ### 2.3.2. User Task Matrix
 
-A continuación, se muestra el User Task Matrix para los siguientes segmentos objetivo:
+En esta sección se presenta el User Task Matrix, una herramienta clave centrada en los segmentos objetivos que permite identificar las tareas y objetivos principales de los usuarios. Esta matriz facilita la priorización de características y funcionalidades al momento de elaborar el product backlog.
 
-### 2.3.3. Journey Mapping
+**User Task Matrix: Dueño de mascota**
+
+
+
+**User Task Matrix: Veterinario**
+
+
+
+### 2.3.3. User Journey Mapping
+
+En esta sección se presentan los User Journey Maps desarrollados para los dos segmentos objetivos principales: Dueños de mascotas y el veterinario. Cada mapa describe, paso a paso, la experiencia del usuario al interactuar con nuestra solución, incluyendo sus necesidades, emociones, puntos de contacto y oportunidades de mejora a lo largo del recorrido. Esta herramienta nos permitió identificar momentos clave en la experiencia de cada tipo de usuario y ajustar el diseño del producto en función de sus expectativas reales.
+
+**User Journey Map: Dueño de mascota**
+
+<div style="text-align: center;">
+	<img src="Capitulo 2/DUEÑO DE MASCOTA/Customer journey map 1.png">
+</div>
+
+**User Journey Map: Veterinario**
+
+<div style="text-align: center;">
+	<img src="Capitulo 2/Doctor/Customer journey map 1.png">
+</div>
 
 ### 2.3.4. Empathy Mapping
 
+El Empathy Map es una herramienta que nos permitió profundizar en la perspectiva de los usuarios, comprendiendo lo que piensan, sienten, dicen y hacen en relación con el problema identificado. 
+
+**Empathy Mapping: Dueño de mascota**
+
+<div style="text-align: center;">
+	<img src="Capitulo 2/DUEÑO DE MASCOTA/Empathy map.png">
+</div>
+
+**Empathy Mapping: Veterinario**
+
+<div style="text-align: center;">
+	<img src="Capitulo 2/Doctor/Empathy map.png">
+</div>
+
 ### 2.3.5. As-is Scenario Mapping
 
+El As-is Scenario Mapping nos permitió analizar cómo los usuarios actualmente enfrentan el problema sin el uso de nuestra solución. A través de esta herramienta, se identificaron las actividades, frustraciones y barreras que experimentan tanto de los dueños de las mascotas como el veterinario en sus procesos actuales.
+
+**As-is Scenario Map: Dueño de mascota**
+
+<div style="text-align: center;">
+	<img src="Capitulo 2/DUEÑO DE MASCOTA/As-is-dueño.jpg">
+</div>
+
+**As-is Scenario Map: Veterinario**
+
+<div style="text-align: center;">
+	<img src="Capitulo 2/Doctor/As-is-veterinario.jpg">
+</div>
+
 ## 2.4. Ubiquitous Language
+
+* **Mascota:**<br>
+Animal doméstico mantenido para compañía y cuidado.
+* **Dueño:**<br>
+Persona responsable del cuidado, salud y bienestar de la mascota.
+* **Veterinario:**<br>
+Profesional especializado en el cuidado y tratamiento médico de los animales.
+* **Pechera:**<br>
+Accesorio que se coloca en el cuerpo de la mascota para sujetar dispositivos o facilitar el control.
+* **Monitoreo de Salud:**<br>
+Observación continua de signos vitales como ritmo cardiaco, pulso o nivel de actividad.
+* **Signos Vitales:**<br>
+Indicadores del estado fisiológico de la mascota, como ritmo cardiaco, pulso o temperatura.
+* **Alerta de Emergencia:**<br>
+Notificación (Luz roja) enviada cuando se detectan condiciones de salud anormales.
+* **Experiencia del dueño:**<br>
+Percepción y satisfacción del dueño respecto al uso del producto o servicio.
+* **Cuidado de seguimiento:**<br>
+Acciones realizadas después de la primera consulta médica para garantizar la recuperación o prevención.
+* **Confianza del cliente:**<br>
+Nivel de seguridad y fiabilidad que el dueño percibe al usar la solución.
 
 # Capítulo III: Requirements Specification
 
