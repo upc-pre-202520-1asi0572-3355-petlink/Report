@@ -385,7 +385,8 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
     <td valign="top">
       <p><b>Belleza Tello, Paolo Eduardo</b></p>
       <p>
-     ...
+		  Mi nombre es Paolo Eduardo Belleza Tello. Soy una persona comprometida con alcanzar mis metas, decidido a ejercer la carrera de Ingeniería de Software. Me gustaría especializarme en Front-End, ya que es el área en la que me siento más cómodo y enfocado. Además, disfruto aprendiendo nuevas tecnologías cada día, ya que el aprendizaje continuo me apasiona y me motiva. Mis principales fortalezas son la persistencia, el trabajo en equipo y la organización.
+	  </p>
     </td>
   </tr>
      <tr>
