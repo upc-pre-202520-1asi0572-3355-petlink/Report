@@ -1068,6 +1068,7 @@ Se realiza las User Persona, personaje ficticio para reflejar al cliente ideal, 
 <div style="text-align: center;">
 	<img src="Capitulo 2/DUEÑO DE MASCOTA/Diana Cortez.png" alt="user person diana">
 </div>
+<br>
 
 **Segmento Objetivo: Veterinario**
 
@@ -1079,13 +1080,107 @@ Se realiza las User Persona, personaje ficticio para reflejar al cliente ideal, 
 
 En esta sección se presenta el User Task Matrix, una herramienta clave centrada en los segmentos objetivos que permite identificar las tareas y objetivos principales de los usuarios. Esta matriz facilita la priorización de características y funcionalidades al momento de elaborar el product backlog.
 
-**User Task Matrix: Dueño de mascota**
+**User Task Matrix: Diana (Dueña de mascota)**
 
+<table>
+  <tr>
+    <th>User Task</th>
+    <th>Frequency</th>
+    <th>Importance</th>
+  </tr>
+  <tr>
+    <td>Iniciar sesion en mi aplicacion web</td>
+    <td>Diaria</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Ver el historial clínico de mi mascota (vacunas, tratamientos, etc.)</td>
+    <td>Mensual</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Ver en tiempo real los datos del sensor si mi mascota está internada</td>
+    <td>Variable</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Ver los síntomas que tiene mi mascota en la plataforma</td>
+    <td>Variable</td>
+    <td>Muy alta</td>
+  </tr>
+  <tr>
+    <td>Recibir notificaciones sobre el estado de mi mascota</td>
+    <td>Variable</td>
+    <td>Muy alta</td>
+  </tr>
+  <tr>
+    <td>Buscar información sobre tratamientos o medicamentos que le han dado</td>
+    <td>Mensual</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Contactar a la veterinaria a través de la plataforma</td>
+    <td>Variable</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Compartir el historial clínico de mi mascota con otros cuidadores o veterinarias</td>
+    <td>Ocasional</td>
+    <td>Media</td>
+  </tr>
+</table>
 
+<br>
 
-**User Task Matrix: Veterinario**
+**User Task Matrix: Jorge (Veterinaria)**
 
-
+<table>
+  <tr>
+    <th>User Task</th>
+    <th>Frequency</th>
+    <th>Importance</th>
+  </tr>
+  <tr>
+    <td>Iniciar sesion en mi aplicacion web</td>
+    <td>Diaria</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Iniciar sesion en mi aplicacion movil</td>
+    <td>Variable</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Añadir los datos de las mascotas en mi aplicacion web</td>
+    <td>Diaria</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Añadir los tratamientos y medicamentos de cada mascota a la aplicacion web</td>
+    <td>Diaria</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Poder visualizar datos generales de la mascota que lleva la pechera con el sensor en mi aplicacion movil</td>
+    <td>Variable</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Poder monitorear a la mascota que lleva la pechera con el sensor y ver datos en la aplicacion movil</td>
+    <td>Variable</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Poder monitorear el estado de la mascota con algun indicador en la pechera</td>
+    <td>Variable</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Visualizar los tratamientos y medicamentos que le suministre a la mascota de dias pasados</td>
+    <td>Variable</td>
+    <td>Alta</td>
+  </tr>
+</table>
 
 ### 2.3.3. User Journey Mapping
 
@@ -1096,6 +1191,7 @@ En esta sección se presentan los User Journey Maps desarrollados para los dos s
 <div style="text-align: center;">
 	<img src="Capitulo 2/DUEÑO DE MASCOTA/Customer journey map 1.png">
 </div>
+<br>
 
 **User Journey Map: Veterinario**
 
@@ -1112,6 +1208,7 @@ El Empathy Map es una herramienta que nos permitió profundizar en la perspectiv
 <div style="text-align: center;">
 	<img src="Capitulo 2/DUEÑO DE MASCOTA/Empathy map.png">
 </div>
+<br>
 
 **Empathy Mapping: Veterinario**
 
@@ -1128,6 +1225,7 @@ El As-is Scenario Mapping nos permitió analizar cómo los usuarios actualmente 
 <div style="text-align: center;">
 	<img src="Capitulo 2/DUEÑO DE MASCOTA/As-is-dueño.jpg">
 </div>
+<br>
 
 **As-is Scenario Map: Veterinario**
 
