@@ -102,13 +102,25 @@
 
 # Project Report Collaboration Insights
 
-**TB1:** Se han desarrollado las actividades correspondientes para la entrega TB1 en el siguiente repositorio de Github dentro de la organización del equipo:
-Link de repositorio Github: https://github.com/upc-pre-202520-1asi0572-3355-petlink/Report
+A continuación, se detalla el proceso de elaboración del informe para cada entrega, junto con capturas de pantalla que muestran los análisis de colaboración y commits en GitHub para el repositorio del informe:
+
+**Link del repositorio-Informe:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/Report](https://github.com/upc-pre-202520-1asi0572-3355-petlink/Report)
+
+**Link de los repositorios de la organización:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink](https://github.com/upc-pre-202520-1asi0572-3355-petlink)
+
+**Reporte de colaboración de la entrega del TB1:**
+
+- Todos los miembros del equipo contribuyeron en la redacción del Informe. Se dividió en secciones específicas para cada capítulo, lo que permitió un mayor avance y equidad en el desarrollo del informe.
+
+<div align="center">
+  <img align="center" src="img/Commits.jpeg" style="width:320px; margin: 10px;">
+  <img align="center" src="img/Contribuidores.jpeg" style="width:320px; margin: 10px;">
+</div>
 
 # Contenido 
-## Tabla de contenidos
 
 ## [Student Outcome](#student-outcome)
+
 ## [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -269,9 +281,59 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 5.
 
-| Criterio específico | Acciones realizadas                                                                                                      | Conclusiones |
-| - |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| - |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **TB1**<br>**Fernandez Alva, Maria Fernanda**<br>...<br><br>**Belleza Tello, Paolo Eduardo**<br>...<br><br>**Pilares Pocohuanca, Maria**<br>...<br><br>**Chávarri Zarzosa, Daniel Jhared**<br>...<br><br>**Góngora Sánchez, Marco Antonio**<br>...<br><br>**Rondon Añaños, Cristopher**<br>... <br><br>**Mayurí Armas, Jose Carlo**<br>...<br><br> | **TB1:** Como equipo, trabajamos de manera colaborativa para cubrir todas las etapas clave del desarrollo inicial de Chemtrack, desde la definición del problema y el análisis de mercado hasta la construcción de la solución tecnológica. Cada integrante asumió un rol fundamental en áreas como la elaboración de user stories, la identificación de eventos de dominio, el diseño de entrevistas, la creación de arquetipos, el mapeo de experiencias y el modelado de la arquitectura del sistema. Esta sinergia nos permitió integrar múltiples perspectivas y asegurar una base sólida, estratégica y centrada en el usuario para el desarrollo de nuestra solución. | Crea un entorno colaborativo einclusivo, establece metas, planifica tareas y cumple objetivos. | **TB1**<br>**Fernandez Alva, Maria Fernanda**<br>...<br><br>**Belleza Tello, Paolo Eduardo**<br>...<br><br>**Pilares Pocohuanca, Maria**<br>...<br><br>**Chávarri Zarzosa, Daniel Jhared**<br>...<br><br>**Góngora Sánchez, Marco Antonio**<br>...<br><br>**Rondon Añaños, Cristopher**<br>... <br><br>**Mayurí Armas, Jose Carlo**<br>...<br><br> | **TB1:** El equipo demostró una sólida capacidad para colaborar de forma inclusiva, planificando estratégicamente las tareas y cumpliendo los objetivos del proyecto. A través de reuniones constantes, el uso de metodologías ágiles y una distribución clara de responsabilidades, logramos mantener una comunicación efectiva, anticipar desafíos y avanzar de manera organizada. Esto nos permitió construir una base sólida para el desarrollo de PetLink, alineando tanto los aspectos técnicos como los objetivos del negocio. <br><br> |
+<table>
+  <tr>
+    <th>Criterio Específicos</th>
+    <th>Acciones realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
+  <tr>
+    <td rowspan="7"><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</strong></td>
+    <td><strong>Fernandez Alva, Maria Fernanda</strong><br><strong>TB1:</strong> Elaboró los cuadros comparativos de competencias y un análisis competitivo, además de diseñar las entrevistas aplicables al proyecto.</td>
+    <td rowspan="7"><strong>TB1:</strong>En esta primera entrega, como grupo logramos ejercer un liderazgo compartido en las distintas etapas del trabajo, ya que cada integrante asumió la responsabilidad de coordinar y liderar tareas específicas como la elaboración de cuadros comparativos, el diseño de entrevistas, la construcción de user personas y la definición de matrices y escenarios. Esta distribución equitativa permitió que el equipo funcione de manera organizada, sin depender de un único líder, y que se avance de forma colaborativa en los capítulos I a IV del proyecto.</td>
+  </tr>
+  <tr>
+    <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> escribir</td>
+  </tr>
+  <tr>
+    <td><strong>Pilares Pocohuanca, Maria</strong><br><strong>TB1:</strong> escribir</td>
+  </tr>
+  <tr>
+    <td><strong>Chávarri Zarzosa, Daniel Jhared</strong><br><strong>TB1:</strong> escribir</td>
+  </tr>
+  <tr>
+    <td><strong>Góngora Sánchez, Marco Antonio</strong><br><strong>TB1:</strong> escribir</td>
+  </tr>
+  <tr>
+    <td><strong>Rondon Añaños, Cristopher</strong><br><strong>TB1:</strong> escribir</td>
+  </tr>
+  <tr>
+    <td><strong>Mayurí Armas, Jose Carlo</strong><br><strong>TB1:</strong> escribir</td>
+  </tr>
+  <tr>
+    <td rowspan="7"><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
+    <td><strong>Fernandez Alva, Maria Fernanda</strong><br><strong>TB1:</strong> Investigó en internet productos similares al prototipo, identificando coincidencias en objetivos y funcionalidades.</td>
+    <td rowspan="7"><strong>TB1:</strong> En esta primera entrega, el equipo desarrolló un entorno colaborativo e inclusivo, donde se integraron las ideas de todos los miembros mediante el uso de herramientas como Miro y UXPressia, además de la comunicación constante en reuniones. Se establecieron metas claras en cada capítulo del proyecto (Introducción, Requirements Elicitation & Analysis, Requirements Specification y Solution Software Design), se distribuyeron las tareas de manera equitativa y se cumplieron los objetivos planificados. Este trabajo coordinado aseguró que el proyecto avance de manera ordenada, inclusiva y con un alto nivel de compromiso por parte de todos los integrantes.</td>
+  </tr>
+  <tr>
+    <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> escribir</td>
+  </tr>
+  <tr>
+    <td><strong>Pilares Pocohuanca, Maria</strong><br><strong>TB1:</strong> escribir</td>
+  </tr>
+  <tr>
+    <td><strong>Chávarri Zarzosa, Daniel Jhared</strong><br><strong>TB1:</strong> escribir</td>
+  </tr>
+  <tr>
+    <td><strong>Góngora Sánchez, Marco Antonio</strong><br><strong>TB1:</strong> escribir</td>
+  </tr>
+  <tr>
+    <td><strong>Rondon Añaños, Cristopher</strong><br><strong>TB1:</strong> escribir</td>
+  </tr>
+  <tr>
+    <td><strong>Mayurí Armas, Jose Carlo</strong><br><strong>TB1:</strong> escribir</td>
+  </tr>  
+</table>
 
 # Capítulo I: Introducción
 
@@ -312,7 +374,7 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
     <td valign="top">
       <p><b>Fernandez Alva, Maria Fernanda</b></p>
       <p>
-       ...
+       Estoy en la carrera de Ingeniería de Software; me encanta aprender sobre las nuevas tecnologías y mis habilidades son que capto muy rapido la información y tengo buenas ideas ante una problematica. Los lenguajes que domino son C++, C#, HTML y JavaScript.
       </p>
     </td>
   </tr>
