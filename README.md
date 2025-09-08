@@ -1349,3 +1349,25 @@ Para priorizar el desarrollo del núcleo funcional del sistema aplicamos la téc
 #### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 
 #### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+# Conclusiones
+
+El proyecto de la pechera inteligente representa una solución innovadora en el cuidado y monitoreo de mascotas, ya que ofrece a los dueños y veterinarios la posibilidad de acceder a información en tiempo real sobre la salud del animal, principalmente a través del control de signos vitales como el ritmo cardiaco y el pulso. Esta propuesta se diferencia en el mercado peruano al no existir actualmente una competencia directa que combine de manera específica bienestar y monitoreo clínico, lo que le otorga una ventaja competitiva clara frente a dispositivos internacionales que priorizan la geolocalización.
+
+El mercado objetivo está compuesto tanto por dueños de mascotas preocupados por el bienestar de sus animales, como por veterinarios que buscan herramientas que optimicen la atención y el seguimiento médico. Asimismo, la propuesta responde a una tendencia creciente de humanización de las mascotas, lo que genera una gran oportunidad de aceptación y crecimiento en el mercado.
+
+Si bien existen amenazas como la llegada de nuevas tecnologías extranjeras y la necesidad de inversión en dispositivos confiables, el proyecto se posiciona como una alternativa diferenciada y de alto valor agregado. En conclusión, la pechera inteligente no solo busca mejorar la calidad de vida de las mascotas, sino también brindar tranquilidad a los dueños y apoyo en la labor de los profesionales veterinarios, consolidándose como un producto con potencial de escalabilidad y proyección en el sector de cuidado animal.
+
+# Bibliografía
+
+Trackisafe. (s.f.). _Help and Support_. Invoxia. https://trackisafe.com/en-help-and-support/
+
+Invoxia. (s.f.). _Minitailz Biotracker GPS_. Invoxia. https://www.invoxia.com/es-ES/petcare/minitailz-dog-tracker
+
+Weenect. (s.f.). _Collares GPS para perros y gatos_. Invoxia. https://www.weenect.com/es/es/?srsltid=AfmBOoq0CUUWe-8A6lbk_vewlz1vpJPrp1dLq2gYchT4Eqw1jFr61bTi
+
+# Anexos
+
+- **Enlace de las entrevistas:** [url]()
+
+- **As-is Scenario Mapping:** [https://miro.com/app/board/uXjVJLcWnqE=/?share_link_id=752790406657](https://miro.com/app/board/uXjVJLcWnqE=/?share_link_id=752790406657)
