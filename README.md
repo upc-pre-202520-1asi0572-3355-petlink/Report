@@ -369,7 +369,7 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
 <table>
    <tr>
     <th>
-      <img src="assets/Chapter-1/" width="800px">
+      <img src="Capítulo 1/Fernanda.jpg" width="200px">
     </th>
     <td valign="top">
       <p><b>Fernandez Alva, Maria Fernanda</b></p>
@@ -380,7 +380,7 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
   </tr>
      <tr>
     <th>
-      <img src="assets/Chapter-1/foto-.png"  width="800px">
+      <img src="assets/Chapter-1/foto-.png"  width="200px">
     </th>
     <td valign="top">
       <p><b>Belleza Tello, Paolo Eduardo</b></p>
@@ -390,7 +390,7 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
   </tr>
      <tr>
     <th>
-      <img src="assets/Chapter-1/Omar.jpeg" width="800px">
+      <img src="assets/Chapter-1/Omar.jpeg" width="200px">
     </th>
     <td valign="top">
       <p><b>Pilares Pocohuanca, Maria</b></p>
@@ -401,7 +401,7 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
   </tr>
   <tr>
     <th>
-      <img src="assets/Chapter-1/daniel.jpeg" width="800px">
+      <img src="assets/Chapter-1/daniel.jpeg" width="200px">
     </th>
     <td valign="top">
       <p><b>Chávarri Zarzosa, Daniel Jhared</b></p>
@@ -414,7 +414,7 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
   </tr>
   <tr>
     <th>
-      <img src="assets/Chapter-1/marco.jpg" width="800px">
+      <img src="assets/Chapter-1/marco.jpg" width="200px">
     </th>
     <td valign="top">
       <p><b>Góngora Sánchez, Marco Antonio</b></p>
@@ -425,7 +425,7 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
   </tr>
   <tr>
     <th>
-      <img src="assets/Chapter-1/janiel.jpg" width="800px">
+      <img src="assets/Chapter-1/janiel.jpg" width="200px">
     </th>
     <td valign="top">
       <p><b>Rondon Añaños, Cristopher</b></p>
@@ -437,7 +437,7 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
    </tr>
   <tr>
     <th>
-      <img src="assets/Chapter-1/janiel.jpg" width="800px">
+      <img src="assets/Chapter-1/janiel.jpg" width="200px">
     </th>
     <td valign="top">
       <p><b>Mayurí Armas, Jose Carlo</b></p>
