@@ -380,7 +380,7 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
   </tr>
      <tr>
     <th>
-      <img src="assets/Chapter-1/foto-.png"  width="200px">
+      <img src="Capítulo 1/Foto_Paolo.jpeg"  width="200px">
     </th>
     <td valign="top">
       <p><b>Belleza Tello, Paolo Eduardo</b></p>
