@@ -1677,9 +1677,179 @@ En esta sección se presentan los To-Be Scenario Maps desarrollados para los dos
 
 ## 3.3. Impact Mapping
 
+**Segmento Objetivo: Dueño de Mascota**
+
+<div style="text-align: center;">
+  <img src="Capitulo 3/petOwner/Impact map-Pet Owner-1.png">
+</div>
+<div style="text-align: center;">
+  <img src="Capitulo 3/petOwner/Impact map-Pet Owner-2.png">
+</div>
+
+**Segmento Objetivo: Veterinario**
+
+<div style="text-align: center;">
+  <img src="Capitulo 3/doctor/Impact map-Veterinarian.png">
+</div>
+
 ## 3.4. Product Backlog
 
 A continuación, se mostrará la herramienta Product Backlog, lista de trabajo ordenado por la prioridad para el equipo de desarrollo de PetLink.
+
+<table>
+  <thead>
+    <tr>
+      <th># Orden</th>
+      <th>User Story Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points (1/2/3/5/8)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>US16</td>
+      <td>Landing page informativa</td>
+      <td>Como visitante quiero visualizar una landing page con información clara de PetLink.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>US01</td>
+      <td>Registro de usuario</td>
+      <td>Como visitante quiero registrarme en la plataforma para acceder a las funcionalidades de PetLink.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>US02</td>
+      <td>Inicio de sesión</td>
+      <td>Como usuario registrado quiero iniciar sesión en la plataforma para acceder a mis datos.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>US03</td>
+      <td>Recuperar contraseña</td>
+      <td>Como usuario quiero recuperar mi contraseña en caso de olvido para no perder acceso.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>US04</td>
+      <td>Registro de mascotas</td>
+      <td>Como veterinario quiero registrar mascotas asociadas a un dueño para llevar un control digital.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>US11</td>
+      <td>Consulta de historia clínica</td>
+      <td>Como dueño quiero consultar la historia clínica digital de mi mascota para conocer sus antecedentes médicos.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>US18</td>
+      <td>Evolución de mascota internada</td>
+      <td>Como dueño quiero consultar la evolución de mi mascota internada para tener tranquilidad sobre su cuidado.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>US08</td>
+      <td>Asociar pechera IoT</td>
+      <td>Como veterinario quiero vincular la pechera IoT a una mascota internada para monitorear sus signos vitales en tiempo real.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>US09</td>
+      <td>Monitoreo en tiempo real</td>
+      <td>Como veterinario quiero visualizar los signos vitales de una mascota internada para detectar anomalías.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>US13</td>
+      <td>Dashboard veterinario</td>
+      <td>Como veterinario quiero tener un dashboard con el estado de todas las mascotas internadas.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>US19</td>
+      <td>Alertas críticas en dashboard</td>
+      <td>Como veterinario quiero recibir alertas en mi dashboard para actuar rápidamente en casos críticos.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>US10</td>
+      <td>Notificaciones a dueños</td>
+      <td>Como dueño quiero recibir alertas cuando la pechera IoT detecte condiciones críticas.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>US06</td>
+      <td>Historia clínica digital</td>
+      <td>Como veterinario quiero crear y actualizar la historia clínica de una mascota para mantener antecedentes médicos al día.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>US07</td>
+      <td>Registro de tratamientos</td>
+      <td>Como veterinario quiero registrar tratamientos activos para dar seguimiento al estado de la mascota.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>US12</td>
+      <td>Consulta de tratamientos</td>
+      <td>Como dueño quiero visualizar el tratamiento actual de mi mascota para seguir las indicaciones del veterinario.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>US15</td>
+      <td>Perfil de usuario</td>
+      <td>Como usuario quiero editar mi perfil básico para mantener actualizada mi información personal.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>US14</td>
+      <td>Gestión de usuarios</td>
+      <td>Como administrador quiero gestionar usuarios de la plataforma para garantizar seguridad y control.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>US05</td>
+      <td>Edición de datos de mascota</td>
+      <td>Como veterinario quiero editar la información básica de una mascota para mantenerla actualizada.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>US20</td>
+      <td>Reportes automáticos</td>
+      <td>Como veterinario quiero generar reportes automáticos de las mascotas internadas para optimizar mi trabajo.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>US17</td>
+      <td>Contacto desde landing</td>
+      <td>Como visitante quiero contactar a la startup desde la landing para obtener más información.</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+
 
 # Capítulo IV: Solution Software Design
 
