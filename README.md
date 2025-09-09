@@ -154,11 +154,62 @@ A continuación, se detalla el proceso de elaboración del informe para cada ent
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
 ## [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+- [COURSE PROJECT](#course-project)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+  - [Student Outcome](#student-outcome)
+  - [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+  - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+  - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
+  - [Conclusiones](#conclusiones)
+  - [Video About-the-Team](#video-about-the-team)
+  - [Bibliografía](#bibliografía)
+  - [Anexos](#anexos)
+- [Student Outcome](#student-outcome-1)
+- [Capítulo I: Introducción](#capítulo-i-introducción-1)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [Hipótesis 1:](#hipótesis-1)
+    - [Hipótesis 2:](#hipótesis-2)
+    - [Hipótesis 3:](#hipótesis-3)
+    - [Hipótesis 4:](#hipótesis-4)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis-1)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design-1)
   - [4.1 Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
     - [4.1.1. EventStorming](#411-eventstorming)
       - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)
       - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-      - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)
     - [4.1.2. Context Mapping](#412-context-mapping)
     - [4.1.3. Software Architecture](#413-software-architecture)
       - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
@@ -167,14 +218,13 @@ A continuación, se detalla el proceso de elaboración del informe para cada ent
       - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
   - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
     - [4.2.1. Bounded Context: IAM](#421-bounded-context-iam)
-      - [4.2.1.1. Domain Layer](#4211-domain-layer)
       - [4.2.1.2. Interface Layer](#4212-interface-layer)
       - [4.2.1.3. Application Layer](#4213-application-layer)
       - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
       - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
-        - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
-        - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
+      - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
+      - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
     - [4.2.2. Bounded Context: Management](#422-bounded-context-management)
       - [4.2.2.1. Domain Layer](#4221-domain-layer)
       - [4.2.2.2. Interface Layer](#4222-interface-layer)
@@ -182,8 +232,8 @@ A continuación, se detalla el proceso de elaboración del informe para cada ent
       - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
       - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
-        - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
-        - [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
+      - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
+      - [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
     - [4.2.3. Bounded Context: Records](#423-bounded-context-records)
       - [4.2.3.1. Domain Layer](#4231-domain-layer)
       - [4.2.3.2. Interface Layer](#4232-interface-layer)
@@ -191,8 +241,11 @@ A continuación, se detalla el proceso de elaboración del informe para cada ent
       - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
       - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
       - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
-        - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
-        - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
+      - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
+      - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
+- [Conclusiones](#conclusiones-1)
+- [Bibliografía](#bibliografía-1)
+- [Anexos](#anexos-1)
 ## [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
 - [5.1. Style Guidelines](#51-style-guidelines)
   - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
@@ -431,7 +484,7 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
     <td valign="top">
       <p><b>Rondon Añaños, Cristopher</b></p>
       <p>
-      ...
+      Soy estudiante de la UPC. Estudio Ingeniería de Software ya que me interesan las nuevas tecnologías y la creación de software. Tengo conocimientos en C++, Python, Java, JavaScript, en bases de datos SQL y NoSQL, en frameworks como Spring Boot, Vue.js, Angular. Mis habilidades son la responsabilidad, el trabajo en equipo, la creatividad y solución de problemas.
       </p>
     </td>
   </tr>
@@ -1322,10 +1375,305 @@ Nivel de seguridad y fiabilidad que el dueño percibe al usar la solución.
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+En esta sección se presentan los To-Be Scenario Maps desarrollados para los dos segmentos objetivos principales: Dueños de mascotas y el veterinario. Cada mapa describe, paso a paso, la experiencia del usuario al interactuar con nuestra solución, incluyendo sus necesidades, emociones, puntos de contacto y oportunidades de mejora a lo largo del recorrido. Esta herramienta nos permitió identificar momentos clave en la experiencia de cada tipo de usuario y ajustar el diseño del producto en función de sus expectativas reales.<br>
+**To-Be Scenario Map: Dueño de mascota**
+<div style="text-align: center;">
+  <img src="Capitulo 3/petOwner/to-be.png">
+</div>
+
+**To-Be Scenario Map: Veterinario**
+<div style="text-align: center;">
+  <img src="Capitulo 3/doctor/to-be.png">
+</div>
 
 ## 3.2. User Stories
 
----
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Epic ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EP01</td>
+      <td>Acceso y Autenticación</td>
+      <td>Incluye todas las funcionalidades relacionadas con el registro, inicio de sesión, recuperación de contraseñas y seguridad de los usuarios de la plataforma.</td>
+    </tr>
+    <tr>
+      <td>EP02</td>
+      <td>Gestión de Dueños y Mascotas</td>
+      <td>Permite a los veterinarios registrar y gestionar la información de los dueños y sus mascotas, centralizando los datos en un único sistema.</td>
+    </tr>
+    <tr>
+      <td>EP03</td>
+      <td>Historias Clínicas y Tratamientos</td>
+      <td>Abarca la creación, actualización y consulta de la historia clínica digital, así como el registro y seguimiento de los tratamientos médicos.</td>
+    </tr>
+    <tr>
+      <td>EP04</td>
+      <td>Monitoreo IoT</td>
+      <td>Incluye la vinculación de la pechera IoT a mascotas internadas y el monitoreo en tiempo real de sus variables de salud.</td>
+    </tr>
+    <tr>
+      <td>EP05</td>
+      <td>Acceso de Dueños</td>
+      <td>Funcionalidades dirigidas a los dueños para consultar historia clínica resumida, tratamientos activos y estado de su mascota internada.</td>
+    </tr>
+    <tr>
+      <td>EP06</td>
+      <td>Administración de la Plataforma</td>
+      <td>Gestiona a los usuarios, veterinarios y dueños, así como roles, permisos y configuración del sistema.</td>
+    </tr>
+    <tr>
+      <td>EP07</td>
+      <td>Landing Page y Comunicación</td>
+      <td>Comprende las funcionalidades relacionadas con la página inicial de PetLink, difusión de información y contacto con la startup.</td>
+    </tr>
+    <tr>
+      <td>EP08</td>
+      <td>Dashboard Veterinario</td>
+      <td>Permite a los veterinarios contar con una vista centralizada de las mascotas internadas y sus estados IoT.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US01</td>
+      <td>Registro de usuario</td>
+      <td>Como visitante quiero registrarme en la plataforma para acceder a las funcionalidades de PetLink.</td>
+      <td>
+        Escenario 1: Dado que un visitante desea crear una cuenta, cuando ingresa sus datos válidos, entonces el sistema debe registrarlo.<br><br>
+        Escenario 2: Dado que la contraseña no cumple con requisitos, cuando intente registrarse, entonces el sistema debe mostrar un mensaje de error.<br><br>
+        Escenario 3: Dado que se complete el registro, cuando el usuario lo confirme, entonces debe recibir un correo de confirmación.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Inicio de sesión</td>
+      <td>Como usuario registrado quiero iniciar sesión en la plataforma para acceder a mis datos.</td>
+      <td>
+        Escenario 1: Dado que el usuario tiene credenciales válidas, cuando las ingrese, entonces el sistema debe otorgar acceso.<br><br>
+        Escenario 2: Dado que ingrese datos incorrectos, cuando intente iniciar sesión, entonces el sistema debe mostrar un mensaje de error.<br><br>
+        Escenario 3: Dado que seleccione “recordar sesión”, cuando vuelva a ingresar, entonces no debe solicitarle credenciales nuevamente.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Recuperar contraseña</td>
+      <td>Como usuario quiero recuperar mi contraseña en caso de olvido para no perder acceso.</td>
+      <td>
+        Escenario 1: Dado que olvidé mi contraseña, cuando solicite recuperación, entonces el sistema debe enviar un enlace de restablecimiento.<br><br>
+        Escenario 2: Dado que reciba el enlace, cuando lo use, entonces debe poder definir una nueva contraseña.<br><br>
+        Escenario 3: Dado que se complete el proceso, cuando inicie sesión, entonces debe validarse con la nueva contraseña.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US04</td>
+      <td>Registro de mascotas</td>
+      <td>Como veterinario quiero registrar mascotas asociadas a un dueño para llevar un control digital.</td>
+      <td>
+        Escenario 1: Dado que atiendo a un nuevo paciente, cuando registro los datos básicos, entonces el sistema debe asociar la mascota al dueño.<br><br>
+        Escenario 2: Dado que un dueño tiene varias mascotas, cuando ingrese la información, entonces el sistema debe permitir múltiples registros.<br><br>
+        Escenario 3: Dado que se guarde un registro, cuando consulte al dueño, entonces debe mostrar sus mascotas asociadas.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US05</td>
+      <td>Edición de datos de mascota</td>
+      <td>Como veterinario quiero editar la información básica de una mascota para mantenerla actualizada.</td>
+      <td>
+        Escenario 1: Dado que se detecta un error en los datos, cuando el veterinario edite, entonces debe actualizarse la información.<br><br>
+        Escenario 2: Dado que se registre una modificación, cuando se guarde, entonces el sistema debe almacenar fecha y autor del cambio.<br><br>
+        Escenario 3: Dado que un campo es histórico, cuando se intente modificar, entonces el sistema debe impedir su eliminación.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US06</td>
+      <td>Historia clínica digital</td>
+      <td>Como veterinario quiero crear y actualizar la historia clínica de una mascota para mantener antecedentes médicos al día.</td>
+      <td>
+        Escenario 1: Dado que se realiza una consulta, cuando el veterinario registre la información, entonces debe guardarse cronológicamente.<br><br>
+        Escenario 2: Dado que la mascota reciba una vacuna, cuando se registre, entonces debe mostrarse en la sección de vacunación.<br><br>
+        Escenario 3: Dado que se actualice información, cuando se guarde, entonces debe registrar fecha y autor de la modificación.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US07</td>
+      <td>Registro de tratamientos</td>
+      <td>Como veterinario quiero registrar tratamientos activos para dar seguimiento al estado de la mascota.</td>
+      <td>
+        Escenario 1: Dado que la mascota inicia un tratamiento, cuando se registre, entonces debe quedar asociado a la historia clínica.<br><br>
+        Escenario 2: Dado que un tratamiento termine, cuando se cierre, entonces debe moverse al histórico.<br><br>
+        Escenario 3: Dado que el veterinario actualice la evolución, cuando registre observaciones, entonces deben quedar visibles en el sistema.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US08</td>
+      <td>Asociar pechera IoT</td>
+      <td>Como veterinario quiero vincular la pechera IoT a una mascota internada para monitorear sus signos vitales en tiempo real.</td>
+      <td>
+        Escenario 1: Dado que la mascota esté internada, cuando se asocie un dispositivo, entonces debe vincularse correctamente.<br><br>
+        Escenario 2: Dado que el dispositivo esté conectado, cuando transmita datos, entonces el sistema debe mostrar estado activo.<br><br>
+        Escenario 3: Dado que el dispositivo envíe información, cuando llegue a la plataforma, entonces debe almacenarse en la historia clínica.
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US09</td>
+      <td>Monitoreo en tiempo real</td>
+      <td>Como veterinario quiero visualizar los signos vitales de una mascota internada para detectar anomalías.</td>
+      <td>
+        Escenario 1: Dado que el dispositivo esté asociado, cuando transmita datos, entonces deben mostrarse en tiempo real.<br><br>
+        Escenario 2: Dado que se detecte una anomalía, cuando supere un umbral, entonces debe generarse una alerta.<br><br>
+        Escenario 3: Dado que se registre la alerta, cuando ocurra, entonces debe notificarse al veterinario en su dashboard.
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US10</td>
+      <td>Notificaciones a dueños</td>
+      <td>Como dueño quiero recibir alertas cuando la pechera IoT detecte condiciones críticas.</td>
+      <td>
+        Escenario 1: Dado que el dispositivo registre un estado crítico, cuando ocurra, entonces debe enviarse una notificación push.<br><br>
+        Escenario 2: Dado que la notificación sea enviada, cuando el dueño la reciba, entonces debe mostrar el nivel de alerta.<br><br>
+        Escenario 3: Dado que un evento se registre, cuando se guarde, entonces debe quedar almacenado en el historial de alertas.
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US11</td>
+      <td>Consulta de historia clínica</td>
+      <td>Como dueño quiero consultar la historia clínica digital de mi mascota para conocer sus antecedentes médicos.</td>
+      <td>
+        Escenario 1: Dado que el dueño esté autenticado, cuando consulte su mascota, entonces debe mostrarle la historia clínica.<br><br>
+        Escenario 2: Dado que acceda a la información, cuando la vea, entonces debe ser solo de lectura.<br><br>
+        Escenario 3: Dado que el dueño lo desee, cuando lo solicite, entonces debe poder descargar un PDF de la historia clínica.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>US12</td>
+      <td>Consulta de tratamientos</td>
+      <td>Como dueño quiero visualizar el tratamiento actual de mi mascota para seguir las indicaciones del veterinario.</td>
+      <td>
+        Escenario 1: Dado que el veterinario registre un tratamiento, cuando el dueño lo consulte, entonces debe ver medicamentos y dosis.<br><br>
+        Escenario 2: Dado que se actualice un tratamiento, cuando ocurra, entonces el dueño debe recibir notificación.<br><br>
+        Escenario 3: Dado que el dueño revise, cuando consulte, entonces debe ver recomendaciones del veterinario.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>US13</td>
+      <td>Dashboard veterinario</td>
+      <td>Como veterinario quiero tener un dashboard con el estado de todas las mascotas internadas.</td>
+      <td>
+        Escenario 1: Dado que haya mascotas internadas, cuando el veterinario consulte el dashboard, entonces debe mostrar la lista completa.<br><br>
+        Escenario 2: Dado que una mascota tenga estado crítico, cuando se muestre, entonces debe resaltarse en color rojo.<br><br>
+        Escenario 3: Dado que el veterinario filtre, cuando aplique filtros, entonces debe mostrar resultados actualizados.
+      </td>
+      <td>EP08</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Gestión de usuarios</td>
+      <td>Como administrador quiero gestionar usuarios de la plataforma para garantizar seguridad y control.</td>
+      <td>
+        Escenario 1: Dado que un administrador cree un usuario, cuando guarde, entonces debe registrarse en la base de datos.<br><br>
+        Escenario 2: Dado que un administrador desactive un usuario, cuando lo haga, entonces el usuario no debe poder iniciar sesión.<br><br>
+        Escenario 3: Dado que un administrador modifique roles, cuando se guarden, entonces deben aplicarse inmediatamente.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>US15</td>
+      <td>Perfil de usuario</td>
+      <td>Como usuario quiero editar mi perfil básico para mantener actualizada mi información personal.</td>
+      <td>
+        Escenario 1: Dado que el usuario acceda a su perfil, cuando edite su correo o teléfono, entonces debe guardarse la actualización.<br><br>
+        Escenario 2: Dado que un campo esté restringido (ej. historia clínica), cuando intente editarlo, entonces el sistema debe impedirlo.<br><br>
+        Escenario 3: Dado que guarde los cambios, cuando finalice, entonces debe confirmarse con un mensaje de éxito.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>US16</td>
+      <td>Landing page informativa</td>
+      <td>Como visitante quiero visualizar una landing page con información clara de PetLink.</td>
+      <td>
+        Escenario 1: Dado que el visitante acceda a la web, cuando cargue, entonces debe mostrar misión, visión y servicios.<br><br>
+        Escenario 2: Dado que el visitante desee registrarse, cuando vea la landing, entonces debe existir un botón de acceso a registro/login.<br><br>
+        Escenario 3: Dado que el visitante acceda desde móvil, cuando se cargue, entonces la página debe ser responsive.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>US17</td>
+      <td>Contacto desde landing</td>
+      <td>Como visitante quiero contactar a la startup desde la landing para obtener más información.</td>
+      <td>
+        Escenario 1: Dado que el visitante complete el formulario, cuando lo envíe, entonces el sistema debe almacenar la consulta.<br><br>
+        Escenario 2: Dado que se registre una consulta, cuando ocurra, entonces debe enviarse un correo de aviso al administrador.<br><br>
+        Escenario 3: Dado que la consulta sea enviada, cuando se confirme, entonces debe mostrarse un mensaje de agradecimiento.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>US18</td>
+      <td>Evolución de mascota internada</td>
+      <td>Como dueño quiero consultar la evolución de mi mascota internada para tener tranquilidad sobre su cuidado.</td>
+      <td>
+        Escenario 1: Dado que la mascota esté internada, cuando el dueño consulte, entonces debe ver un reporte simplificado.<br><br>
+        Escenario 2: Dado que el veterinario registre observaciones, cuando se actualice, entonces deben quedar visibles al dueño.<br><br>
+        Escenario 3: Dado que el dueño consulte la evolución, cuando lo haga, entonces debe poder diferenciar estado actual de historial pasado.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>US19</td>
+      <td>Alertas críticas en dashboard</td>
+      <td>Como veterinario quiero recibir alertas en mi dashboard para actuar rápidamente en casos críticos.</td>
+      <td>
+        Escenario 1: Dado que una mascota supere parámetros normales, cuando ocurra, entonces el sistema debe generar una alerta crítica.<br><br>
+        Escenario 2: Dado que la alerta se registre, cuando aparezca, entonces debe mostrarse en primer lugar en el dashboard.<br><br>
+        Escenario 3: Dado que se genere una alerta, cuando se guarde, entonces debe quedar almacenada con fecha y hora.
+      </td>
+      <td>EP08</td>
+    </tr>
+    <tr>
+      <td>US20</td>
+      <td>Reportes automáticos</td>
+      <td>Como veterinario quiero generar reportes automáticos de las mascotas internadas para optimizar mi trabajo.</td>
+      <td>
+        Escenario 1: Dado que el veterinario consulte, cuando seleccione la opción, entonces el sistema debe generar un reporte PDF.<br><br>
+        Escenario 2: Dado que se genere un reporte, cuando se guarde, entonces debe quedar disponible para consulta futura.<br><br>
+        Escenario 3: Dado que se cree un reporte, cuando se descargue, entonces debe mostrar los signos vitales y evolución reciente.
+      </td>
+      <td>EP08</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## 3.3. Impact Mapping
 
