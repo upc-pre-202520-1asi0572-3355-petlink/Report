@@ -1855,27 +1855,76 @@ A continuación, se mostrará la herramienta Product Backlog, lista de trabajo o
 
 ## 4.1 Strategic-Level Domain-Driven Design
 ### 4.1.1. EventStorming
-Durante la fase de *Event Storming*, el equipo de desarrollo llevó a cabo una sesión colaborativa en la que se compartieron ideas sobre funcionalidades y características que se deseaban incorporar en el proyecto. 
 
-Para realizar esta dinámica se hizo uso de la plataforma *MIRO* como soporte visual y de organización. *Ver ANEXO A*
+Durante la fase de EventStorming, el equipo desarrollador llevó a cabo una sesión colaborativa usando la herramienta MIRO. En esta dinámica se organizaron eventos clave del negocio y se identificaron los actores involucrados, comandos, entidades y reglas de negocio.
+
+**Eventos clave identificados:**
+
+- Mascota internada
+- Collar IoT vinculado
+- Ritmo cardíaco anormal detectado
+- Actividad fuera de lo normal detectada
+- Estado de alerta evaluado (verde, amarillo, rojo)
+- Veterinario notificado
+- Dueño recibe alerta
+- Historia clínica actualizada
+
+El proceso permitió tener una comprensión compartida entre expertos de negocio y desarrolladores, sirviendo como base para descubrir los bounded contexts y los servicios necesarios.
 
 #### 4.1.1.1 Candidate Context Discovery
 
-Para priorizar el desarrollo del núcleo funcional del sistema aplicamos la técnica *start-with value*, con el objetivo de tener una visión más clara y enfocada del producto desde sus bases.
+El equipo aplicó la técnica Start-With-Value, centrando esfuerzos en el contexto de mayor impacto: el monitoreo de salud en tiempo real durante internamientos. Esto permitió:
+
+- Identificar los límites naturales entre contextos
+- Priorizar funcionalidades que generan mayor valor clínico
+- Delimitar servicios independientes y autónomos para cada actor (veterinario, dueño, sistema IoT)
+
+Se establecieron inicialmente 3 bounded contexts:
+
+1. Monitoreo IoT
+2. Gestión Clínica
+3. Interacción Dueño
 
 #### 4.1.1.2 Domain Message Flows Modeling
 
+Se aplicó Domain Storytelling para visualizar cómo colaboran los distintos bounded contexts. Una historia típica modelada fue:
+
+*"El veterinario interna a la mascota y le asigna una pechera IoT. El sistema comienza a recibir datos en tiempo real. Al detectar una anomalía, se genera una alerta que es enviada al veterinario, quien consulta la historia clínica y toma una decisión. Simultáneamente, el dueño recibe una notificación y puede seguir la evolución desde su app."*
+
+Esto ayudó a clarificar:
+
+- *"El flujo de datos y acciones entre contextos".*
+- *"La necesidad de desacoplar la lógica del monitoreo de la lógica médica".*
+- *"La interacción transparente con los dueños de las mascotas."*
+
 ### 4.1.2. Context Mapping
+
+A través de sesiones de análisis, se evaluaron alternativas de cómo los contextos colaboran entre sí. Algunas decisiones tomadas:
+
+- Uso de Anti-Corruption Layer entre el IoT Gateway y el Backend, para evitar que formatos de sensores contaminen el modelo de negocio.
+- Aplicación del patrón Shared Kernel entre la app y la web, compartiendo entidades como Mascota, Estado de Salud, Historial.
+- Relaciones Customer/Supplier entre el contexto de interacción del dueño (que consume datos) y el contexto clínico.
+
+Se descartaron opciones como centralizar toda la lógica en un único contexto, favoreciendo una arquitectura modular y escalable.
 
 ### 4.1.3. Software Architecture
 
+El sistema PetLink fue modelado usando el C4 Model, proporcionando tres niveles:
+
 #### 4.1.3.1. Software Architecture System Landscape Diagram
+
+Este diagrama presenta una vista general del sistema y sus relaciones externas. En él se muestra:
+
+- Veterinarios y dueños como usuarios finales
+- Sensores IoT como fuente de datos externos
+- Servicios externos como Firebase/Twilio para alertas y notificaciones
+- Sistema PetLink como núcleo de la plataforma
+
+Este diagrama ayuda a visualizar el ecosistema completo en el que se integra PetLink.
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
 #### 4.1.3.2. Software Architecture Container Level 
-
-#### 4.1.3.3. Software Architecture Deployment Diagrams
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
