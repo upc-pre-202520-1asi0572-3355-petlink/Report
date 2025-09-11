@@ -1868,8 +1868,11 @@ Durante la fase de EventStorming, el equipo desarrollador llevó a cabo una sesi
 - Veterinario notificado
 - Dueño recibe alerta
 - Historia clínica actualizada
-
+  
 El proceso permitió tener una comprensión compartida entre expertos de negocio y desarrolladores, sirviendo como base para descubrir los bounded contexts y los servicios necesarios.
+
+ *Evidencia en Miro*
+  <img src="Capítulo 4/EventStorming-PetLink.jpg" width="200px"> <br>
 
 #### 4.1.1.1 Candidate Context Discovery
 
@@ -1885,6 +1888,9 @@ Se establecieron inicialmente 3 bounded contexts:
 2. Gestión Clínica
 3. Interacción Dueño
 
+   *Evidencia en Miro*
+  <img src="Capítulo 4/Candidate-Context-Discovery.jpg" width="200px"> <br>
+
 #### 4.1.1.2 Domain Message Flows Modeling
 
 Se aplicó Domain Storytelling para visualizar cómo colaboran los distintos bounded contexts. Una historia típica modelada fue:
@@ -1897,6 +1903,9 @@ Esto ayudó a clarificar:
 - *"La necesidad de desacoplar la lógica del monitoreo de la lógica médica".*
 - *"La interacción transparente con los dueños de las mascotas."*
 
+   *Evidencia en Miro*
+  <img src="Capítulo 4/Domain-Storytelling.jpg" width="200px"> <br>
+
 ### 4.1.2. Context Mapping
 
 A través de sesiones de análisis, se evaluaron alternativas de cómo los contextos colaboran entre sí. Algunas decisiones tomadas:
@@ -1906,6 +1915,9 @@ A través de sesiones de análisis, se evaluaron alternativas de cómo los conte
 - Relaciones Customer/Supplier entre el contexto de interacción del dueño (que consume datos) y el contexto clínico.
 
 Se descartaron opciones como centralizar toda la lógica en un único contexto, favoreciendo una arquitectura modular y escalable.
+
+ *Evidencia en Miro*
+  <img src="Capítulo 4/Context-Mapping.jpg" width="200px"> <br>
 
 ### 4.1.3. Software Architecture
 
