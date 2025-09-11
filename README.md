@@ -1915,6 +1915,110 @@ Esto ayudó a clarificar:
   <img src="Capitulo 4/Domain-Storytelling.jpg" width="800px"> <br>
     *Evidencia en Miro* <br>
 
+####4.1.1.3 Bounded Context Canvases. 
+
+**Bounded Context Canvas – Monitoreo IoT**
+
+**1. Context Overview Definition**
+
+Se encarga de procesar señales de la pechera IoT, evaluar estados de salud y generar alertas.
+
+**2. Business Rules Distillation & Ubiquitous Language**
+
+- **Regla:** Si el ritmo cardíaco supera el umbral → alerta crítica.
+- **Lenguaje común:** Ritmo cardíaco, Actividad, Estado Verde/Amarillo/Rojo, Señal IoT, Alerta.
+
+**3. Capability Analysis**
+
+- Recepción de datos IoT.
+- Procesamiento de señales.
+- Generación de alertas.
+
+**4. Capability Layering**
+
+- **Core Layer:** Procesamiento de señales.
+- **Support Layer:** Conexión con gateway IoT.
+- **Interface Layer:** Exposición de alertas hacia Gestión Clínica.
+
+**5. Dependencies Capture**
+
+Depende de la Gestión Clínica para vincular datos IoT con la historia clínica.
+
+**6. Design Critique**
+
+- **Fortalezas:** Especializado en señales y bajo acoplamiento.
+
+- **Debilidad:** Si falla, se interrumpe la detección en tiempo real.
+
+
+
+**Bounded Context Canvas – Gestión Clínica**
+
+**1. Context Overview Definition**
+
+Administra las historias clínicas digitales, diagnósticos y tratamientos.
+
+**2. Business Rules Distillation & Ubiquitous Language**
+
+- Solo veterinarios pueden actualizar la historia clínica.
+- **Lenguaje común:** Historia clínica, Diagnóstico, Tratamiento, Evolución, Internamiento.
+
+**3. Capability Analysis**
+
+- CRUD historia clínica.
+- Actualización de diagnósticos.
+- Vinculación con eventos IoT.
+
+**4. Capability Layering**
+
+- **Core Layer:** Historia clínica digital.
+- **Support Layer:** Gestión de pacientes.
+- **Interface Layer:** API para veterinarios y dueños.
+
+**5. Dependencies Capture**
+
+- Depende del Monitoreo IoT para recibir datos.
+- Comparte kernel con Interacción Dueño para exponer estados de salud.
+
+**6. Design Critique**
+
+- **Fortalezas:** Núcleo del negocio.
+- **Riesgo:** Puede sobrecargarse si maneja lógica de notificaciones.
+
+
+
+**Bounded Context Canvas – Interacción Dueño**
+
+**1. Context Overview Definition**
+
+Permite al dueño visualizar la salud de su mascota, recibir alertas y acceder a reportes.
+
+**2. Business Rules Distillation & Ubiquitous Language**
+
+- El dueño solo consulta, no modifica la historia clínica.
+- **Lenguaje común:** Reporte, Alerta, Notificación, Estado visible.
+
+**3. Capability Analysis**
+
+- Recepción de notificaciones.
+- Visualización de reportes.
+- Acceso a evolución del tratamiento.
+
+**4. Capability Layering**
+
+- **Core Layer:** Notificaciones y reportes.
+- **Support Layer:** Perfil de mascota.
+- **Interface Layer:** App móvil.
+
+**5. Dependencies Capture**
+
+Depende de Gestión Clínica para acceder a la información.
+
+**6. Design Critique**
+
+- **Fortalezas:** Aumenta confianza y experiencia de usuario.
+- **Riesgo:** Puede quedar “acoplado” al modelo clínico.
+
 ### 4.1.2. Context Mapping
 
 A través de sesiones de análisis, se evaluaron alternativas de cómo los contextos colaboran entre sí. Algunas decisiones tomadas:
@@ -1940,6 +2044,9 @@ Este diagrama presenta una vista general del sistema y sus relaciones externas. 
 - Sensores IoT como fuente de datos externos
 - Servicios externos como Firebase/Twilio para alertas y notificaciones
 - Sistema PetLink como núcleo de la plataforma
+
+  <img src="Capitulo 4/Landscape-PetLink.jpg" width="800px"> <br>
+     *Evidencia en Miro* <br>
 
 Este diagrama ayuda a visualizar el ecosistema completo en el que se integra PetLink.
 
