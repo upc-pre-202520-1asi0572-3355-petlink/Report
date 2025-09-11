@@ -1854,6 +1854,15 @@ A continuación, se mostrará la herramienta Product Backlog, lista de trabajo o
 # Capítulo IV: Solution Software Design
 
 ## 4.1 Strategic-Level Domain-Driven Design
+
+En el desarrollo de PetLink se aplicó Domain-Driven Design (DDD) a nivel estratégico para alinear la solución tecnológica con las necesidades del negocio y los actores clave: veterinarios y dueños de mascotas.
+
+El equipo identificó que el core domain del proyecto gira en torno al monitoreo en tiempo real de mascotas durante internamientos veterinarios, integrando datos de salud con la historia clínica digital. Esta lógica central se diferencia de subdominios más genéricos como la autenticación de usuarios o el manejo de pagos.
+
+Se priorizó la colaboración entre expertos del dominio (veterinarios, cuidadores, técnicos de IoT) y el equipo de desarrollo para capturar el lenguaje ubicuo que estructura el modelo de dominio. Así, conceptos como “estado crítico”, “internamiento”, “alerta IoT”, “historia clínica” o “LED de advertencia” se consolidaron como elementos fundamentales del sistema.
+
+Esta alineación estratégica permitió diseñar bounded contexts bien delimitados y modelar capacidades con impacto real en la experiencia de usuario y la eficiencia clínica.
+
 ### 4.1.1. EventStorming
 
 Durante la fase de EventStorming, el equipo desarrollador llevó a cabo una sesión colaborativa usando la herramienta MIRO. En esta dinámica se organizaron eventos clave del negocio y se identificaron los actores involucrados, comandos, entidades y reglas de negocio.
