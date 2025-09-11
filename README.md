@@ -1915,7 +1915,7 @@ Esto ayudó a clarificar:
   <img src="Capitulo 4/Domain-Storytelling.jpg" width="800px"> <br>
     *Evidencia en Miro* <br>
 
-####4.1.1.3 Bounded Context Canvases. 
+#### 4.1.1.3 Bounded Context Canvases. 
 
 #### **Bounded Context Canvas – Monitoreo IoT**
 
