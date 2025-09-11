@@ -1861,7 +1861,7 @@ Durante la fase de EventStorming, el equipo desarrollador llevó a cabo una sesi
 **Eventos clave identificados:**
 
 - Mascota internada
-- Collar IoT vinculado
+- Pechera IoT vinculado
 - Ritmo cardíaco anormal detectado
 - Actividad fuera de lo normal detectada
 - Estado de alerta evaluado (verde, amarillo, rojo)
