@@ -2052,7 +2052,21 @@ Este diagrama ayuda a visualizar el ecosistema completo en el que se integra Pet
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
+En el marco del diseño arquitectónico de la solución, se ha aplicado la metodología C4 Model, la cual permite representar un sistema en distintos niveles de abstracción, facilitando la comprensión tanto para perfiles técnicos como no técnicos.
+
+En primer lugar, en la sección de Context Level Diagram se representó a PetLink como un sistema único, mostrando sus interacciones principales con los actores y los sistemas externos. Este nivel evidencia cómo los veterinarios y dueños de mascotas utilizan la plataforma, y cómo se integran servicios externos como la Pechera IoT, el servicio de Autenticación (Firebase Auth) y el de Notificaciones (Firebase/Twilio) para complementar las funcionalidades críticas del sistema.
+
+ <img src="Capitulo 4/Diagrama-de-Contexto.png" width="800px"> <br>
+     *Evidencia en Visual Paradigm* <br>
+
 #### 4.1.3.2. Software Architecture Container Level 
+
+Posteriormente, en el Container Level Diagram, se descompuso PetLink en sus principales contenedores de software, identificando los módulos clave que soportan el funcionamiento de la solución: Frontend Web (Angular), Mobile App (Flutter), Backend API (Node.js / Spring Boot), Base de Datos (PostgreSQL/MongoDB), junto con la integración del IoT Gateway y los servicios externos. Este nivel permite comprender cómo se distribuyen las responsabilidades y las interacciones técnicas que garantizan la operatividad del sistema.
+
+ <img src="Capitulo 4/Diagrama-de-Contenedores.png" width="800px"> <br>
+     *Evidencia en Visual Paradigm* <br>
+
+Finalmente, estos diagramas ofrecen una visión integral que conecta los requisitos funcionales identificados con una propuesta de arquitectura clara y escalable. Asimismo, sirven como base para una futura evolución hacia arquitecturas más complejas, como el uso de microservicios con bases de datos independientes, en caso de que el sistema requiera mayor independencia de módulos y capacidad de escalamiento.
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
