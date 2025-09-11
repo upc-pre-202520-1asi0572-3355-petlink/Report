@@ -1871,8 +1871,8 @@ Durante la fase de EventStorming, el equipo desarrollador llevó a cabo una sesi
   
 El proceso permitió tener una comprensión compartida entre expertos de negocio y desarrolladores, sirviendo como base para descubrir los bounded contexts y los servicios necesarios.
 
- *Evidencia en Miro*
-  <img src="Capítulo 4/EventStorming-PetLink.jpg" width="200px"> <br>
+ *Evidencia en Miro* <br>
+  <img src="Capítulo 4/EventStorming-PetLink.jpg" width="800px"> <br>
 
 #### 4.1.1.1 Candidate Context Discovery
 
