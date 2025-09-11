@@ -1950,7 +1950,7 @@ Depende de la Gestión Clínica para vincular datos IoT con la historia clínica
 
 - **Debilidad:** Si falla, se interrumpe la detección en tiempo real.
 
-
+<br><br>
 
 **Bounded Context Canvas – Gestión Clínica**
 
@@ -1985,7 +1985,7 @@ Administra las historias clínicas digitales, diagnósticos y tratamientos.
 - **Fortalezas:** Núcleo del negocio.
 - **Riesgo:** Puede sobrecargarse si maneja lógica de notificaciones.
 
-
+<br><br>
 
 **Bounded Context Canvas – Interacción Dueño**
 
