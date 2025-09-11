@@ -1917,7 +1917,7 @@ Esto ayudó a clarificar:
 
 ####4.1.1.3 Bounded Context Canvases. 
 
-####**Bounded Context Canvas – Monitoreo IoT**
+#### **Bounded Context Canvas – Monitoreo IoT**
 
 **1. Context Overview Definition**
 
@@ -1952,7 +1952,7 @@ Depende de la Gestión Clínica para vincular datos IoT con la historia clínica
 
 <br><br>
 
-####**Bounded Context Canvas – Gestión Clínica**
+#### **Bounded Context Canvas – Gestión Clínica**
 
 **1. Context Overview Definition**
 
@@ -1987,7 +1987,7 @@ Administra las historias clínicas digitales, diagnósticos y tratamientos.
 
 <br><br>
 
-####**Bounded Context Canvas – Interacción Dueño**
+#### **Bounded Context Canvas – Interacción Dueño**
 
 **1. Context Overview Definition**
 
