@@ -2059,7 +2059,7 @@ En primer lugar, en la sección de Context Level Diagram se representó a PetLin
  <img src="Capitulo 4/Contexto.png" width="800px"> <br>
      *Evidencia en Visual Paradigm* <br>
 
-#### 4.1.3.2. Software Architecture Container Level 
+#### 4.1.3.3. Software Architecture Container Level 
 
 Posteriormente, en el Container Level Diagram, se descompuso PetLink en sus principales contenedores de software, identificando los módulos clave que soportan el funcionamiento de la solución: Frontend Web (Angular), Mobile App (Flutter), Backend API (Node.js / Spring Boot), Base de Datos (PostgreSQL/MongoDB), junto con la integración del IoT Gateway y los servicios externos. Este nivel permite comprender cómo se distribuyen las responsabilidades y las interacciones técnicas que garantizan la operatividad del sistema.
 
@@ -2067,6 +2067,23 @@ Posteriormente, en el Container Level Diagram, se descompuso PetLink en sus prin
      *Evidencia en Visual Paradigm* <br>
 
 Finalmente, estos diagramas ofrecen una visión integral que conecta los requisitos funcionales identificados con una propuesta de arquitectura clara y escalable. Asimismo, sirven como base para una futura evolución hacia arquitecturas más complejas, como el uso de microservicios con bases de datos independientes, en caso de que el sistema requiera mayor independencia de módulos y capacidad de escalamiento.
+
+#### 4.1.3.4. Software Architecture Deployment Diagrams.
+
+Los Deployment Diagrams, dentro del marco del C4 Model (nivel 4), representan cómo los diferentes componentes de software de un sistema se despliegan en la infraestructura física o virtual que los soporta. Su objetivo principal es mostrar la relación entre el software y el hardware, así como la forma en que se distribuyen los contenedores en servidores, dispositivos y servicios en la nube.
+
+Este nivel de abstracción es esencial para comprender:
+
+- Dónde se ejecuta cada parte del sistema (servidores, dispositivos IoT, móviles, nube).
+- Cómo se comunican los diferentes nodos de despliegue.
+- Qué servicios externos o recursos de infraestructura participan (bases de datos, autenticación, notificaciones, etc.).
+
+En el caso de PetLink, el Deployment Diagram permite visualizar la integración de la Pechera IoT con los servicios en la nube, la comunicación con el Backend API, la interacción de los usuarios a través del Frontend Web y la Mobile App, así como el soporte de servicios externos como Firebase Auth y Firebase/Twilio.
+
+ <img src="Capitulo 4/Diagrama-de-Despliegue.png" width="800px"> <br>
+     *Evidencia en Visual Paradigm* <br>
+
+De esta manera, este diagrama ofrece una visión completa de la infraestructura necesaria para garantizar el funcionamiento de la solución, resaltando aspectos de escalabilidad, disponibilidad y conectividad que son fundamentales en un sistema IoT.
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
