@@ -2056,7 +2056,7 @@ En el marco del diseño arquitectónico de la solución, se ha aplicado la metod
 
 En primer lugar, en la sección de Context Level Diagram se representó a PetLink como un sistema único, mostrando sus interacciones principales con los actores y los sistemas externos. Este nivel evidencia cómo los veterinarios y dueños de mascotas utilizan la plataforma, y cómo se integran servicios externos como la Pechera IoT, el servicio de Autenticación (Firebase Auth) y el de Notificaciones (Firebase/Twilio) para complementar las funcionalidades críticas del sistema.
 
- <img src="Capitulo 4/Diagrama-de-Contexto.png" width="800px"> <br>
+ <img src="Capitulo 4/Contexto.png" width="800px"> <br>
      *Evidencia en Visual Paradigm* <br>
 
 #### 4.1.3.2. Software Architecture Container Level 
