@@ -210,12 +210,16 @@ A continuación, se detalla el proceso de elaboración del informe para cada ent
     - [4.1.1. EventStorming](#411-eventstorming)
       - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)
       - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+      - [4.1.1.3 Bounded Context Canvases.](#4113-bounded-context-canvases)
+      - [**Bounded Context Canvas – Monitoreo IoT**](#bounded-context-canvas--monitoreo-iot)
+      - [**Bounded Context Canvas – Gestión Clínica**](#bounded-context-canvas--gestión-clínica)
+      - [**Bounded Context Canvas – Interacción Dueño**](#bounded-context-canvas--interacción-dueño)
     - [4.1.2. Context Mapping](#412-context-mapping)
     - [4.1.3. Software Architecture](#413-software-architecture)
       - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
       - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
-      - [4.1.3.2. Software Architecture Container Level](#4132-software-architecture-container-level)
-      - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
+      - [4.1.3.3. Software Architecture Container Level](#4133-software-architecture-container-level)
+      - [4.1.3.4. Software Architecture Deployment Diagrams.](#4134-software-architecture-deployment-diagrams)
   - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
     - [4.2.1. Bounded Context: IAM](#421-bounded-context-iam)
       - [4.2.1.2. Interface Layer](#4212-interface-layer)
@@ -2087,57 +2091,456 @@ De esta manera, este diagrama ofrece una visión completa de la infraestructura 
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
+Este capítulo presenta el diseño táctico de la solución PetLink, descompuesto en tres bounded contexts coherentes con la estrategia y el modelo C4 definidos previamente:
+
+- IAM (Identity & Access Management): encargado de la autenticación, autorización y gestión de usuarios y roles.
+
+- Management: orientado a la gestión clínica operativa, incluyendo dueños, mascotas, internamientos y la vinculación de dispositivos IoT.
+
+- Records: responsable de la historia clínica digital, los tratamientos médicos, la generación de alertas y la emisión de reportes.
+
+Cada contexto se estructura por capas (Interface, Application, Domain e Infrastructure), acompañado de sus diagramas de componentes (Structurizr DSL), diagramas de clases del dominio (PlantUML) y un diseño lógico de base de datos agnóstico que refleja las entidades clave y sus relaciones.
+
 ### 4.2.1. Bounded Context: IAM
+
+El contexto IAM (Identity & Access Management) gestiona el registro, autenticación y control de accesos en PetLink. Asegura que veterinarios, dueños ingresen con credenciales válidas y permisos adecuados, cubriendo casos como registro de usuario, inicio de sesión, recuperación de contraseña y gestión de roles.
 
 #### 4.2.1.2. Interface Layer
 
+La Interface Layer del contexto IAM en PetLink expone los servicios necesarios para que los veterinarios y dueños de mascotas puedan interactuar con la plataforma de manera segura. Esta capa se implementa a través de endpoints REST consumidos tanto por la aplicación web (dirigida principalmente a veterinarios) como por la aplicación móvil (orientada a los dueños).
+
+Sus responsabilidades principales son:
+
+- **Registro de cuenta**: permite a nuevos usuarios (veterinarios o dueños) crear su perfil en la plataforma.
+
+- **Inicio y cierre de sesión**: gestiona la autenticación de usuarios, verificando credenciales y otorgando un token de acceso válido para mantener la sesión activa.
+
+- **Actualización de credenciales**: permite cambiar la contraseña o correo electrónico de un usuario autenticado.
+
+Esta capa no incluye vistas ni lógica de negocio, sino que actúa como adaptador de entrada, recibiendo las solicitudes de los clientes, validando los datos de entrada y delegando la ejecución hacia la Application Layer. De este modo, garantiza una comunicación segura y uniforme entre las aplicaciones cliente y el núcleo del sistema PetLink.
+
 #### 4.2.1.3. Application Layer
+
+La Application Layer del contexto IAM coordina los procesos de autenticación y gestión de usuarios, actuando como intermediaria entre la Interface Layer y el núcleo de dominio. Su función es orquestar casos de uso concretos, aplicando reglas de aplicación sin mezclar la lógica de negocio propia del dominio.
+
+En PetLink, esta capa implementa servicios de aplicación que cubren las siguientes responsabilidades:
+
+- **Registro de usuarios**: procesa solicitudes de la Interface Layer, valida que los datos sean correctos y únicos, y delega la creación del perfil al dominio.
+
+- **Autenticación**: valida credenciales y, en caso exitoso, genera un token de acceso para mantener la sesión activa en la plataforma.
+
+- **Recuperación de contraseñas**: administra el flujo de restablecimiento de credenciales, coordinando la emisión de enlaces o códigos de confirmación y su posterior validación.
+
+- **Administración de roles y permisos**: permite asignar o modificar privilegios de acceso, asegurando que cada usuario acceda solo a las funcionalidades correspondientes a su perfil (veterinario o dueño).
+
+Esta capa también se encarga de manejar transacciones de aplicación, asegurar la consistencia de flujos críticos (registro → confirmación → login) y definir servicios de orquestación que encapsulan las operaciones necesarias antes de invocar a la Domain Layer. De esta forma, la Application Layer garantiza que los procesos de IAM se ejecuten de manera controlada, desacoplada y coherente con la arquitectura general de PetLink.
 
 #### 4.2.1.4. Infrastructure Layer
 
+La Infrastructure Layer del contexto IAM provee los mecanismos técnicos que permiten a los servicios de autenticación y autorización operar de manera persistente y conectada con el resto del sistema. Esta capa implementa los detalles de almacenamiento, comunicación externa y servicios de soporte que la Application y Domain Layer requieren, sin exponerlos directamente a los clientes.
+
+En PetLink, sus principales responsabilidades son:
+
+- **Persistencia de usuarios y credenciales**: almacenamiento de la información de cuentas en una base de datos, manteniendo la integridad y seguridad de los datos.
+
+- **Gestión de tokens de sesión**: manejo de la emisión, validación y expiración de tokens que autentican a veterinarios y dueños en la plataforma.
+
+- **Integración con servicios externos de autenticación**: posibilidad de conectarse con APIs de identidad (como Firebase Auth o Keycloak) para delegar parte del proceso de verificación de credenciales.
+
+- **Implementación de repositorios**: desarrollo de las clases concretas que cumplen las interfaces definidas en la Domain Layer, permitiendo la separación entre lógica de negocio y detalles técnicos de acceso a datos.
+
+De este modo, la Infrastructure Layer asegura la persistencia y el soporte técnico necesario para que las operaciones de IAM se ejecuten de forma confiable, sin que la lógica de negocio dependa de tecnologías específicas.
+
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+En el contexto IAM, el diagrama de componentes muestra cómo se organiza internamente el contenedor de autenticación dentro del Backend API. Este nivel permite identificar los bloques estructurales principales y sus responsabilidades, destacando la separación entre entrada de solicitudes, orquestación de procesos y acceso a datos.
+
+Los componentes definidos son:
+
+- **AuthController**: recibe las solicitudes de registro, inicio de sesión y gestión de credenciales, actuando como punto de entrada desde las aplicaciones cliente.
+
+- **AuthService**: coordina los procesos de autenticación, registro, recuperación de contraseña y asignación de roles, aplicando las reglas de la Application Layer.
+
+- **TokenProvider**: se encarga de generar, validar y expirar tokens de sesión utilizados por los usuarios para mantener su acceso.
+
+- **PasswordEncoder**: implementa los mecanismos de encriptación para asegurar que las contraseñas no se almacenen en texto plano.
+
+- **UserRepository**: define la abstracción para acceder a usuarios y credenciales.
+
+- **UserRepositoryImpl (infraestructura)**: implementación concreta que conecta con la base de datos para almacenar y recuperar información de usuarios.
+
+
+ <img src="Capitulo 4/Diagrama _Componente_IAM.png" width="800px"> <br>
+     *Evidencia en Structurizr* <br>
+
+
+Este diagrama refleja cómo los distintos componentes colaboran entre sí, manteniendo un diseño desacoplado y alineado con los principios de Domain-Driven Design.
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
+En este apartado se detallan los diagramas a nivel de código para el contexto IAM, que permiten visualizar tanto la estructura de clases de dominio como el diseño lógico de la base de datos. Estos diagramas conectan el modelo conceptual con la implementación técnica, garantizando consistencia entre el diseño y el desarrollo de PetLink.
+
 #### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
+En el contexto IAM, la Domain Layer define las entidades centrales encargadas de representar a los usuarios y su acceso al sistema. Estas clases capturan las reglas fundamentales del dominio de autenticación y autorización:
+
+- **Usuario**: representa a cada actor registrado en la plataforma (veterinario o dueño). Contiene información básica de identificación y contacto.
+
+- **Credenciales**: almacena la contraseña en formato encriptado, asociada de manera única a un usuario.
+
+- **Rol**: define el tipo de perfil y sus permisos dentro del sistema (por ejemplo, veterinario o dueño).
+
+Relaciones:
+
+- Un Usuario tiene exactamente un conjunto de Credenciales.
+
+- Un Usuario se asocia a un único Rol, que define su perfil en el sistema.
+
+ <img src="Capitulo 4/ClassDiagramIAM.png" width="800px"> <br>
+     *Evidencia en PlantUML* <br>
+
+Este modelo asegura una gestión clara de identidades y privilegios, desacoplando los datos de acceso de la información personal.
 #### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+El diseño lógico de la base de datos para el contexto IAM refleja estas mismas entidades, garantizando integridad y simplicidad en la gestión de usuarios:
+
+- **Usuario**: tabla principal que almacena datos básicos (id_usuario, nombre, correo, telefono, direccion, estado).
+
+- **Credenciales**: tabla que guarda la contraseña encriptada y se relaciona 1:1 con Usuario.
+
+- **Rol**: tabla que define los perfiles de acceso disponibles (ejemplo: veterinario o dueño).
+
+Cada usuario se asocia a un único rol mediante una clave foránea (id_rol), lo cual asegura una asignación clara de permisos sin necesidad de tablas intermedias.
+
+ <img src="Capitulo 4/DatabaseDiagramIAM.png" width="800px"> <br>
+     *Evidencia en PlantUML* <br>
 
 ### 4.2.2. Bounded Context: Management
 
+El contexto Management se encarga de la administración clínica operativa dentro de PetLink. Incluye la gestión de dueños, mascotas, internamientos y la vinculación temporal de dispositivos IoT durante hospitalizaciones.
+
 #### 4.2.2.1. Domain Layer
+
+En el contexto **Management**, la *Domain Layer* representa la lógica fundamental de la gestión clínica en PetLink. Define las entidades principales y sus relaciones:
+
+- **Dueño (Owner):** identifica al propietario de una o varias mascotas. Incluye datos básicos de contacto necesarios para la interacción con el sistema.  
+
+- **Mascota (Pet):** núcleo de la gestión. Cada mascota está asociada a un dueño y puede tener múltiples internamientos en su historial.  
+
+- **Internamiento (Internment):** proceso que representa la estancia de una mascota en la clínica veterinaria. Permite habilitar el seguimiento continuo de su estado, asociar dispositivos IoT y registrar al **veterinario responsable** que atendió el caso (referenciado desde el contexto IAM).  
+
+- **DispositivoIoT (DeviceAssignment):** pechera inteligente que, durante un internamiento, registra datos de actividad y signos vitales en tiempo real.  
+
+**Relaciones principales:**  
+- Un **Dueño** puede registrar varias **Mascotas**.  
+- Una **Mascota** puede estar vinculada a múltiples **Internamientos** en distintos momentos.  
+- Un **Internamiento** puede asociarse a un único **DispositivoIoT** activo.  
+- Un **Internamiento** está vinculado a un **Veterinario** (referenciado desde IAM).  
+
+Este modelo garantiza la trazabilidad entre dueños, pacientes, veterinarios y dispositivos, sentando las bases para el monitoreo clínico de PetLink.
 
 #### 4.2.2.2. Interface Layer
 
+La *Interface Layer* del contexto **Management** expone los servicios que permiten a **veterinarios** y **dueños** interactuar con las funcionalidades clínicas de PetLink.  
+Estos servicios se implementan como **endpoints REST**, que reciben solicitudes, validan parámetros y verifican el **rol del usuario** autenticado con el contexto IAM, antes de delegar la ejecución a la *Application Layer*.  
+
+**Principales servicios expuestos:**  
+- **Gestión de dueños:** registro y actualización de datos de propietarios.  
+- **Gestión de mascotas:** creación, edición y consulta de mascotas asociadas a un dueño.  
+- **Internamientos:** iniciar, actualizar y cerrar un internamiento veterinario, registrando automáticamente al **veterinario responsable** autenticado.  
+- **Vinculación IoT:** asociar una pechera IoT a un internamiento activo.  
+- **Dashboard veterinario:** proveer datos consolidados de mascotas internadas para su visualización en la aplicación web.  
+
+**Clientes que consumen estos endpoints:**  
+- **Aplicación web (Angular):** utilizada por **veterinarios** para gestionar pacientes, internamientos y dispositivos.  
+- **Aplicación móvil (Flutter):** utilizada por **dueños** para consultar información de sus mascotas.  
+
+En síntesis, la *Interface Layer* actúa como **adaptador de entrada**, asegurando comunicación segura entre los clientes y el backend, mientras mantiene aislada la lógica de negocio que reside en la *Application Layer*.
+
 #### 4.2.2.3. Application Layer
+
+La *Application Layer* del contexto **Management** coordina los principales casos de uso clínicos en PetLink, actuando como orquestadora entre la *Interface Layer* y la *Domain Layer*.  
+Su objetivo es garantizar la consistencia de los flujos, aplicar reglas de aplicación y delegar la lógica de negocio al dominio correspondiente.
+
+**Responsabilidades clave:**
+- **Registrar mascotas:** valida la información recibida, comprueba que el dueño exista y delega la creación de la mascota al dominio.  
+- **Gestionar internamientos:** asegura que una mascota no tenga más de un internamiento activo y registra al **veterinario responsable** de la apertura y cierre.  
+- **Asociar dispositivos IoT:** verifica que la pechera esté disponible y la vincula al internamiento activo; coordina también la desvinculación al finalizar la hospitalización.  
+- **Visualizar internamientos activos:** prepara la información consolidada de pacientes internados para alimentar el **dashboard del veterinario**.  
+- **Generar reportes automáticos:** orquesta la creación de reportes clínicos (PDF u otros formatos), integrando datos de internamientos, dispositivos y evolución de la mascota.  
+
+**Reglas de aplicación típicas:**
+- Una mascota no puede estar en más de un internamiento activo.  
+- Cada internamiento debe estar asociado a un único veterinario responsable.  
+- La vinculación de una pechera IoT solo es posible si el dispositivo está libre y validado por el IoT Gateway.  
+
+Además, la *Application Layer* se comunica con:
+- **IAM:** para validar credenciales y roles de veterinarios y dueños antes de ejecutar casos de uso.  
+- **Records:** para notificar aperturas y cierres de internamientos, alimentando la historia clínica digital.  
+
+De esta manera, la Application Layer asegura que los procesos clínicos de PetLink se ejecuten de forma coherente, coordinada y alineada con la arquitectura del sistema.
 
 #### 4.2.2.4. Infrastructure Layer
 
+La *Infrastructure Layer* del contexto Management implementa los mecanismos técnicos necesarios para que los procesos de gestión clínica de PetLink se ejecuten de forma persistente y conectada con el resto del sistema.  
+
+**Principales responsabilidades:**
+- **Persistencia de datos:** almacenamiento de información sobre dueños, mascotas, internamientos y asignaciones de dispositivos en la base de datos.  
+- **Implementación de repositorios:** clases concretas (**OwnerRepositoryImpl**, **PetRepositoryImpl**, **InternmentRepositoryImpl**, **DeviceAssignmentRepositoryImpl**) que cumplen las interfaces definidas en la Domain Layer.  
+- **Integración con IoT Gateway:** recepción y validación de datos provenientes de pecheras inteligentes, asegurando disponibilidad antes de vincularlas a internamientos.  
+- **Conexión con Records:** notificación de eventos como apertura y cierre de internamientos para mantener sincronizada la historia clínica digital.  
+- **Validación con IAM:** uso de un cliente de autenticación para verificar credenciales y roles de usuarios antes de ejecutar operaciones críticas.  
+- **Soporte de reportes:** conexión con librerías o servicios externos que permiten generar reportes clínicos en formatos como PDF.  
+
+De este modo, la Infrastructure Layer asegura que la gestión clínica opere sobre una base técnica confiable, manteniendo aislada la lógica de negocio de los detalles tecnológicos específicos.
+
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+El diagrama de componentes del contexto Management detalla cómo se organizan las capas internas del backend de PetLink para soportar la gestión clínica (dueños, mascotas, internamientos y vinculación de dispositivos IoT).
+
+Se distinguen los siguientes grupos de componentes:
+
+- **Interface Layer (Controllers):**
+  - **OwnersController:** recibe solicitudes relacionadas con dueños.  
+  - **PetsController:** expone operaciones de registro, edición y consulta de mascotas.  
+  - **InternmentsController:** gestiona el inicio, actualización y cierre de internamientos.  
+  - **DeviceLinkController:** permite asociar o liberar un dispositivo IoT de un internamiento.  
+  - **VetDashboardController:** entrega la información consolidada de mascotas internadas a la interfaz web.  
+
+- **Application Layer (Services):**
+  - **OwnerAppService, PetAppService, InternmentAppService, DeviceLinkAppService:** orquestan reglas de aplicación y validaciones.  
+  - **VetDashboardQueryService:** prepara consultas agregadas para el dashboard del veterinario.  
+
+- **Domain Layer (Ports/Interfaces):**
+  - Repositorios de **Dueños, Mascotas, Internamientos y Asignación de Dispositivo**, definidos como puertos para la persistencia.  
+
+- **Infrastructure Layer (Adapters):**
+  - Implementaciones concretas de repositorios que acceden a la base de datos.  
+  - Clientes externos como:  
+    - **IoTGatewayClient** (para validar el estado de la pechera).  
+    - **RecordsClient** (para sincronizar con el contexto de historias clínicas).  
+    - **IAMAuthClient** (para verificar autenticación y roles).  
+
+<div style="text-align: center;"> <img src="Capitulo 4/BD_ComponentDiagram.png" width="800px"><br> *Evidencia en Structurizr* </div>
+
+Este diagrama ilustra cómo la Interface Layer delega las solicitudes a la Application Layer, la cual aplica las reglas del negocio y utiliza la Domain Layer para acceder a los datos a través de los repositorios, mientras que la Infrastructure Layer se encarga de la persistencia y la integración con servicios externos.
+
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
+En esta sección se presentan los diagramas de nivel de código que detallan las entidades principales, sus relaciones y el diseño lógico de la base de datos para el contexto Management. Estos diagramas permiten entender cómo los conceptos del dominio se representan en clases y tablas, manteniendo la coherencia entre el modelo de negocio y la implementación técnica.
+
+
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases del dominio para Management define las entidades centrales que representan la gestión clínica dentro de PetLink:
+
+- **Dueño (Owner):** representa al responsable de una o varias mascotas.  
+- **Mascota (Pet):** entidad principal que agrupa información básica de cada animal (nombre, especie, raza, fecha de nacimiento).  
+- **Internamiento (Internment):** registra el ingreso de una mascota en la clínica, incluyendo fechas, estado, la posible asignación de un dispositivo IoT y el **veterinario responsable**.  
+- **DeviceAssignment:** asocia un dispositivo IoT a un internamiento activo.  
+
+**Relaciones principales:**  
+- Un **Owner** puede tener varias **Pets**.  
+- Una **Pet** puede estar vinculada a múltiples **Internments** en distintos momentos.  
+- Un **Internment** puede tener asociada una única **DeviceAssignment** activa.  
+- Cada **Internment** hace referencia a un **Veterinario** (definido en IAM) como responsable.
+- 
+<div style="text-align: center;"> <img src="Capitulo 4/BDClassDiagram.png" width="800px"><br>*Evidencia en PlantUML*  </div>
 
 #### 4.2.2.6.2. Bounded Context Database Design Diagram
 
+El diseño lógico de la base de datos para el contexto Management refleja estas mismas entidades y relaciones en forma de tablas:
+
+- **Owner:** id_owner (PK), nombre, correo, teléfono, dirección.  
+- **Pet:** id_pet (PK), nombre, especie, raza, fecha_nacimiento, id_owner (FK).  
+- **Internment:** id_internment (PK), fecha_inicio, fecha_fin, estado, id_pet (FK), id_vet (FK → Usuario en IAM).  
+- **DeviceAssignment:** id_assignment (PK), id_internment (FK), id_device, estado.  
+
+**Relaciones:**  
+- **Owner → Pet** (1:N).  
+- **Pet → Internment** (1:N).  
+- **Internment → DeviceAssignment** (1:1).  
+- **Internment → Veterinario (IAM.Usuario)** (N:1).  
+
+
+<div style="text-align: center;"> <img src="Capitulo 4/BDDesingDiagram.png" width="800px"><br> *Evidencia en PlantUML* </div>
+
 ### 4.2.3. Bounded Context: Records
+
+El contexto Records es responsable de almacenar y gestionar la información médica de las mascotas dentro de PetLink. Aquí se consolidan los datos provenientes de otros contextos (por ejemplo, *Management* e IoT) en forma de historias clínicas, registros de tratamientos, evolución de internamientos, generación de alertas y reportes.  
+
+Este bounded context asegura trazabilidad clínica, centraliza la evidencia de la atención y permite consultas posteriores tanto por parte de los veterinarios como de los dueños.  
+
+Las principales capacidades que cubre son:  
+
+- Creación y actualización de la **historia clínica digital**.  
+- Registro y seguimiento de **tratamientos médicos**.  
+- Recepción y almacenamiento de **alertas IoT** generadas durante internamientos o vida cotidiana.  
+- Generación de **reportes médicos automáticos** en formatos accesibles (ej. PDF).  
+- Exposición de datos clínicos resumidos a los dueños y completos a los veterinarios.
 
 #### 4.2.3.1. Domain Layer
 
+En el contexto Records, la Domain Layer define las entidades y reglas centrales que representan la gestión clínica detallada de las mascotas. Este dominio se encarga de capturar y mantener la evidencia médica consolidada que surge tanto de las atenciones veterinarias como del monitoreo IoT en tiempo real y en la vida diaria de las mascotas.
+
+**Entidades principales:**
+
+- **HistoriaClínica (MedicalRecord):** registro central de cada mascota que integra antecedentes, diagnósticos y evolución de la salud.  
+- **Tratamiento (Treatment):** define medicamentos, dosis y duración de las terapias asignadas a la mascota.  
+- **Alerta (Alert):** notificación crítica generada en dos escenarios:
+  - Durante un internamiento, a partir de datos IoT o eventos clínicos.  
+  - En la vida cotidiana, cuando los sensores detectan comportamientos o métricas anormales (ej. baja actividad, inactividad prolongada, variaciones severas en ritmo cardíaco).  
+- **Reporte (Report):** documento generado automáticamente que resume el estado clínico de la mascota, incluyendo métricas y observaciones médicas.  
+
+**Relaciones:**
+
+- Cada **Mascota** (desde *Management*) tiene asociada una única **HistoriaClínica**.  
+- Una **HistoriaClínica** puede contener múltiples **Tratamientos**, **Alertas** y **Reportes** a lo largo del tiempo.  
+- Cada **Alerta** se relaciona con la mascota y su historia clínica, pudiendo originarse tanto en un **Internamiento** como en la **actividad cotidiana**.  
+- Cada **Reporte** se genera a partir de los datos acumulados en la historia clínica y puede exportarse para uso de veterinarios y dueños.  
+
+Este modelo garantiza no solo la trazabilidad clínica durante internamientos, sino también la detección temprana de comportamientos anómalos en la vida diaria de la mascota, promoviendo la atención preventiva y reduciendo el riesgo de que los dueños acudan al veterinario únicamente cuando los síntomas son críticos.
+
+
 #### 4.2.3.2. Interface Layer
+
+La Interface Layer del contexto Records expone los servicios que permiten a los veterinarios y dueños acceder a la información clínica consolidada de las mascotas. Se implementa principalmente a través de endpoints REST, consumidos por la aplicación web (para veterinarios) y la aplicación móvil (para dueños).
+
+**Principales servicios expuestos:**
+
+- **Gestión de historias clínicas:** creación, actualización y consulta de la historia clínica digital de una mascota.  
+- **Tratamientos:** registro de nuevos tratamientos, actualización de evolución y consulta de tratamientos activos o pasados.  
+- **Alertas:** consulta y notificación de alertas críticas generadas por el monitoreo IoT, tanto en internamientos como en la vida diaria de la mascota.  
+- **Reportes:** generación y descarga de reportes clínicos en formato accesible (ej. PDF).  
+
+**Consumo de la capa:**
+
+- **Aplicación web (Angular):** utilizada por los veterinarios para registrar diagnósticos, tratamientos y generar reportes médicos.  
+- **Aplicación móvil (Flutter):** utilizada por los dueños para consultar el historial médico resumido, revisar tratamientos vigentes, recibir alertas y descargar reportes simplificados.  
+
+La Interface Layer funciona como adaptador de entrada, validando parámetros básicos de las solicitudes y delegando el procesamiento a la Application Layer, asegurando así una comunicación segura y clara entre los usuarios y el núcleo del sistema clínico de PetLink.
 
 #### 4.2.3.3. Application Layer
 
+La Application Layer del contexto Records coordina los casos de uso clínicos relacionados con la gestión de historias clínicas, tratamientos, alertas y reportes. Su función es orquestar los flujos de aplicación, aplicar reglas de negocio de alto nivel y asegurar la consistencia de los procesos, delegando la lógica detallada a la Domain Layer.
+
+**Responsabilidades principales:**
+
+- **Historias clínicas:** coordina la creación y actualización de registros médicos, asegurando que cada mascota tenga un historial único y cronológicamente consistente.  
+- **Gestión de tratamientos:** procesa el registro de nuevas terapias, controla la finalización de tratamientos y gestiona su trazabilidad en la historia clínica.  
+- **Gestión de alertas:** recibe notificaciones generadas por el monitoreo IoT o por diagnósticos clínicos, valida su relevancia y las almacena como eventos vinculados a la mascota.  
+- **Generación de reportes:** orquesta la creación de reportes médicos consolidados a partir de los datos clínicos, permitiendo su exportación en formato PDF o digital para veterinarios y dueños.  
+- **Evolución clínica:** asegura que las observaciones médicas y actualizaciones de estado queden registradas con trazabilidad (fecha, hora y responsable).  
+
+**Reglas de aplicación:**
+
+- Una mascota no puede tener más de una historia clínica activa.  
+- Los tratamientos cerrados no pueden ser editados, solo consultados en el histórico.  
+- Cada alerta debe registrarse inmediatamente en la historia clínica y disparar una notificación hacia el veterinario y el dueño.  
+- Los reportes deben incluir tanto los tratamientos como las alertas generadas en el periodo consultado.  
+
+De esta manera, la Application Layer de Records garantiza la orquestación de procesos clínicos, sirviendo de puente entre la Interface Layer y la lógica del dominio, y asegurando que las operaciones se ejecuten de forma coherente y segura.
+
 #### 4.2.3.4. Infrastructure Layer
+
+La Infrastructure Layer del contexto Records implementa los mecanismos técnicos necesarios para garantizar la persistencia y la integración de la información clínica de las mascotas con el resto de la plataforma PetLink. Esta capa se encarga de materializar los puertos definidos en la Domain Layer y de proveer conectividad con bases de datos y servicios externos.
+
+**Principales responsabilidades:**
+
+- **Persistencia de historias clínicas:** almacenamiento estructurado de registros médicos y evolución clínica de cada mascota.  
+- **Persistencia de tratamientos:** gestión de datos de terapias activas e históricas, incluyendo medicamentos, dosis y duración.  
+- **Persistencia de alertas:** registro de las alertas generadas, tanto en internamientos como en la vida diaria, para su consulta posterior y trazabilidad.  
+- **Persistencia de reportes:** guardado de reportes clínicos generados automáticamente, manteniendo histórico para descarga o consulta futura.  
+- **Implementación de repositorios:** desarrollo de clases concretas para acceder a entidades como HistoriaClínica, Tratamiento, Alerta y Reporte, siguiendo las interfaces de la Domain Layer.  
+- **Integración con servicios externos:** comunicación con el IoT Gateway y con el contexto *Management* para recibir información de internamientos, y con el contexto *IAM* para validar la identidad del veterinario que registra observaciones.  
+- **Soporte de exportación:** utilización de librerías o servicios que permiten generar y almacenar reportes clínicos en formatos accesibles (ej. PDF).  
+
+De este modo, la Infrastructure Layer asegura que la información clínica gestionada en Records se almacene de forma confiable, se integre con el resto de la plataforma y pueda ser consultada y utilizada por veterinarios y dueños de manera segura.
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
+El diagrama de componentes del contexto Records muestra cómo se estructuran las capas internas del backend de PetLink encargadas de manejar las historias clínicas, tratamientos, alertas y reportes.  
+
+Se distinguen los siguientes grupos de componentes:
+
+- **Interface Layer (Controllers):**  
+  - **ClinicalRecordsController**: gestiona los endpoints de apertura y consulta de historias clínicas.  
+  - **TreatmentsController**: expone operaciones de registro y actualización de tratamientos.  
+  - **AlertsController**: maneja las notificaciones y alertas asociadas a las mascotas.  
+  - **ReportsController**: permite generar y consultar reportes clínicos.  
+  - **TelemetryWebhookController**: recibe datos en tiempo real desde dispositivos IoT.  
+
+- **Application Layer (Services):**  
+  - **ClinicalRecordAppService**: orquesta la apertura y actualización de historias clínicas.  
+  - **TreatmentAppService**: coordina el ciclo de vida de los tratamientos médicos.  
+  - **AlertEvaluationAppService**: procesa y evalúa alertas recibidas.  
+  - **ReportAppService**: gestiona la creación y generación de reportes clínicos.  
+  - **TelemetryIngestionAppService**: administra la ingesta y validación de datos de telemetría.  
+
+- **Domain Layer (Ports/Interfaces):**  
+  - Repositorios definidos como puertos para historias clínicas, tratamientos, alertas y reportes, asegurando independencia de infraestructura.  
+
+- **Infrastructure Layer (Adapters):**  
+  - Implementaciones concretas de repositorios que persisten información en la base de datos (**ClinicalRecordRepositoryImpl**, **TreatmentRepositoryImpl**, etc.).  
+  - Integraciones externas como:  
+    - **ManagementClient** para obtener información de dueños, mascotas e internamientos.  
+    - **IAMAuthClient** para validar identidad y roles.  
+    - **IoTGatewayClient** para recibir datos desde la pechera IoT.  
+    - **PdfAdapter** para la generación de reportes en formato PDF.  
+
+<div style="text-align: center;"> <img src="Capitulo 4/BDReportComponent.png" width="800px"><br> *Evidencia en Structurizr* </div>
+
+En conjunto, este diagrama ilustra cómo la **Interface Layer** recibe solicitudes desde la web y el móvil, las delega a la **Application Layer**, que orquesta los procesos de negocio y utiliza la **Domain Layer** para interactuar con los repositorios. Finalmente, la **Infrastructure Layer** asegura la persistencia y la integración con servicios externos, garantizando que la historia clínica digital de PetLink sea consistente, trazable y extensible.  
+
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+Este apartado presenta los diagramas a nivel de código del contexto Records, que permiten detallar las entidades del dominio y su representación en la base de datos. Estos diagramas aseguran que el diseño sea coherente con la lógica clínica de PetLink y que exista trazabilidad entre la **Domain Layer** y la **Infrastructure Layer**.
+
 
 #### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 
+El diagrama de clases del dominio para Records representa las entidades principales relacionadas con la historia clínica digital, los tratamientos, las alertas y los reportes médicos.
+
+- **ClinicalRecord:** representa la historia clínica de una mascota, vinculando diagnósticos, observaciones y evolución médica.  
+- **Treatment:** define los tratamientos médicos prescritos (medicamentos, dosis, duración, estado).  
+- **Alert:** modela las alertas clínicas, ya sea generadas automáticamente (IoT, anomalías) o registradas manualmente por el veterinario.  
+- **Report:** entidad que consolida la información clínica en un documento exportable.  
+- **Veterinario:** usuario que registra las observaciones y valida historias y tratamientos (relación con IAM).  
+- **Pet:** referencia a la mascota asociada, obtenida desde el contexto *Management*.  
+
+**Relaciones principales:**  
+- Una **ClinicalRecord** está asociada a una **Pet** y a un **Veterinario**.  
+- Una **ClinicalRecord** puede contener múltiples **Treatments** y **Alerts**.  
+- Los **Reports** se generan a partir de una **ClinicalRecord** consolidada.  
+
+<div style="text-align: center;">  
+  <img src="Capitulo 4/BDRecordsClassDiagram.png" width="800px"><br>  
+  *Evidencia en PlantUML*  
+</div>  
+
 #### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+El diseño lógico de la base de datos para el contexto Records refleja las entidades principales de la historia clínica digital y sus relaciones, garantizando integridad referencial y soporte para consultas clínicas y reportes.
+
+- **ClinicalRecord:** tabla principal que almacena los datos de la historia clínica (fecha de apertura, observaciones, estado).  
+- **Treatment:** almacena los tratamientos prescritos, incluyendo medicamento, dosis, duración y estado.  
+- **Alert:** guarda las alertas clínicas, con su tipo, criticidad, fecha y descripción.  
+- **Report:** tabla que consolida la información clínica en un documento exportable.  
+- **Veterinario:** referencia externa al contexto IAM, que registra al responsable de la atención.  
+- **Pet:** referencia externa al contexto Management, identificando a la mascota correspondiente.  
+
+**Relaciones:**  
+- **ClinicalRecord → Pet** (N:1).  
+- **ClinicalRecord → Veterinario** (N:1).  
+- **ClinicalRecord → Treatment** (1:N).  
+- **ClinicalRecord → Alert** (1:N).  
+- **ClinicalRecord → Report** (1:N).  
+
+<div style="text-align: center;">  
+  <img src="Capitulo 4/BDRecordsDesignDiagram.png" width="800px"><br>  
+  *Evidencia en PlantUML*  
+</div
 
 # Conclusiones
 
