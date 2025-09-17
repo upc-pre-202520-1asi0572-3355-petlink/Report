@@ -1073,37 +1073,37 @@ _Entrevistado 1_
 
 <table border="1" style="text-align: left;">
 	<tr>
-		<td colspan="1" rowspan="3"><img src="assets/Entrevista - Empresario Pesquero - 1.png" alt="" width="400" height="174"></td>
+		<td colspan="1" rowspan="3"><img src="Capitulo 2\Interviews\Entrevista1B.jpg" alt="" width="400" height="174"></td>
     <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
-      <br></strong>Fernando<br>Escobar
+      <br></strong>Bryan<br>Espejo
     </td>
 	</tr>
   <tr>
     <td>
-      <strong>Edad:<br></strong> 46 años
+      <strong>Edad:<br></strong> 26 años
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Distrito:</strong><br>Los Olivos
+      <strong>Distrito:</strong><br>Rímac
     </td>
   </tr>
   <tr>
     <td rowspan="2">
       <strong>Nombre del entrevistador:</strong>
-      <br>Maria Fernanda Fernandez Alva
+      <br>Maria Pilares Pocohuanca
     </td>
   </tr>
   <tr>
     <td>
       <strong>Timming: </strong>00:00<br>
-      <strong>Duración: </strong>04:19
+      <strong>Duración: </strong>04:20
     </td>
   </tr>    
 </table>
 
 <strong>Resumen: </strong><br>
-resumen detallado
+Bryan nos explicó que actualmente el monitoreo de los signos vitales de los animales es manual y programado, lo que genera dificultades como la falta de personal disponible para un monitoreo continuo y el estrés que sufren los animales durante las revisiones. Destacó que un sistema de alertas automáticas para monitorear el pulso y ritmo cardíaco sería extremadamente útil, mejorando la rapidez de la respuesta ante emergencias. Indicó que un dispositivo de monitoreo ideal debe ser no invasivo, resistente, con conectividad en tiempo real, preciso y económico. Además, estaría dispuesto a incorporar esta tecnología, especialmente en casos de alto riesgo y considera que los dueños de mascotas estarían dispuestos a pagar más por este servicio si se comunica adecuadamente el valor de la seguridad que ofrece.
 
 _Entrevistado 2_
 
@@ -1111,23 +1111,23 @@ _Entrevistado 2_
 	<tr>
 		<td colspan="1" rowspan="3"><img src="assets/Entrevista - Empresario Pesquero - 1.png" alt="" width="400" height="174"></td>
     <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
-      <br></strong>Fernando<br>Escobar
+      <br></strong>Diego<br>Ramirez
     </td>
 	</tr>
   <tr>
     <td>
-      <strong>Edad:<br></strong> 46 años
+      <strong>Edad:<br></strong> 26 años
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Distrito:</strong><br>Los Olivos
+      <strong>Distrito:</strong><br>Surquillo
     </td>
   </tr>
   <tr>
     <td rowspan="2">
       <strong>Nombre del entrevistador:</strong>
-      <br>Maria Fernanda Fernandez Alva
+      <br>Maria Pilares Pocohuanca
     </td>
   </tr>
   <tr>
@@ -1163,7 +1163,7 @@ _Entrevistado 3_
   <tr>
     <td rowspan="2">
       <strong>Nombre del entrevistador:</strong>
-      <br>Maria Fernanda Fernandez Alva
+      <br>Maria Pilares Pocohuanca
     </td>
   </tr>
   <tr>
