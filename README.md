@@ -956,37 +956,42 @@ _Entrevistado 1_
 
 <table border="1" style="text-align: left;">
 	<tr>
-		<td colspan="1" rowspan="3"><img src="assets/Entrevista - Empresario Pesquero - 1.png" alt="" width="400" height="174"></td>
+		<td colspan="1" rowspan="3"><img src="Capitulo 2\Interviews\interviewPetOwner1.jpg" alt="" width="400" height="174"></td>
     <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
-      <br></strong>Fernando<br>Escobar
+      <br></strong>Dánely<br>Valdez
     </td>
 	</tr>
   <tr>
     <td>
-      <strong>Edad:<br></strong> 46 años
+      <strong>Edad:<br></strong> 26 años
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Distrito:</strong><br>Los Olivos
+      <strong>Distrito:</strong><br>Ayacucho
     </td>
   </tr>
   <tr>
     <td rowspan="2">
       <strong>Nombre del entrevistador:</strong>
-      <br>Maria Fernanda Fernandez Alva
+      <br>Cristopher Rondon Añaños
     </td>
   </tr>
   <tr>
     <td>
       <strong>Timming: </strong>00:00<br>
-      <strong>Duración: </strong>04:19
+      <strong>Duración: </strong>03:51
     </td>
   </tr>    
 </table>
 
 <strong>Resumen: </strong><br>
-resumen detallado
+<p style="text-align: justify; text-justify: inter-word;">
+El entrevistado muestra una alta preocupación por la salud de su mascota, especialmente por no poder detectar a tiempo signos de enfermedad debido a la incapacidad del animal para comunicar dolor o malestar. Su monitoreo actual se basa en la observación del comportamiento, alimentación y visitas regulares al veterinario, aunque admite sentirse inseguro respecto a si detecta todo a tiempo. <br>
+Existe un gran interés en recibir información en tiempo real durante las visitas veterinarias, lo cual le brindaría tranquilidad y mayor involucramiento en el proceso. Valora significativamente un dispositivo que detecte anomalías en el ritmo cardíaco o el pulso, considerándolo una herramienta potencialmente salvavidas. <br>
+En cuanto al costo, está dispuesto a invertir una cantidad razonable si el servicio es confiable y ofrece beneficios reales para la salud de su mascota.<br>
+Finalmente, comparte una experiencia negativa por falta de información oportuna en una veterinaria, lo que refuerza su interés por soluciones tecnológicas. Confía en dispositivos tecnológicos, siempre que estén respaldados por evidencia científica y sean de buena calidad.
+</p>
 
 _Entrevistado 2_
 
