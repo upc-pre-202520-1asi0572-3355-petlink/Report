@@ -347,7 +347,7 @@ del ABET – EAC - Student Outcome 5.
   <tr>
     <td rowspan="7"><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</strong></td>
     <td><strong>Fernandez Alva, Maria Fernanda</strong><br><strong>TB1:</strong> Elaboró los cuadros comparativos de competencias y un análisis competitivo, además de diseñar las entrevistas aplicables al proyecto.</td>
-    <td rowspan="7"><strong>TB1:</strong>En esta primera entrega, como grupo logramos ejercer un liderazgo compartido en las distintas etapas del trabajo, ya que cada integrante asumió la responsabilidad de coordinar y liderar tareas específicas como la elaboración de cuadros comparativos, el diseño de entrevistas, la construcción de user personas y la definición de matrices y escenarios. Esta distribución equitativa permitió que el equipo funcione de manera organizada, sin depender de un único líder, y que se avance de forma colaborativa en los capítulos I a IV del proyecto.</td>
+    <td rowspan="7"><strong>TB1:</strong> En esta primera entrega, como grupo logramos ejercer un liderazgo compartido en las distintas etapas del trabajo, ya que cada integrante asumió la responsabilidad de coordinar y liderar tareas específicas como la elaboración de cuadros comparativos, el diseño de entrevistas, la construcción de user personas y la definición de matrices y escenarios. Esta distribución equitativa permitió que el equipo funcione de manera organizada, sin depender de un único líder, y que se avance de forma colaborativa en los capítulos I a IV del proyecto.</td>
   </tr>
   <tr>
     <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> Desarrolló los perfiles de los dos segmentos objetivo mediante la construcción de user personas, el empathy mapping y el as-is scenario. Estas actividades se realizaron en coordinación grupal para integrar diferentes perspectivas.</td>
@@ -356,7 +356,7 @@ del ABET – EAC - Student Outcome 5.
     <td><strong>Pilares Pocohuanca, Maria</strong><br><strong>TB1:</strong> escribir</td>
   </tr>
   <tr>
-    <td><strong>Chávarri Zarzosa, Daniel Jhared</strong><br><strong>TB1:</strong> escribir</td>
+    <td><strong>Chávarri Zarzosa, Daniel Jhared</strong><br><strong>TB1:</strong> Trabajó todo el capítulo I de manera adecuada, elaboró el EventStorming y el Software Architecture del capítulo IV. Estas tareas asignadas a cada integrante del equipo fueron de manera equitativa y organizada, a fin de que cada uno pueda cumplir a tiempo.</td>
   </tr>
   <tr>
     <td><strong>Góngora Sánchez, Marco Antonio</strong><br><strong>TB1:</strong> escribir</td>
@@ -379,7 +379,7 @@ del ABET – EAC - Student Outcome 5.
     <td><strong>Pilares Pocohuanca, Maria</strong><br><strong>TB1:</strong> escribir</td>
   </tr>
   <tr>
-    <td><strong>Chávarri Zarzosa, Daniel Jhared</strong><br><strong>TB1:</strong> escribir</td>
+    <td><strong>Chávarri Zarzosa, Daniel Jhared</strong><br><strong>TB1:</strong> En esta entrega, tuvo apoyo de algunas herramientas tecnológicas para el desarrollo de la tarea asignada, investigó sobre las cosas nuevas que tiene el curso y con ello se pudo realizar de manera adecuada y eficiente este primer avance del proyecto, con ayuda del equipo en mantener el ritmo de avance semana a semana.</td>
   </tr>
   <tr>
     <td><strong>Góngora Sánchez, Marco Antonio</strong><br><strong>TB1:</strong> escribir</td>
@@ -465,7 +465,7 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
       <p><b>Chávarri Zarzosa, Daniel Jhared</b></p>
       <p>
        Soy estudiante de la UPC, tengo 20 años. Estoy en la carrera de Ingeniería de Software, ya que, siempre me gustó la tecnología, los videojuegos, las páginas web, pero sobre todo 
-       cómo crearlos. Estoy cursando el 6 ciclo de la carrera y mis habilidades son C++, Python, HTML y JavaScript. También soy bueno en ser responsable con cada curso y organizar mi 
+       cómo crearlos. Estoy cursando el 6 ciclo de la carrera y mis habilidades básicas son C++, Python, HTML, JavaScript, frameworks como Angular para el front-end y Spring Boot para el back-end. También soy bueno en ser responsable con cada curso y organizar mi 
        tiempo en ellos.
       </p>
     </td>
