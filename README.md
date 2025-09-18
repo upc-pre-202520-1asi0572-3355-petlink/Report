@@ -483,7 +483,7 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
   </tr>
   <tr>
     <th>
-      <img src="assets/Chapter-1/janiel.jpg" width="200px">
+      <img src="Capítulo 1/Cristopher.jpg" width="200px">
     </th>
     <td valign="top">
       <p><b>Rondon Añaños, Cristopher</b></p>
