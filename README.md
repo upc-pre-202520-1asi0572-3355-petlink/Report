@@ -1184,7 +1184,7 @@ Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_u
 </table>
 
 <strong>Resumen: </strong><br>
-Maria comentó que en su práctica veterinaria, 
+Maria comentó que trabaja como asistente de veterinarios. En su clínica, el monitoreo de signos vitales se realiza de manera manual, utilizando estetoscopio, termómetro digital, observación de la respiración y algunos monitores básicos de pulso y oxigenación. Las principales dificultades incluyen la falta de tiempo y el estrés de los animales, lo que dificulta obtener lecturas precisas. Considera que un sistema de alertas automáticas sobre pulso y ritmo cardíaco sería muy útil, especialmente en pacientes críticos o postquirúrgicos. Las características esenciales para un dispositivo de monitoreo son que sea cómodo, seguro, no invasivo, fácil de usar, con alertas configurables y capacidad para guardar un registro histórico de signos vitales. Estaría dispuesta a incorporar esta tecnología si es accesible económicamente, tiene soporte técnico confiable y precisión comprobada. Maneja entre 40 y 60 animales en observación cada mes y cree que los dueños de mascotas estarían dispuestos a pagar más por un servicio que garantice mayor seguridad y tranquilidad.
 
 
   
