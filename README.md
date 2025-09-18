@@ -353,7 +353,7 @@ del ABET – EAC - Student Outcome 5.
     <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> Desarrolló los perfiles de los dos segmentos objetivo mediante la construcción de user personas, el empathy mapping y el as-is scenario. Estas actividades se realizaron en coordinación grupal para integrar diferentes perspectivas.</td>
   </tr>
   <tr>
-    <td><strong>Pilares Pocohuanca, Maria</strong><br><strong>TB1:</strong> escribir</td>
+    <td><strong>Pilares Pocohuanca, Maria</strong><br><strong>TB1:</strong> Fomenté la participación activa lo que ayudó en la toma de decisiones clave para el proyecto. Del mismo modo para el desarrollo óptimo de los bounded contexts, los cuales son fundamentales para dividir las funcionalidades principales de la aplicación por módulos.</td>
   </tr>
   <tr>
     <td><strong>Chávarri Zarzosa, Daniel Jhared</strong><br><strong>TB1:</strong> Trabajó todo el capítulo I de manera adecuada, elaboró el EventStorming y el Software Architecture del capítulo IV. Estas tareas asignadas a cada integrante del equipo fueron de manera equitativa y organizada, a fin de que cada uno pueda cumplir a tiempo.</td>
