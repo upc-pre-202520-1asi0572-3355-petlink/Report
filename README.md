@@ -365,7 +365,7 @@ del ABET – EAC - Student Outcome 5.
     <td><strong>Rondon Añaños, Cristopher</strong><br><strong>TB1:</strong> escribir</td>
   </tr>
   <tr>
-    <td><strong>Mayurí Armas, Jose Carlo</strong><br><strong>TB1:</strong> escribir</td>
+    <td><strong>Mayurí Armas, Jose Carlo</strong><br><strong>TB1:</strong> Elaboró íntegramente la documentación y diagramas técnicos del capítulo 4.2 (IAM, Management y Records), aplicando Domain-Driven Design. Además, integró estos entregables al repositorio en GitHub con commits organizados, lo cual permitió mantener un control de versiones ordenado y transparente para el equipo.</td>
   </tr>
   <tr>
     <td rowspan="7"><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
@@ -388,7 +388,7 @@ del ABET – EAC - Student Outcome 5.
     <td><strong>Rondon Añaños, Cristopher</strong><br><strong>TB1:</strong> escribir</td>
   </tr>
   <tr>
-    <td><strong>Mayurí Armas, Jose Carlo</strong><br><strong>TB1:</strong> escribir</td>
+    <td><strong>Mayurí Armas, Jose Carlo</strong><br><strong>TB1:</strong> Colaboró activamente con el equipo integrando los diagramas técnicos al repositorio en GitHub mediante commits organizados, lo cual permitió un control de versiones ordenado. Su aporte garantizó que el proyecto mantenga consistencia en los entregables y fluidez en la coordinación grupal.</td></td>
   </tr>  
 </table>
 
@@ -495,12 +495,12 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
    </tr>
   <tr>
     <th>
-      <img src="assets/Chapter-1/janiel.jpg" width="200px">
+      <img src="Capítulo 1/jose.jpg" width="200px">
     </th>
     <td valign="top">
       <p><b>Mayurí Armas, Jose Carlo</b></p>
       <p>
-      ...
+      Soy estudiante de la UPC en la carrera de Ingeniería de Software. Me interesa el desarrollo de soluciones tecnológicas innovadoras y la aplicación de nuevas herramientas digitales. Tengo conocimientos en Java, Spring Boot, JavaScript, React, Node.js, Python, bases de datos SQL y NoSQL, así como en despliegue de aplicaciones con microservicios. También manejo entornos de nube, virtualización e infraestructura TI.  Soy responsable, trabajo en equipo, proactivo, comunicación efectiva.
       </p>
     </td>
   </tr>
