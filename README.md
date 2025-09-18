@@ -453,7 +453,7 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
     <td valign="top">
       <p><b>Pilares Pocohuanca, Maria</b></p>
       <p>
-      ...
+      Soy estudiante de Ingeniería de Software en la UPC. Con interés en áreas de UX/UI, innovación tecnológica y gestión de proyectos. Manejo herramientas como Figma, Webflow, Wordpress y metodologías ágiles (SCRUM, Design Thinking), además de tener conocimientos en desarrollo con Python, C++, Angular y SQL. Me considero una persona perseverante aunque algo impaciente. Sin embargo, como miembro del equipo me comprometo a colaborar con mis compañeros y realizar todas las indicaciones que se dicten, todo con el fin de presentar un buen proyecto.
       </p>
     </td>
   </tr>
