@@ -1154,17 +1154,17 @@ _Entrevistado 3_
 	<tr>
 		<td colspan="1" rowspan="3"><img src="assets/Entrevista - Empresario Pesquero - 1.png" alt="" width="400" height="174"></td>
     <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
-      <br></strong>Fernando<br>Escobar
+      <br></strong>Maria<br>Peña
     </td>
 	</tr>
   <tr>
     <td>
-      <strong>Edad:<br></strong> 46 años
+      <strong>Edad:<br></strong> 22 años
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Distrito:</strong><br>Los Olivos
+      <strong>Distrito:</strong><br>Breña
     </td>
   </tr>
   <tr>
@@ -1176,7 +1176,7 @@ _Entrevistado 3_
   <tr>
     <td>
       <strong>Timming: </strong>00:00<br>
-      <strong>Duración: </strong>04:19
+      <strong>Duración: </strong>04:50
     </td>
   </tr>    
 </table>
