@@ -448,7 +448,7 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
   </tr>
      <tr>
     <th>
-      <img src="assets/Chapter-1/Omar.jpeg" width="200px">
+      <img src="Capítulo 1/Maria.jpg" width="200px">
     </th>
     <td valign="top">
       <p><b>Pilares Pocohuanca, Maria</b></p>
