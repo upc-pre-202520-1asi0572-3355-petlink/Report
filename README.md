@@ -948,12 +948,12 @@ A continuación, se diseñaron entrevistas dirigidas a los dos segmentos objetiv
 
 ### 2.2.2. Registro de entrevistas
 
-Link a las entrevistas: [URL]()
 
 **Segmento Objetivo: Dueños de mascotas**
 
 _Entrevistado 1_
 
+Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a291_upc_edu_pe/ESwwmK2lJ1pAk49Di-1aL_AB9gKJq7p3TRp_CllS6A1cMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GaTvcO)
 <table border="1" style="text-align: left;">
 	<tr>
 		<td colspan="1" rowspan="3"><img src="Capitulo 2\Interviews\interviewPetOwner1.jpg" alt="" width="400" height="174"></td>
