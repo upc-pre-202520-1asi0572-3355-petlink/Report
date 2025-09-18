@@ -1150,9 +1150,10 @@ Diego comentó que en su práctica veterinaria, el monitoreo de signos vitales s
 
 _Entrevistado 3_
 
+Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_upc_edu_pe/EccxWZg_Mb5OuTYponT-2eQBxFLSitmpZBxYSfehEIcemw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yXO1eI)
 <table border="1" style="text-align: left;">
 	<tr>
-		<td colspan="1" rowspan="3"><img src="Capitulo 2\Interviews\Entrevista3.jpg" alt="" width="400" height="174"></td>
+		<td colspan="1" rowspan="3"><img src="Capitulo 2/Interviews/Entrevista3.jpg" alt="" width="400" height="174"></td>
     <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
       <br></strong>Maria<br>Peña
     </td>
