@@ -359,7 +359,7 @@ del ABET – EAC - Student Outcome 5.
     <td><strong>Chávarri Zarzosa, Daniel Jhared</strong><br><strong>TB1:</strong> Trabajó todo el capítulo I de manera adecuada, elaboró el EventStorming y el Software Architecture del capítulo IV. Estas tareas asignadas a cada integrante del equipo fueron de manera equitativa y organizada, a fin de que cada uno pueda cumplir a tiempo.</td>
   </tr>
   <tr>
-    <td><strong>Góngora Sánchez, Marco Antonio</strong><br><strong>TB1:</strong> escribir</td>
+    <td><strong>Góngora Sánchez, Marco Antonio</strong><br><strong>TB1:</strong></td>
   </tr>
   <tr>
     <td><strong>Rondon Añaños, Cristopher</strong><br><strong>TB1:</strong> escribir</td>
@@ -472,7 +472,7 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
   </tr>
   <tr>
     <th>
-      <img src="assets/Chapter-1/marco.jpg" width="200px">
+      <img src="Capítulo 1/marco.jpg" width="200px">
     </th>
     <td valign="top">
       <p><b>Góngora Sánchez, Marco Antonio</b></p>
