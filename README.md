@@ -1117,7 +1117,7 @@ _Entrevistado 2_
 Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_upc_edu_pe/ERC3U22flqJOh5OlS7x3AQYBAnRxHxCt4VRT_miNdY91Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SrpxD9)
 <table border="1" style="text-align: left;">
 	<tr>
-		<td colspan="1" rowspan="3"><img src="assets/Entrevista - Empresario Pesquero - 1.png" alt="" width="400" height="174"></td>
+		<td colspan="1" rowspan="3"><img src="Capitulo 2/Interviews/Entrevista2.jpg" alt="" width="400" height="174"></td>
     <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
       <br></strong>Alexandra<br>Lenes
     </td>
