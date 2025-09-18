@@ -1195,17 +1195,15 @@ En base a las entrevistas realizadas, se ha realizado un profundo análisis por 
 
 **Segmento 1: Dueños de mascotas**
 
-Este segmento está compuesto por personas que 
+Este segmento está compuesto por personas que están preocupadas por la salud y bienestar de sus mascotas, buscando soluciones para monitorear su estado de salud de manera más eficiente. 
 
-- El 
+- El 100% de los entrevistados se sienten inseguros respecto a si detectan a tiempo los signos de enfermedad de sus mascotas, ya que los animales no pueden comunicar su malestar.
 
-- El 
+- El 100% valora la posibilidad de recibir información en tiempo real durante las visitas veterinarias, lo que les brindaría mayor tranquilidad y confianza en el proceso.
 
-- El 
+- El 100% considera importante contar con un dispositivo que alerte sobre anomalías en el pulso o ritmo cardíaco de sus mascotas, viéndolo como una herramienta esencial para prevenir complicaciones y salvar vidas.
 
-- El 
-
-- El 
+- El 100% estaría dispuesto a invertir entre S/.20–30 al mes en un servicio confiable que les ofrezca información clara y precisa sobre la salud de sus mascotas.
 
 **Segmento 2: Veterinarios**
 
