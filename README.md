@@ -1191,7 +1191,36 @@ Maria comentó que trabaja como asistente de veterinarios. En su clínica, el mo
   
 ### 2.2.3. Análisis de entrevistas
 
-Despues de las entrevistas listas
+En base a las entrevistas realizadas, se ha realizado un profundo análisis por cada segmento objetivo.
+
+**Segmento 1: Dueños de mascotas**
+
+Este segmento está compuesto por personas que 
+
+- El 
+
+- El 
+
+- El 
+
+- El 
+
+- El 
+
+**Segmento 2: Veterinarios**
+
+Este segmento está compuesto por 
+
+- El 
+
+- El 
+
+- El 
+
+- En cuanto a las recomendaciones, 
+
+
+
 
 ## 2.3. Needfinding
 En esta sección, se buscarán las necesidades implícitas y explícitas de las personas o segmentos para poder diseñar y adaptar el producto solución de manera apropiada.
