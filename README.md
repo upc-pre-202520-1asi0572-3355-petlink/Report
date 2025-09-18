@@ -359,7 +359,7 @@ del ABET – EAC - Student Outcome 5.
     <td><strong>Chávarri Zarzosa, Daniel Jhared</strong><br><strong>TB1:</strong> Trabajó todo el capítulo I de manera adecuada, elaboró el EventStorming y el Software Architecture del capítulo IV. Estas tareas asignadas a cada integrante del equipo fueron de manera equitativa y organizada, a fin de que cada uno pueda cumplir a tiempo.</td>
   </tr>
   <tr>
-    <td><strong>Góngora Sánchez, Marco Antonio</strong><br><strong>TB1:</strong></td>
+    <td><strong>Góngora Sánchez, Marco Antonio</strong><br><strong>TB1:</strong> Desarrolló impacts mappings para cada segmento identificando business goals y user stories que lo manifiesten el cumplimiento de estos. También desarrolló el product backlog priorizando a los user stories mediante story points.</td>
   </tr>
   <tr>
     <td><strong>Rondon Añaños, Cristopher</strong><br><strong>TB1:</strong> escribir</td>
@@ -382,7 +382,7 @@ del ABET – EAC - Student Outcome 5.
     <td><strong>Chávarri Zarzosa, Daniel Jhared</strong><br><strong>TB1:</strong> En esta entrega, tuvo apoyo de algunas herramientas tecnológicas para el desarrollo de la tarea asignada, investigó sobre las cosas nuevas que tiene el curso y con ello se pudo realizar de manera adecuada y eficiente este primer avance del proyecto, con ayuda del equipo en mantener el ritmo de avance semana a semana.</td>
   </tr>
   <tr>
-    <td><strong>Góngora Sánchez, Marco Antonio</strong><br><strong>TB1:</strong> escribir</td>
+    <td><strong>Góngora Sánchez, Marco Antonio</strong><br><strong>TB1:</strong>Para este entrega utilizó UXPRESSIA para la realización de los impacts mappings dando un mejor panorama y contexto detrás.</td>
   </tr>
   <tr>
     <td><strong>Rondon Añaños, Cristopher</strong><br><strong>TB1:</strong> escribir</td>
