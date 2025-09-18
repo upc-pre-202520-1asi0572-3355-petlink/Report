@@ -1078,6 +1078,7 @@ resumen detallado
 
 _Entrevistado 1_
 
+Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_upc_edu_pe/EU51qE7JL5BPjjDjcZp3I4gBylEr2RF1ww2j9iEuQf79jg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=szusO5)
 <table border="1" style="text-align: left;">
 	<tr>
 		<td colspan="1" rowspan="3"><img src="Capitulo 2\Interviews\Entrevista1B.jpg" alt="" width="400" height="174"></td>
