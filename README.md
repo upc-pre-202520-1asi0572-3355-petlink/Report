@@ -1029,7 +1029,11 @@ Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a085_u
 
 <strong>Resumen: </strong><br>
 <p style="text-align: justify; text-justify: inter-word;">
+El entrevistado muestra una alta preocupación por la detección temprana; teme no notar a tiempo síntomas sutiles y vivir “a ciegas” entre controles veterinarios. Su monitoreo actual es observacional (comidas, actividad, sueño) con visitas periódicas, pero percibe un vacío informativo entre citas.
 
+Valora fuertemente recibir datos en tiempo real durante internamientos (esto le daría tranquilidad y aumentaría su confianza en la clínica). Considera crítico un dispositivo que alerte anomalías de pulso o ritmo cardiaco como herramienta de prevención. Está dispuesto a pagar una suscripción de S/.20–30 / mes si la información es clara y confiable.
+
+Reporta una mala experiencia previa por falta de avisos oportunos, lo que refuerza su necesidad de transparencia. Declara confianza en soluciones tecnológicas siempre que sean precisas y fáciles de usar.
 </p>
 
 _Entrevistado 3_
