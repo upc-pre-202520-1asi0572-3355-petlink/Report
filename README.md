@@ -1119,17 +1119,17 @@ Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_u
 	<tr>
 		<td colspan="1" rowspan="3"><img src="assets/Entrevista - Empresario Pesquero - 1.png" alt="" width="400" height="174"></td>
     <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
-      <br></strong>Diego<br>Ramirez
+      <br></strong>Alexandra<br>Lenes
     </td>
 	</tr>
   <tr>
     <td>
-      <strong>Edad:<br></strong> 26 años
+      <strong>Edad:<br></strong> 23 años
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Distrito:</strong><br>Surquillo
+      <strong>Distrito:</strong><br>Los Olivos
     </td>
   </tr>
   <tr>
@@ -1141,13 +1141,13 @@ Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_u
   <tr>
     <td>
       <strong>Timming: </strong>00:00<br>
-      <strong>Duración: </strong>07:07
+      <strong>Duración: </strong>02:38
     </td>
   </tr>    
 </table>
 
 <strong>Resumen: </strong><br>
-Diego comentó que en su práctica veterinaria, el monitoreo de signos vitales se realiza de forma manual y en intervalos, lo que conlleva desafíos como la imposibilidad de tener vigilancia constante y el estrés que causa a los animales. Mencionó que un sistema automatizado de alertas sobre el pulso y ritmo cardíaco sería un avance significativo, permitiéndoles intervenir rápidamente en casos críticos. Para él, un dispositivo ideal debería ser fácil de colocar, duradero, con conectividad en tiempo real y ofrecer datos precisos y confiables. También destacó que estaría dispuesto a incorporar esta tecnología en su clínica, especialmente en pacientes post-quirúrgicos o en riesgo, y consideró que los dueños de mascotas pagarían un extra por la tranquilidad de saber que sus animales están siendo monitoreados de manera constante.
+Alexandra comentó que en su práctica veterinaria, el monitoreo de signos vitales se realiza de forma manual y en intervalos, lo que conlleva desafíos como la imposibilidad de tener vigilancia constante y el estrés que causa a los animales. Mencionó que un sistema automatizado de alertas sobre el pulso y ritmo cardíaco sería un avance significativo, permitiéndoles intervenir rápidamente en casos críticos. Para ella, un dispositivo ideal debería ser fácil de colocar, duradero, con conectividad en tiempo real y ofrecer datos precisos y confiables. También destacó que estaría dispuesto a incorporar esta tecnología en su clínica, especialmente en pacientes post-quirúrgicos o en riesgo y consideró que los dueños de mascotas pagarían un extra por la tranquilidad de saber que sus animales están siendo monitoreados de manera constante.
 
 _Entrevistado 3_
 
@@ -1184,7 +1184,9 @@ Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_u
 </table>
 
 <strong>Resumen: </strong><br>
-resumen detallado
+Maria comentó que en su práctica veterinaria, 
+
+
   
 ### 2.2.3. Análisis de entrevistas
 
