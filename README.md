@@ -1209,15 +1209,13 @@ Este segmento está compuesto por personas que
 
 **Segmento 2: Veterinarios**
 
-Este segmento está compuesto por 
+Este segmento está compuesto por veterinarios y asistentes que se encargan de monitorear y cuidar la salud de los animales, especialmente aquellos en observación postquirúrgica o en situaciones críticas. Están enfocados en la precisión, seguridad y bienestar de los animales, pero enfrentan desafíos significativos debido al monitoreo manual.
 
-- El 
+- El 100% de los entrevistados usa métodos manuales para monitorear signos vitales, como estetoscopio, termómetro digital y observación directa, lo que puede generar dificultades como lecturas imprecisas debido al estrés de los animales y la falta de tiempo para supervisión continua. Además, el 67% mencionó que la falta de un sistema automatizado genera pérdida de tiempo y dificulta la intervención rápida en casos de emergencia.
 
-- El 
+- El 100% expresó la necesidad de contar con un sistema de monitoreo automático que envíe alertas sobre pulso y ritmo cardíaco, especialmente en pacientes críticos. También destacaron la importancia de que los dispositivos sean no invasivos, fáciles de usar y con la capacidad de almacenar registros históricos.
 
-- El 
-
-- En cuanto a las recomendaciones, 
+- En cuanto a la viabilidad de implementación, el 67% estaría dispuesto a incorporar esta tecnología si el costo es accesible, el dispositivo es preciso y ofrece soporte técnico confiable. Además, el 100% cree que los dueños de mascotas estarían dispuestos a pagar más por un servicio que garantice una mayor seguridad y tranquilidad durante la hospitalización.
 
 
 
