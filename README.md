@@ -376,7 +376,7 @@ del ABET – EAC - Student Outcome 5.
     <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> Utilizó herramientas digitales como UXPressia y Miro para elaborar y organizar los requisitos del proyecto, asegurando la claridad y trazabilidad de los mismos dentro del proceso de diseño.</td>
   </tr>
   <tr>
-    <td><strong>Pilares Pocohuanca, Maria</strong><br><strong>TB1:</strong> escribir</td>
+    <td><strong>Pilares Pocohuanca, Maria</strong><br><strong>TB1:</strong> Facilité el uso de herramientas colaborativas y organicé sesiones para revisar el progreso del equipo, tales como reuniones en Google Meet, además de diseñar modelos de dominio y de arquitectura que permitieron una mejor comprensión de la solución.</td>
   </tr>
   <tr>
     <td><strong>Chávarri Zarzosa, Daniel Jhared</strong><br><strong>TB1:</strong> En esta entrega, tuvo apoyo de algunas herramientas tecnológicas para el desarrollo de la tarea asignada, investigó sobre las cosas nuevas que tiene el curso y con ello se pudo realizar de manera adecuada y eficiente este primer avance del proyecto, con ayuda del equipo en mantener el ritmo de avance semana a semana.</td>
