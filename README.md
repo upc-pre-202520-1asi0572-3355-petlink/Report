@@ -948,12 +948,13 @@ A continuación, se diseñaron entrevistas dirigidas a los dos segmentos objetiv
 
 ### 2.2.2. Registro de entrevistas
 
+**Link de todas las entrevistas:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/EcrDf05ljwJGgeEv9no0HFMBKCBviI70Cv_P1jFDArf5Wg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Fuv0sb](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/EcrDf05ljwJGgeEv9no0HFMBKCBviI70Cv_P1jFDArf5Wg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Fuv0sb)
+
 
 **Segmento Objetivo: Dueños de mascotas**
 
 _Entrevistado 1_
 
-Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a291_upc_edu_pe/ESwwmK2lJ1pAk49Di-1aL_AB9gKJq7p3TRp_CllS6A1cMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GaTvcO)
 <table border="1" style="text-align: left;">
 	<tr>
 		<td colspan="1" rowspan="3"><img src="Capitulo 2\Interviews\interviewPetOwner1.jpg" alt="" width="400" height="174"></td>
@@ -979,8 +980,8 @@ Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a291_u
   </tr>
   <tr>
     <td>
-      <strong>Timming: </strong>00:00<br>
-      <strong>Duración: </strong>03:51
+      <strong>Timming: </strong>00:08<br>
+      <strong>Duración: </strong>04:00
     </td>
   </tr>    
 </table>
@@ -995,7 +996,6 @@ Finalmente, comparte una experiencia negativa por falta de información oportuna
 
 _Entrevistado 2_
 
-Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a085_upc_edu_pe/EePg4jl1bbJEtlwSJsrtWaQBFUyQgfR0RiMbcAB10mxazA?e=ndO8yA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 <table border="1" style="text-align: left;">
 	<tr>
 		<td colspan="1" rowspan="3"><img src="Capitulo 2\Interviews\interviewPetOwner2.jpg" alt="" width="400" height="174"></td>
@@ -1021,8 +1021,8 @@ Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a085_u
   </tr>
   <tr>
     <td>
-      <strong>Timming: </strong>00:00<br>
-      <strong>Duración: </strong>05:13
+      <strong>Timming: </strong>04:00<br>
+      <strong>Duración: </strong>09:13
     </td>
   </tr>    
 </table>
@@ -1040,19 +1040,19 @@ _Entrevistado 3_
 
 <table border="1" style="text-align: left;">
 	<tr>
-		<td colspan="1" rowspan="3"><img src="assets/Entrevista - Empresario Pesquero - 1.png" alt="" width="400" height="174"></td>
+		<td colspan="1" rowspan="3"><img src="Capitulo 2/Interviews/entrevista3-dueño.png" alt="" width="400" height="174"></td>
     <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
-      <br></strong>Fernando<br>Escobar
+      <br></strong>Joaquin<br>Tello
     </td>
 	</tr>
   <tr>
     <td>
-      <strong>Edad:<br></strong> 46 años
+      <strong>Edad:<br></strong> 27 años
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Distrito:</strong><br>Los Olivos
+      <strong>Distrito:</strong><br>Comas
     </td>
   </tr>
   <tr>
@@ -1063,14 +1063,14 @@ _Entrevistado 3_
   </tr>
   <tr>
     <td>
-      <strong>Timming: </strong>00:00<br>
-      <strong>Duración: </strong>04:19
+      <strong>Timming: </strong>09:13<br>
+      <strong>Duración: </strong>15:33
     </td>
   </tr>    
 </table>
 
 <strong>Resumen: </strong><br>
-resumen detallado
+Paolo nos comentó en su entrevista que su mascota suele estresarse al ir al veterinario, por lo que evita llevarla con frecuencia. Explicó que, en las pocas ocasiones que fue por temas de salud, se sintió ansioso al no poder quedarse con ella ni conocer su estado. Mencionó que le parecería muy útil poder monitorear la salud de su mascota a distancia, ya que así se sentiría más tranquilo. Además, indicó que le gustaría que este dispositivo sea en forma de pechera y que estaría dispuesto a pagar alrededor de 100 soles por él.
 
 ---
 
@@ -1104,8 +1104,8 @@ Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_u
   </tr>
   <tr>
     <td>
-      <strong>Timming: </strong>00:00<br>
-      <strong>Duración: </strong>04:20
+      <strong>Timming: </strong>15:40<br>
+      <strong>Duración: </strong>20:00
     </td>
   </tr>    
 </table>
@@ -1141,8 +1141,8 @@ Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_u
   </tr>
   <tr>
     <td>
-      <strong>Timming: </strong>00:00<br>
-      <strong>Duración: </strong>02:38
+      <strong>Timming: </strong>20:00<br>
+      <strong>Duración: </strong>22:38
     </td>
   </tr>    
 </table>
@@ -1178,8 +1178,8 @@ Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_u
   </tr>
   <tr>
     <td>
-      <strong>Timming: </strong>00:00<br>
-      <strong>Duración: </strong>04:50
+      <strong>Timming: </strong>22:38<br>
+      <strong>Duración: </strong>27:38
     </td>
   </tr>    
 </table>
