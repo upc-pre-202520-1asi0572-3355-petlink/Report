@@ -2622,13 +2622,13 @@ El diseño lógico de la base de datos para el contexto Records refleja las enti
 <div style="text-align: center;">  
   <img src="Capitulo 4/BDRecordsDesignDiagram.png" width="800px"><br>  
   *Evidencia en PlantUML*  
-</div
-
-
+</div><br>
 
 ### 6.2. Landing Page, Services & Applications Implementation
-  #### 6.2.1. Sprint 1
-   #### 6.2.1.1. Sprint Planning 1
+
+#### 6.2.1. Sprint 1
+
+#### 6.2.1.1. Sprint Planning 1
 
 En esta parte mostramos las tareas que se realizaron en este sprint.
 
