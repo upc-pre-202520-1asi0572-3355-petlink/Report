@@ -77,27 +77,49 @@
                 <th>TB1</th>
                 <td>20/09/2025</td>
                 <td>
-                    <ul>
-          <li>Maria Fernanda Fernandez</li>
-          <li>Paolo Belleza</li>
-          <li>Maria Pilares</li>
-          <li>Daniel Chávarri</li>
-          <li>Marco Góngora</li>
-          <li>Cristopher Rondon</li>
-          <li>Jose Mayurí</li>
-                    <ul>
-           </td>
-      <td>            
-             <ul>
-          <li>Capítulo I: Introducción</li>
-          <li>Capítulo II: Requirements Elicitation & Analysis</li>
-          <li>Capítulo III: Requirements Specification</li>
-          <li>Capítulo IV: Solution Software Design</li>
-          <li>Avance de Conclusiones, Bibliografía y Anexos</li>
-        </ul>
-      </td>
-  </tr>
-</tbody>
+                  <ul>
+                    <li>Maria Fernanda Fernandez</li>
+                    <li>Paolo Belleza</li>
+                    <li>Maria Pilares</li>
+                    <li>Daniel Chávarri</li>
+                    <li>Marco Góngora</li>
+                    <li>Cristopher Rondon</li>
+                    <li>Jose Mayurí</li>
+                  </ul>
+                </td>
+              <td>            
+                <ul>
+                  <li>Capítulo I: Introducción</li>
+                  <li>Capítulo II: Requirements Elicitation & Analysis</li>
+                  <li>Capítulo III: Requirements Specification</li>
+                  <li>Capítulo IV: Solution Software Design</li>
+                  <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+                <th>TP</th>
+                <td>05/10/2025</td>
+                <td>
+                  <ul>
+                    <li>Maria Fernanda Fernandez</li>
+                    <li>Paolo Belleza</li>
+                    <li>Maria Pilares</li>
+                    <li>Daniel Chávarri</li>
+                    <li>Marco Góngora</li>
+                    <li>Cristopher Rondon</li>
+                    <li>Jose Mayurí</li>
+                  </ul>
+                </td>
+              <td>            
+                <ul>
+                  <li>Capítulo V: Solution UI/UX Design</li>
+                  <li>Capítulo VI: Product Implementation, Validation & Deployment</li>
+                  <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+                </ul>
+              </td>
+            </tr>
+        </tbody>
 </table>
 
 # Project Report Collaboration Insights
@@ -108,6 +130,8 @@ A continuación, se detalla el proceso de elaboración del informe para cada ent
 
 **Link de los repositorios de la organización:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink](https://github.com/upc-pre-202520-1asi0572-3355-petlink)
 
+---
+
 **Reporte de colaboración de la entrega del TB1:**
 
 - Todos los miembros del equipo contribuyeron en la redacción del Informe. Se dividió en secciones específicas para cada capítulo, lo que permitió un mayor avance y equidad en el desarrollo del informe.
@@ -115,6 +139,17 @@ A continuación, se detalla el proceso de elaboración del informe para cada ent
 <div align="center">
   <img align="center" src="Capítulo 1/contributors-tb1.png" style="width:300px; margin: 10px;">
   <img align="center" src="Capítulo 1/pulse-tb1.png" style="width:300px; margin: 10px;">
+</div>
+
+---
+
+**Reporte de colaboración de la entrega del TP:**
+
+- Todos los miembros del equipo contribuyeron en la redacción del Informe. Se dividió en secciones específicas para cada capítulo, lo que permitió un mayor avance y equidad en el desarrollo del informe.
+
+<div align="center">
+  <img align="center" src="/falta" style="width:300px; margin: 10px;">
+  <img align="center" src="/falta" style="width:300px; margin: 10px;">
 </div>
 
 # Contenido 
@@ -346,11 +381,11 @@ del ABET – EAC - Student Outcome 5.
   </tr>
   <tr>
     <td rowspan="7"><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</strong></td>
-    <td><strong>Fernandez Alva, Maria Fernanda</strong><br><strong>TB1:</strong> Elaboró los cuadros comparativos de competencias y un análisis competitivo, además de diseñar las entrevistas aplicables al proyecto.</td>
-    <td rowspan="7"><strong>TB1:</strong> En esta primera entrega, como grupo logramos ejercer un liderazgo compartido en las distintas etapas del trabajo, ya que cada integrante asumió la responsabilidad de coordinar y liderar tareas específicas como la elaboración de cuadros comparativos, el diseño de entrevistas, la construcción de user personas y la definición de matrices y escenarios. Esta distribución equitativa permitió que el equipo funcione de manera organizada, sin depender de un único líder, y que se avance de forma colaborativa en los capítulos I a IV del proyecto.</td>
+    <td><strong>Fernandez Alva, Maria Fernanda</strong><br><strong>TB1:</strong> Elaboró los cuadros comparativos de competencias y un análisis competitivo, además de diseñar las entrevistas aplicables al proyecto.<br><strong>TP:</strong> Elaboró el informe con respecto al sprint 1, evaluando que el cntenido este de acuerdo con el avance del proyecto.</td>
+    <td rowspan="7"><strong>TB1:</strong> En esta primera entrega, como grupo logramos ejercer un liderazgo compartido en las distintas etapas del trabajo, ya que cada integrante asumió la responsabilidad de coordinar y liderar tareas específicas como la elaboración de cuadros comparativos, el diseño de entrevistas, la construcción de user personas y la definición de matrices y escenarios. Esta distribución equitativa permitió que el equipo funcione de manera organizada, sin depender de un único líder, y que se avance de forma colaborativa en los capítulos I a IV del proyecto.<br><strong>TP:</strong> En esta segunda entrega, nos repartimos con el grupo para entregar de tanto el frontend , backend y la landing page abordando la mayor parte de los user stories especialmente para el segmento objetivo de veterinario. Como equipo nos ayudamos mutuamente para que tengamos todo lo que nos piden en el trabajo.</td>
   </tr>
   <tr>
-    <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> Desarrolló los perfiles de los dos segmentos objetivo mediante la construcción de user personas, el empathy mapping y el as-is scenario. Estas actividades se realizaron en coordinación grupal para integrar diferentes perspectivas.</td>
+    <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> Desarrolló los perfiles de los dos segmentos objetivo mediante la construcción de user personas, el empathy mapping y el as-is scenario. Estas actividades se realizaron en coordinación grupal para integrar diferentes perspectivas.<br><strong>TP:</strong> Desarrolló el informe del despliegue tanto del frontend como de la landing page.</td>
   </tr>
   <tr>
     <td><strong>Pilares Pocohuanca, Maria</strong><br><strong>TB1:</strong> Fomenté la participación activa lo que ayudó en la toma de decisiones clave para el proyecto. Del mismo modo para el desarrollo óptimo de los bounded contexts, los cuales son fundamentales para dividir las funcionalidades principales de la aplicación por módulos.</td>
@@ -369,11 +404,11 @@ del ABET – EAC - Student Outcome 5.
   </tr>
   <tr>
     <td rowspan="7"><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
-    <td><strong>Fernandez Alva, Maria Fernanda</strong><br><strong>TB1:</strong> Investigó en internet productos similares al prototipo, identificando coincidencias en objetivos y funcionalidades.</td>
-    <td rowspan="7"><strong>TB1:</strong> En esta primera entrega, el equipo desarrolló un entorno colaborativo e inclusivo, donde se integraron las ideas de todos los miembros mediante el uso de herramientas como Miro y UXPressia, además de la comunicación constante en reuniones. Se establecieron metas claras en cada capítulo del proyecto (Introducción, Requirements Elicitation & Analysis, Requirements Specification y Solution Software Design), se distribuyeron las tareas de manera equitativa y se cumplieron los objetivos planificados. Este trabajo coordinado aseguró que el proyecto avance de manera ordenada, inclusiva y con un alto nivel de compromiso por parte de todos los integrantes.</td>
+    <td><strong>Fernandez Alva, Maria Fernanda</strong><br><strong>TB1:</strong> Investigó en internet productos similares al prototipo, identificando coincidencias en objetivos y funcionalidades.<br><strong>TP:</strong> Reviso el repositorio para visualizar que el trabajo se haya subido correctamente con la nomenclatura adecuada.</td>
+    <td rowspan="7"><strong>TB1:</strong> En esta primera entrega, el equipo desarrolló un entorno colaborativo e inclusivo, donde se integraron las ideas de todos los miembros mediante el uso de herramientas como Miro y UXPressia, además de la comunicación constante en reuniones. Se establecieron metas claras en cada capítulo del proyecto (Introducción, Requirements Elicitation & Analysis, Requirements Specification y Solution Software Design), se distribuyeron las tareas de manera equitativa y se cumplieron los objetivos planificados. Este trabajo coordinado aseguró que el proyecto avance de manera ordenada, inclusiva y con un alto nivel de compromiso por parte de todos los integrantes.<br><strong>TP:</strong> En esta segunda entrega, el equipo desarrollo secciones o partes para que cada uno se sienta mas comodo con lo que sabe elaborar. Todos hiciemos tareas diferentes pero aun asi nos ayudamos o verificamos que lo que hicieron nuestros compañeros este en correto estado. Se establecieron metas claras para abordar correctamente el capitulo 5 y el capitulo 6 con el primer sprint.</td>
   </tr>
   <tr>
-    <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> Utilizó herramientas digitales como UXPressia y Miro para elaborar y organizar los requisitos del proyecto, asegurando la claridad y trazabilidad de los mismos dentro del proceso de diseño.</td>
+    <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> Utilizó herramientas digitales como UXPressia y Miro para elaborar y organizar los requisitos del proyecto, asegurando la claridad y trazabilidad de los mismos dentro del proceso de diseño.<br><strong>TP:</strong> Averiguo diferentes paginas para desplegar de la manera correcta y segura el frontend , backend y landing page. En este caso, se desplego en Netfily por su gran facilidad y seguridad de desplegar de manera pública el frontend.</td>
   </tr>
   <tr>
     <td><strong>Pilares Pocohuanca, Maria</strong><br><strong>TB1:</strong> Facilité el uso de herramientas colaborativas y organicé sesiones para revisar el progreso del equipo, tales como reuniones en Google Meet, además de diseñar modelos de dominio y de arquitectura que permitieron una mejor comprensión de la solución.</td>
@@ -1422,10 +1457,11 @@ Nivel de seguridad y fiabilidad que el dueño percibe al usar la solución.
 
 ## 3.1. To-Be Scenario Mapping
 En esta sección se presentan los To-Be Scenario Maps desarrollados para los dos segmentos objetivos principales: Dueños de mascotas y el veterinario. Cada mapa describe, paso a paso, la experiencia del usuario al interactuar con nuestra solución, incluyendo sus necesidades, emociones, puntos de contacto y oportunidades de mejora a lo largo del recorrido. Esta herramienta nos permitió identificar momentos clave en la experiencia de cada tipo de usuario y ajustar el diseño del producto en función de sus expectativas reales.<br>
+
 **To-Be Scenario Map: Dueño de mascota**
 <div style="text-align: center;">
   <img src="Capitulo 3/petOwner/to-be.png">
-</div>
+</div><br>
 
 **To-Be Scenario Map: Veterinario**
 <div style="text-align: center;">
@@ -1730,7 +1766,7 @@ En esta sección se presentan los To-Be Scenario Maps desarrollados para los dos
 </div>
 <div style="text-align: center;">
   <img src="Capitulo 3/petOwner/Impact map-Pet Owner-2.png">
-</div>
+</div><br>
 
 **Segmento Objetivo: Veterinario**
 
@@ -1963,6 +1999,8 @@ Esto ayudó a clarificar:
 
 #### 4.1.1.3 Bounded Context Canvases. 
 
+---
+
 #### **Bounded Context Canvas – Monitoreo IoT**
 
 **1. Context Overview Definition**
@@ -1996,7 +2034,7 @@ Depende de la Gestión Clínica para vincular datos IoT con la historia clínica
 
 - **Debilidad:** Si falla, se interrumpe la detección en tiempo real.
 
-<br><br>
+---
 
 #### **Bounded Context Canvas – Gestión Clínica**
 
@@ -2031,7 +2069,7 @@ Administra las historias clínicas digitales, diagnósticos y tratamientos.
 - **Fortalezas:** Núcleo del negocio.
 - **Riesgo:** Puede sobrecargarse si maneja lógica de notificaciones.
 
-<br><br>
+---
 
 #### **Bounded Context Canvas – Interacción Dueño**
 
@@ -2064,6 +2102,8 @@ Depende de Gestión Clínica para acceder a la información.
 
 - **Fortalezas:** Aumenta confianza y experiencia de usuario.
 - **Riesgo:** Puede quedar “acoplado” al modelo clínico.
+
+---
 
 ### 4.1.2. Context Mapping
 
@@ -2583,6 +2623,370 @@ El diseño lógico de la base de datos para el contexto Records refleja las enti
   <img src="Capitulo 4/BDRecordsDesignDiagram.png" width="800px"><br>  
   *Evidencia en PlantUML*  
 </div
+
+
+
+### 6.2. Landing Page, Services & Applications Implementation
+  #### 6.2.1. Sprint 1
+   #### 6.2.1.1. Sprint Planning 1
+
+En esta parte mostramos las tareas que se realizaron en este sprint.
+
+<div align="center">
+  <img align="center" src="./Capitulo 6/PetWatch-Trello.png">
+</div><br><br>
+
+<table border="1px" align="center">
+      <tr>
+          <th>Sprint #</th>
+          <th>Sprint 1</th>
+      </tr>
+      <tr> 
+          <td colspan="2" style="text-align: center;">Sprint Planning Background</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Date</td>
+          <td>02-10-2025</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Time</td>
+          <td>4:40 pm - 6:00 pm</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Location</td>
+          <td>Canal de Voz del Meet</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Prepared By</td>
+          <td>Pilares Pocohuanca, Maria</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Attendees (to planning meeting)</td>
+          <td>
+              Belleza Tello, Paolo Eduardo<br>
+              Fernandez Alva, María Fernanda<br>
+              Pilares Pocohuanca, Maria<br>
+              Chávarri Zarzosa, Daniel Jhared<br>
+              Góngora Sánchez, Marco Antonio<br>
+              Rondon Añaños, Cristopher<br>
+              Mayurí Armas, Jose Carlo
+          </td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Sprint 0 Review Summary</td>
+          <td>Debido a que es nuestro primer sprint de desarrollo, no existe un review summary del sprint.</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Sprint 0 Retrospective Summary</td>
+          <td>Debido a que es nuestro primer sprint de desarrollo, no existen planes de mejora.</td>
+      </tr>
+      <tr> 
+          <td colspan="2" style="text-align: center;">Sprint Goal & User Stories</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Sprint 1 Goal</td>
+          <td>
+              El objetivo principal de este sprint es la creación de la landing page junto a la aplicación web de nuestro producto llamado PetWatch. Esperamos que estas páginas ofrezca una experiencia visualmente atractiva y   una información concisa, lo cual se validará con la interacción de los usuarios en cada parte.
+          </td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Sprint 1 Velocity</td>
+          <td>40</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Sum of Story Points</td>
+          <td>40</td>
+      </tr>
+    </table>
+
+   #### 6.2.1.2. Aspect Leaders and Collaborators
+
+   <table border="1" style="border-collapse: collapse; text-align: center;">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Elaboración del diseño y los estilos</th>
+    <th>Diagramas de flujo y mock-ups de la landing page</th>
+    <th>Diagramas de flujo y mock-ups de la aplicacin web</th>
+    <th>Elaboración de la aplicacion web</th>
+    <th>Elaboracion de la landing page</th>
+    <th>Despliegues de las aplicaciones</th>
+    <th>Informe del seguimiento del proyecto</th>
+  </tr>
+  <tr>
+    <td>Góngora Sánchez, Marco Antonio</td>
+    <td>m4rcous</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>mariapilares</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Belleza Tello, Paolo Eduardo</td>
+    <td>PaoloBellezaTelloo</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Fernandez Alva, María Fernanda</td>
+    <td>MariaFernandaFernandezAlva</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Chávarri Zarzosa, Daniel Jhared</td>
+    <td>Daniel-10806</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Rondon Añaños, Cristopher</td>
+    <td>Cris200399</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Mayurí Armas, Jose Carlo</td>
+    <td>JoseArmas10</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
+
+   #### 6.2.1.3. Sprint Backlog 1
+
+  <table border="1" cellspacing="0" cellpadding="4">
+  <tr>
+    <th style="text-align: center;"><b>Sprint #</b></th>
+    <th colspan="7" style="text-align: center;"><b>Sprint 2</b></th>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align: center;"><b>User Story</b></td>
+    <td colspan="6" style="text-align: center;"><b>Work-item / Task</b></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><b>ID</b></td>
+    <td style="text-align: center;"><b>Title</b></td>
+    <td style="text-align: center;"><b>ID</b></td>
+    <td style="text-align: center;"><b>Title</b></td>
+    <td style="text-align: center;"><b>Description</b></td>
+    <td style="text-align: center;"><b>Estimation (hours)</b></td>
+    <td style="text-align: center;"><b>Assigned To</b></td>
+    <td style="text-align: center;"><b>Status</b></td>
+  </tr>
+
+  <tr>
+    <td>US01</td>
+    <td>Llenado de datos para el registro</td>
+    <td>T1</td>
+    <td>Registro de usuario</td>
+    <td>Implementacion para que el usuario queda registrado en la aplicacion web</td>
+    <td style="text-align: center;">5h</td>
+    <td>Chávarri Zarzosa, Daniel Jhared</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>US02</td>
+    <td>Solicitar los datos del usuario registrado</td>
+    <td>T2</td>
+    <td>Inicio de sesión</td>
+    <td>Implementacion de ingreso directo a petWatch</td>
+    <td style="text-align: center;">3h</td>
+    <td>Chávarri Zarzosa, Daniel Jhared</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>US03</td>
+    <td>Gestionar contraseña del usuario</td>
+    <td>T3</td>
+    <td>Recuperar contraseña</td>
+    <td>Implementación de una recuperacion de contraseña mediante el correo electronico</td>
+    <td style="text-align: center;">3h</td>
+    <td>Chávarri Zarzosa, Daniel Jhared</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>US04</td>
+    <td>Guardar datos de todos las mascotas</td>
+    <td>T4</td>
+    <td>Registro de mascotas</td>
+    <td>Implementar un apartado donde registrar a las mascotas con sus datos generales.</td>
+    <td style="text-align: center;">3h</td>
+    <td>Chávarri Zarzosa, Daniel Jhared</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>US13</td>
+    <td>Visualizacion de los estados de las mascotas</td>
+    <td>T5</td>
+    <td>Dashboard veterinario</td>
+    <td>Implementación de un dashboard para la visualizacion de las mascotas internadas.</td>
+    <td style="text-align: center;">5h</td>
+    <td>Chávarri Zarzosa, Daniel Jhared</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>US06</td>
+    <td>Actualizar el historial de una mascota</td>
+    <td>T6</td>
+    <td>Historia clínica digital</td>
+    <td>Cambiar datos generales de alguna mascota en especifico</td>
+    <td style="text-align: center;">8h</td>
+    <td>Chávarri Zarzosa, Daniel Jhared</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>US07</td>
+    <td>Registrar datos medicos de las mascotas</td>
+    <td>T7</td>
+    <td>Registro de tratamientos</td>
+    <td>Implementar un formulario indicando cada campo necesario para registrar un tratamiento adecuado.</td>
+    <td style="text-align: center;">5h</td>
+    <td>Chávarri Zarzosa, Daniel Jhared</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>US05</td>
+    <td>Editar la información basica de una mascota.</td>
+    <td>T8</td>
+    <td>Edición de datos de mascota</td>
+    <td>Implementar un apartado para cambiar los datos originales de la mascota.</td>
+    <td style="text-align: center;">3h</td>
+    <td>Chávarri Zarzosa, Daniel Jhared</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>US16</td>
+    <td>Información relevante de PetWatch.</td>
+    <td>T9</td>
+    <td>Landing page informativa</td>
+    <td>Información importante sobre el monitoreo de PetWatch y sus beneficios.</td>
+    <td style="text-align: center;">3h</td>
+    <td>Rondon Añaños, Cristopher</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>US05</td>
+    <td>Comunicarse con PetWatch</td>
+    <td>T10</td>
+    <td>Contacto desde landing</td>
+    <td>Implementar un apartado para enviar un correo o un mensaje sobre nuestro producto.</td>
+    <td style="text-align: center;">2h</td>
+    <td>Mayurí Armas, Jose Carlo</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+</table>
+
+   #### 6.2.1.4. Development Evidence for Sprint Review
+
+  A continuación, se presenta una tabla con información de ejemplo sobre los repositorios y commits realizados durante el sprint:
+
+  **Link del repositorio del Frontend:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-frontend](https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-frontend)
+
+  **Link del repositorio de la Landing Page:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/landing-page](https://github.com/upc-pre-202520-1asi0572-3355-petlink/landing-page)
+
+  **Link del repositorio del Backend:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-backend](https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-backend)
+
+  <table>
+    <tr>
+     <td><strong>Repository</strong></td>
+     <td><strong>Branch</strong></td>
+     <td><strong>Commit Id</strong></td>
+     <td><strong>Commit Message</strong></td>
+     <td><strong>Commit Message Body</strong></td>
+     <td><strong>Commited on (Date)</strong></td>
+    </tr>
+    <tr>
+     <td>landing-page</td>
+     <td>main</td>
+     <td>b35474c</td>
+     <td>feat: Add base code to the index.html document</td>
+     <td>-</td>
+     <td>01/10/2025</td>
+    </tr>
+    <tr>
+     <td>landing-page</td>
+     <td>main</td>
+     <td>70f8400</td>
+     <td>fix: Changed the project name as some improvements</td>
+     <td>-</td>
+     <td>01/10/2025</td>
+    </tr>
+    <tr>
+     <td>petlink-frontend</td>
+     <td>main</td>
+     <td>2eabaec</td>
+     <td>feat: First version of the PetLink frontend</td>
+     <td>-</td>
+     <td>02/10/2025</td>
+    </tr>
+    <tr>
+     <td>petlink-frontend</td>
+     <td>main</td>
+     <td>33141c7</td>
+     <td>feat: Adding netlify.toml with redirect rules</td>
+     <td>-</td>
+     <td>02/10/2025</td>
+    </tr>
+    <tr>
+     <td>petlink-backend</td>
+     <td>main</td>
+     <td>725c1b0</td>
+     <td>feat: First version of the PetLink backend</td>
+     <td>-</td>
+     <td>02/10/2025</td>
+    </tr> 
+  </table>
+
+
 
 # Conclusiones
 
