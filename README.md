@@ -2709,6 +2709,92 @@ Enlace a landing page: [Landing Page PetWatch](https://upc-pre-202520-1asi0572-3
 ### 5.4.4. Applications User Flow Diagrams
 ## 5.5. Applications Prototyping
 
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management.
+
+### 6.1.1. Software Development Environment Configuration.
+
+A continuación, se mencionarán los productos de software que hemos estado utilizando para poder avanzar nuestro proyecto de manera eficiente.<br><br>
+**Project Management**<br>
+Hemos estado utilizando la metodología Scrum ya que nuestros entregables están dados por varios Sprints. Realizamos reuniones de manera constante para revisar que tenemos hasta la fecha, que nos falta completar, dudas o consultas acerca del proyecto en cuestión.<br><br>
+**Product UX/UI Design**
+  * **Figma**<br>
+  Utilizamos la plataforma de Figma (con url: https://www.figma.com/) para poder bosquejar nuestro proyecto, tanto para la aplicación web, landing page y aplicación móvil. 
+  * **Miro**<br>
+  Utilizamos la Plataforma de Miro (con url: https://miro.com/es/) para poder realizar nuestros As-Is Scenario Mapping y To-Be Scenario Mapping de cada segmento objetivo que tenemos en el proyecto.
+  * **UXPressia**<br>
+  Utilizamos la Plataforma de UXPressia (con url: https://uxpressia.com/) para poder crear nuestros User Person, Empathy Map e Impact Map de cada segmento objetivo planteado en el proyecto.<br><br>
+
+**Software Development**
+  * **Landing Page**<br>
+  Para el desarrollo de nuestra Landing Page consideramos utilizar las siguientes tecnologías:<br>
+  La página fue construida utilizando HTML5 como lenguaje de marcado principal. Para el diseño y el estilo, se optó por el framework Tailwind CSS, cargado mediante CDN. Esta elección permitió un desarrollo rápido y la implementación de un diseño responsivo. Se utilizó JavaScript de forma mínima para la configuración inicial de estilos y la gestión de interacciones básicas como el desplazamiento suave.
+  * **Web Aplication (Frontend)**<br>
+  Para el desarrollo de nuestro Frontend consideramos utilizar las siguientes tecnologías:<br>
+  Como framework principal hemos utilizado Angular, el lenguaje utilizado para el desarrollo es TypeScript, Boostrap para el disenio y estilo de la interfaz y Prettier para generar convenciones de estilos.
+
+**Software Deployment**
+  * **Netlify**<br>
+  Para el despliegue de nuestro Frontend utilizamos Netlify (con url: https://www.netlify.com/). Este Software nos permite tener conexión entre nuestro repositorio de GitHub y Netfly para poder automatizar el despliegue de nuestro proyecto.
+
+**Software Documentation**
+  * **GitHub**<br>
+  Para gestionar el Control de Versiones del Software y asegurar la colaboración del equipo, utilizamos GitHub. Esta plataforma actúa como el repositorio central de nuestro proyecto, permitiendo alojar y administrar eficientemente el código de los tres componentes principales de nuestro proyecto: Frontend, Backend y nuestra Landing Page. Gracias a GitHub, mantenemos un historial detallado de todos los cambios realizados, lo que garantiza la trazabilidad y nos permite trabajar simultáneamente en diferentes características sin conflictos.
+
+### 6.1.2. Source Code Management.
+
+La gestion y administracion de nuestro proyecto se realizo mediante la creación de una organizacion en GitHub (con url: https://github.com/upc-pre-202520-1asi0572-3355-petlink). <br>
+La estructura de nuestro repositorio esta dada por 4 repositorios.<br>
+  * Repositorio para el Frontend: https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-frontend
+  * Repositorio para el Backend: https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-backend
+  * Repositorio para la Landing Page: https://github.com/upc-pre-202520-1asi0572-3355-petlink/landing-page
+  * Repositorio para el Reporte: https://github.com/upc-pre-202520-1asi0572-3355-petlink/Report 
+
+### 6.1.3. Source Code Style Guide & Conventions.
+
+**Convenciones de Source Code**
+  * **TypeScript**<br>
+  Con respecto a TypeScript se consideró el uso estricto de tipado para garantizar una mayor robustez y mantenibilidad del código. Además, se implementó una separación clara de responsabilidades entre interfaces, servicios y componentes.<br>
+  Esto fue reforzado por la organización mediante el seguimiento de las convenciones oficiales de Angular para la nomeclatura de archivos, utilizando los sufijos correspondientes (como: `*.component.ts` y `*.service.ts`)
+  * **Angular**<br>
+  Con respecto a Angular el desarrollo se baso en una arquitectura modular compuesto por modules, componentes y servicios bien definidos. Asi mismo, para la gestión de la navegación entre paginas se utilizo el módulo de @angular/router.
+  * **Boostrap**<br>
+  Con respect a Boostrap aplicamos estilos responsivos con la finalida de facilitar la implementación de componentes. Los estilos globales del proyecto fueron definidos y gestionados dentro del archivo src/styles.css.
+
+**Convenciones de Commits**<br>
+Con respect a este apartado del informe, nuestro equipo sigue las Conventional Commits 1.0.0 (con url: https://www.conventionalcommits.org/en/v1.0.0/). Esto nos asegura como equipo seguir un mismo estandar de nombres. A continuacion se mencionara la estructura que nos proporciona Conventional Commits 1.0.0:<br><br>
+`<type>[optional scope]: <description>`
+  * `type:` Indica el tipo de modificación realizada, como `feat` (nueva funcionalidad), `fix` (corrección de errores), `docs` (documentación), entre otros. 
+  * `scope:` Define el alcance del cambio realizado en el código (opcional). 
+  * `description:` Proporciona un resumen breve y claro de los cambios implementados
+
+### 6.1.4. Software Deployment Configuration.
+
+Para el despliegue de nuestro frontend utilizamos el siguiente proceso en Netfly:
+  1. Entramos a Netfly y precionamos la opción de `Add new Project` y luego `Importa n existing Project`.<br>
+  <div align="center">
+    <img align="center" src="./Capitulo 6/existing-proyect.jpeg">
+  </div><br>
+
+  2. Luego seleccionamos los archivos de nuestro proyecto que esta en GitHub<br>
+  <div align="center">
+    <img align="center" src="./Capitulo 6/upload-files.jpeg">
+  </div><br>
+  
+  3. Esperamos a que carguen los archivos<br>
+  <div align="center">
+    <img align="center" src="./Capitulo 6/uploaded-files.jpeg">
+  </div><br>
+  
+  4. Y luego veremos nuestro frontend desplegado<br>
+  <div align="center">
+    <img align="center" src="./Capitulo 6/page-displayed.jpeg">
+  </div><br>
+  
+  * El enlace a nuestro Frontend sería el siguiente: https://petwatch.netlify.app/login
+
+
 ### 6.2. Landing Page, Services & Applications Implementation
 
 #### 6.2.1. Sprint 1
