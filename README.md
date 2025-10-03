@@ -2649,6 +2649,66 @@ El diseño lógico de la base de datos para el contexto Records refleja las enti
   *Evidencia en PlantUML*  
 </div><br>
 
+# Capitulo V: Solution UI/UX Design
+## 5.1. Style Guidelines
+### 5.1.1. General Style Guidelines
+### 5.1.2. Web, Mobile and IoT Devices Style Guidelines
+## 5.2. Information Architecture
+### 5.2.1. Organization Systems
+### 5.2.2. Labeling Systems
+### 5.2.3. Searching Systems
+### 5.2.4. SEO Tags and Meta Tags
+### 5.2.5. Navigation Systems
+## 5.3. Landing Page UI Design
+### 5.3.1. Landing Page Wireframe
+En esta sección se presenta el wireframe de la landing page de PetWatch, diseñado para ofrecer una experiencia de usuario intuitiva y atractiva. El wireframe incluye los siguientes elementos clave:
+
+<img src="Capitulo 5/wireframe/landing_page_hero.JPG" alt="Landing Page Wireframe" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Header:** Contiene el logo de PetWatch y un menú de navegación con enlaces a secciones importantes como "Inicio", "Funcionalidades", "Como funciona", "Beneficios", "Contacto" y un botón destacado para "Iniciar Sesión".
+- **Hero Section:** Una imagen destacada de una mascota con la pechera inteligente, acompañada de un título llamativo y un botón de llamada a la acción (CTA) para "las tiendas de aplicación".
+
+<img src="Capitulo 5/wireframe/core_features.JPG" alt="Core Features Section" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Core Features:** Una sección que resalta las características principales del producto
+
+<img src="Capitulo 5/wireframe/how_it_works.JPG" alt="How It Works Section" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **How It Works:** Una explicación visual y textual de cómo funciona la pechera inteligente
+  
+<img src="Capitulo 5/wireframe/benefits.JPG" alt="Benefits Section" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Benefits:** Una sección que destaca los beneficios de usar PetWatch para el monitoreo de mascotas
+
+<img src="Capitulo 5/wireframe/contact.JPG" alt="Contact Us Section" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Contact Us:** Un formulario de contacto para que los usuarios puedan enviar consultas o solicitar más información
+
+<img src="Capitulo 5/wireframe/footer.JPG" alt="Footer Section" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Footer:** Información adicional y enlaces extras
+  
+### 5.3.2. Landing Page Mock-up
+En esta sección se presenta el mock-up de la landing page de PetWatch, diseñado para ofrecer una experiencia visual atractiva y coherente con la identidad de la marca.
+
+<img src="Capitulo 5/mockup/Home.JPG" alt="Landing Page Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Inicio** - Presenta una imagen destacada de una mascota con la pechera inteligente, junto con un título llamativo y un botón de llamada a la acción (CTA) para descargar la aplicación.
+
+<img src="Capitulo 5/mockup/core_functions.JPG" alt="Core Features Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Core Features** - Resalta las características principales del producto con iconos y descripciones breves.
+
+<img src="Capitulo 5/mockup/how_it_works.JPG" alt="How It Works Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **How It Works** - Explica visualmente cómo funciona la pechera inteligente con imágenes y texto.
+
+<img src="Capitulo 5/mockup/benefits.JPG" alt="Benefits Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Benefits** - Destaca los beneficios de usar PetWatch para el monitoreo de mascotas
+
+<img src="Capitulo 5/mockup/contact.JPG" alt="Contact Us Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Contact Us** - Un formulario de contacto para que los usuarios puedan enviar consultas o solicitar más información
+
+Enlace a landing page: [Landing Page PetWatch](https://upc-pre-202520-1asi0572-3355-petlink.github.io/landing-page)
+
+## 5.4. Applications UX/UI Design
+### 5.4.1. Applications Wireframes
+### 5.4.2. Applications Wireflow Diagrams
+### 5.4.3. Applications Mock-ups
+### 5.4.4. Applications User Flow Diagrams
+## 5.5. Applications Prototyping
+
 ### 6.2. Landing Page, Services & Applications Implementation
 
 #### 6.2.1. Sprint 1
@@ -3010,66 +3070,6 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
      <td>02/10/2025</td>
     </tr> 
   </table>
-
-# Capitulo V: Solution UI/UX Design
-## 5.1. Style Guidelines
-### 5.1.1. General Style Guidelines
-### 5.1.2. Web, Mobile and IoT Devices Style Guidelines
-## 5.2. Information Architecture
-### 5.2.1. Organization Systems
-### 5.2.2. Labeling Systems
-### 5.2.3. Searching Systems
-### 5.2.4. SEO Tags and Meta Tags
-### 5.2.5. Navigation Systems
-## 5.3. Landing Page UI Design
-### 5.3.1. Landing Page Wireframe
-En esta sección se presenta el wireframe de la landing page de PetWatch, diseñado para ofrecer una experiencia de usuario intuitiva y atractiva. El wireframe incluye los siguientes elementos clave:
-
-<img src="Capitulo 5/wireframe/landing_page_hero.JPG" alt="Landing Page Wireframe" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
-- **Header:** Contiene el logo de PetWatch y un menú de navegación con enlaces a secciones importantes como "Inicio", "Funcionalidades", "Como funciona", "Beneficios", "Contacto" y un botón destacado para "Iniciar Sesión".
-- **Hero Section:** Una imagen destacada de una mascota con la pechera inteligente, acompañada de un título llamativo y un botón de llamada a la acción (CTA) para "las tiendas de aplicación".
-
-<img src="Capitulo 5/wireframe/core_features.JPG" alt="Core Features Section" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
-- **Core Features:** Una sección que resalta las características principales del producto
-
-<img src="Capitulo 5/wireframe/how_it_works.JPG" alt="How It Works Section" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
-- **How It Works:** Una explicación visual y textual de cómo funciona la pechera inteligente
-  
-<img src="Capitulo 5/wireframe/benefits.JPG" alt="Benefits Section" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
-- **Benefits:** Una sección que destaca los beneficios de usar PetWatch para el monitoreo de mascotas
-
-<img src="Capitulo 5/wireframe/contact.JPG" alt="Contact Us Section" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
-- **Contact Us:** Un formulario de contacto para que los usuarios puedan enviar consultas o solicitar más información
-
-<img src="Capitulo 5/wireframe/footer.JPG" alt="Footer Section" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
-- **Footer:** Información adicional y enlaces extras
-  
-### 5.3.2. Landing Page Mock-up
-En esta sección se presenta el mock-up de la landing page de PetWatch, diseñado para ofrecer una experiencia visual atractiva y coherente con la identidad de la marca.
-
-<img src="Capitulo 5/mockup/Home.JPG" alt="Landing Page Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
-- **Inicio** - Presenta una imagen destacada de una mascota con la pechera inteligente, junto con un título llamativo y un botón de llamada a la acción (CTA) para descargar la aplicación.
-
-<img src="Capitulo 5/mockup/core_functions.JPG" alt="Core Features Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
-- **Core Features** - Resalta las características principales del producto con iconos y descripciones breves.
-
-<img src="Capitulo 5/mockup/how_it_works.JPG" alt="How It Works Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
-- **How It Works** - Explica visualmente cómo funciona la pechera inteligente con imágenes y texto.
-
-<img src="Capitulo 5/mockup/benefits.JPG" alt="Benefits Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
-- **Benefits** - Destaca los beneficios de usar PetWatch para el monitoreo de mascotas
-
-<img src="Capitulo 5/mockup/contact.JPG" alt="Contact Us Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
-- **Contact Us** - Un formulario de contacto para que los usuarios puedan enviar consultas o solicitar más información
-
-Enlace a landing page: [Landing Page PetWatch](https://upc-pre-202520-1asi0572-3355-petlink.github.io/landing-page)
-
-## 5.4. Applications UX/UI Design
-### 5.4.1. Applications Wireframes
-### 5.4.2. Applications Wireflow Diagrams
-### 5.4.3. Applications Mock-ups
-### 5.4.4. Applications User Flow Diagrams
-## 5.5. Applications Prototyping
 
 
 # Conclusiones
