@@ -282,6 +282,31 @@ A continuación, se detalla el proceso de elaboración del informe para cada ent
       - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
       - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
       - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
+    - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
+      - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+- [Capitulo V: Solution UI/UX Design](#capitulo-v-solution-uiux-design)
+  - [5.1. Style Guidelines](#51-style-guidelines)
+    - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+    - [5.1.2. Web, Mobile and IoT Devices Style Guidelines](#512-web-mobile-and-iot-devices-style-guidelines)
+  - [5.2. Information Architecture](#52-information-architecture)
+    - [5.2.1. Organization Systems](#521-organization-systems)
+    - [5.2.2. Labeling Systems](#522-labeling-systems)
+    - [5.2.3. Searching Systems](#523-searching-systems)
+    - [5.2.4. SEO Tags and Meta Tags](#524-seo-tags-and-meta-tags)
+    - [5.2.5. Navigation Systems](#525-navigation-systems)
+  - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
+    - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
+    - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
+  - [5.4. Applications UX/UI Design](#54-applications-uxui-design)
+    - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+    - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+    - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
+    - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+  - [5.5. Applications Prototyping](#55-applications-prototyping)
 - [Conclusiones](#conclusiones-1)
 - [Bibliografía](#bibliografía-1)
 - [Anexos](#anexos-1)
@@ -2986,6 +3011,65 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
     </tr> 
   </table>
 
+# Capitulo V: Solution UI/UX Design
+## 5.1. Style Guidelines
+### 5.1.1. General Style Guidelines
+### 5.1.2. Web, Mobile and IoT Devices Style Guidelines
+## 5.2. Information Architecture
+### 5.2.1. Organization Systems
+### 5.2.2. Labeling Systems
+### 5.2.3. Searching Systems
+### 5.2.4. SEO Tags and Meta Tags
+### 5.2.5. Navigation Systems
+## 5.3. Landing Page UI Design
+### 5.3.1. Landing Page Wireframe
+En esta sección se presenta el wireframe de la landing page de PetWatch, diseñado para ofrecer una experiencia de usuario intuitiva y atractiva. El wireframe incluye los siguientes elementos clave:
+
+<img src="Capitulo 5/wireframe/landing_page_hero.JPG" alt="Landing Page Wireframe" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Header:** Contiene el logo de PetWatch y un menú de navegación con enlaces a secciones importantes como "Inicio", "Funcionalidades", "Como funciona", "Beneficios", "Contacto" y un botón destacado para "Iniciar Sesión".
+- **Hero Section:** Una imagen destacada de una mascota con la pechera inteligente, acompañada de un título llamativo y un botón de llamada a la acción (CTA) para "las tiendas de aplicación".
+
+<img src="Capitulo 5/wireframe/core_features.JPG" alt="Core Features Section" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Core Features:** Una sección que resalta las características principales del producto
+
+<img src="Capitulo 5/wireframe/how_it_works.JPG" alt="How It Works Section" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **How It Works:** Una explicación visual y textual de cómo funciona la pechera inteligente
+  
+<img src="Capitulo 5/wireframe/benefits.JPG" alt="Benefits Section" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Benefits:** Una sección que destaca los beneficios de usar PetWatch para el monitoreo de mascotas
+
+<img src="Capitulo 5/wireframe/contact.JPG" alt="Contact Us Section" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Contact Us:** Un formulario de contacto para que los usuarios puedan enviar consultas o solicitar más información
+
+<img src="Capitulo 5/wireframe/footer.JPG" alt="Footer Section" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Footer:** Información adicional y enlaces extras
+  
+### 5.3.2. Landing Page Mock-up
+En esta sección se presenta el mock-up de la landing page de PetWatch, diseñado para ofrecer una experiencia visual atractiva y coherente con la identidad de la marca.
+
+<img src="Capitulo 5/mockup/Home.JPG" alt="Landing Page Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Inicio** - Presenta una imagen destacada de una mascota con la pechera inteligente, junto con un título llamativo y un botón de llamada a la acción (CTA) para descargar la aplicación.
+
+<img src="Capitulo 5/mockup/core_functions.JPG" alt="Core Features Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Core Features** - Resalta las características principales del producto con iconos y descripciones breves.
+
+<img src="Capitulo 5/mockup/how_it_works.JPG" alt="How It Works Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **How It Works** - Explica visualmente cómo funciona la pechera inteligente con imágenes y texto.
+
+<img src="Capitulo 5/mockup/benefits.JPG" alt="Benefits Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Benefits** - Destaca los beneficios de usar PetWatch para el monitoreo de mascotas
+
+<img src="Capitulo 5/mockup/contact.JPG" alt="Contact Us Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+- **Contact Us** - Un formulario de contacto para que los usuarios puedan enviar consultas o solicitar más información
+
+Enlace a landing page: [Landing Page PetWatch](https://upc-pre-202520-1asi0572-3355-petlink.github.io/landing-page)
+
+## 5.4. Applications UX/UI Design
+### 5.4.1. Applications Wireframes
+### 5.4.2. Applications Wireflow Diagrams
+### 5.4.3. Applications Mock-ups
+### 5.4.4. Applications User Flow Diagrams
+## 5.5. Applications Prototyping
 
 
 # Conclusiones
