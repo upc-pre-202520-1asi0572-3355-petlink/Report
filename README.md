@@ -3161,18 +3161,22 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
    #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
 
+   
+---
+
+   #### 6.2.1.6. Execution Evidence for Sprint Review.
+
+   
+---
+
+   #### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 
 
-   #### 6.2.1.6. Testing Suite Evidence for Sprint Review.
+   Para este Sprint, como es el primero y se desarrolló la landing page, no se evidencia el empleo de web services
 
 
-
-
-   #### 6.2.1.7. Testing Suite Evidence for Sprint Review.
-
-
-
-
+---
+   
    #### 6.2.1.8. Testing Suite Evidence for Sprint Review.
 
 
