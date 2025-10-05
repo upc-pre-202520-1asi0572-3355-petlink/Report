@@ -3158,9 +3158,65 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
   </table>
 
 
+---
+
    #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
+   
+Para el Sprint 1, se ha realizado algunas pruebas usando BDD (Behavior Driven Development) con Cucumber orientadas a la captura y registro de datos fisiológicos y de ubicación desde el collar IoT hacia la API de la plataforma.
 
+**1. Para bounded context Device**
+
+- Registrar un nuevo collar IoT.
+  ```gherkin
+  Feature: Register Smart Collar
+
+    Scenario: Successfully register a new smart collar
+  Given a collar device with ID "COLLAR-001" and assigned pet "Rocky"
+  When the collar is registered in the platform
+  Then the collar information should be saved in the repository
+  And a confirmation message should be returned
+  ```
+
+- Obtener todos los collares registrados.
+  ```gherkin
+  Feature: Get All Collars
+
+    Scenario: Retrieve all registered collars
+  Given there are collars in the repository
+  When all collars are requested
+  Then the list of collars with their respective pets should be returned
+  ```
+
+
+---
+
+
+**2. Para bounded context SensorData**
+
+- Registrar ritmo cardíaco y actividad.
+  ```gherkin
+  Feature: Store Vital Data
+
+    Scenario: Successfully store heart rate and activity level data
+  Given a collar device "COLLAR-001" is active
+  And sends heart rate "88 bpm" and activity level "moderate"
+  When the data is received by the API
+  Then the platform should store it in the database
+  And confirm the successful record
+  ```
+
+- Registrar ubicación GPS.
+  ```gherkin
+  Feature: Store GPS Location
+
+    Scenario: Successfully store GPS coordinates
+  Given the collar device "COLLAR-001" has active GPS
+  When it sends location coordinates "-12.0464, -77.0428"
+  Then the data should be stored
+  And a timestamp should be generated
+  ```
+  
    
 ---
 
