@@ -3172,10 +3172,10 @@ Para el Sprint 1, se ha realizado algunas pruebas usando BDD (Behavior Driven De
   Feature: Register Smart Collar
 
     Scenario: Successfully register a new smart collar
-  Given a collar device with ID "COLLAR-001" and assigned pet "Rocky"
-  When the collar is registered in the platform
-  Then the collar information should be saved in the repository
-  And a confirmation message should be returned
+  		Given a collar device with ID "COLLAR-001" and assigned pet "Cookie"
+  		When the collar is registered in the platform
+  		Then the collar information should be saved in the repository
+  		And a confirmation message should be returned
   ```
 
 - Obtener todos los collares registrados.
@@ -3183,9 +3183,9 @@ Para el Sprint 1, se ha realizado algunas pruebas usando BDD (Behavior Driven De
   Feature: Get All Collars
 
     Scenario: Retrieve all registered collars
-  Given there are collars in the repository
-  When all collars are requested
-  Then the list of collars with their respective pets should be returned
+  		Given there are collars in the repository
+  		When all collars are requested
+  		Then the list of collars with their respective pets should be returned
   ```
 
 
@@ -3199,11 +3199,11 @@ Para el Sprint 1, se ha realizado algunas pruebas usando BDD (Behavior Driven De
   Feature: Store Vital Data
 
     Scenario: Successfully store heart rate and activity level data
-  Given a collar device "COLLAR-001" is active
-  And sends heart rate "88 bpm" and activity level "moderate"
-  When the data is received by the API
-  Then the platform should store it in the database
-  And confirm the successful record
+  		Given a collar device "COLLAR-001" is active
+  		And sends heart rate "88 bpm" and activity level "moderate"
+  		When the data is received by the API
+  		Then the platform should store it in the database
+  		And confirm the successful record
   ```
 
 - Registrar ubicación GPS.
@@ -3211,10 +3211,10 @@ Para el Sprint 1, se ha realizado algunas pruebas usando BDD (Behavior Driven De
   Feature: Store GPS Location
 
     Scenario: Successfully store GPS coordinates
-  Given the collar device "COLLAR-001" has active GPS
-  When it sends location coordinates "-12.0464, -77.0428"
-  Then the data should be stored
-  And a timestamp should be generated
+  		Given the collar device "COLLAR-001" has active GPS
+  		When it sends location coordinates "-12.0464, -77.0428"
+  		Then the data should be stored
+  		And a timestamp should be generated
   ```
   
    
