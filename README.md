@@ -3166,7 +3166,11 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 
    #### 6.2.1.6. Execution Evidence for Sprint Review.
 
-   
+   En este sprint logramos desarrollar nuestra landing page, utilizango HTML y CSS con su respectivo despliegue. Acá se muestra evidencia:
+  
+<img src="Capitulo 5/mockup/Home.JPG" alt="Landing Page Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+
 ---
 
    #### 6.2.1.7. Services Documentation Evidence for Sprint Review.
