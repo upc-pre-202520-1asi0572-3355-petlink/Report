@@ -3183,9 +3183,38 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
    
    #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 
+   Para la entrega del Sprint 1, se desarrolló y desplegó la landing page.
 
    
+<img src="Capitulo 5/mockup/Home.JPG" alt="Landing Page Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+
 ---
+
+
+<img src="Capitulo 5/mockup/core_functions.JPG" alt="Core Features Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+
+---
+
+
+<img src="Capitulo 5/mockup/how_it_works.JPG" alt="How It Works Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+
+---
+
+
+<img src="Capitulo 5/mockup/benefits.JPG" alt="Benefits Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+
+---
+
+
+<img src="Capitulo 5/mockup/contact.JPG" alt="Contact Us Mock-up" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+
+---
+
 
    #### 6.2.1.9. Team Collaboration Insights during Sprint.
 
