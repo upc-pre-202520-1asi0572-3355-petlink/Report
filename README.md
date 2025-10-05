@@ -3158,6 +3158,33 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
   </table>
 
 
+   #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+
+
+
+
+   #### 6.2.1.6. Testing Suite Evidence for Sprint Review.
+
+
+
+
+   #### 6.2.1.7. Testing Suite Evidence for Sprint Review.
+
+
+
+
+   #### 6.2.1.8. Testing Suite Evidence for Sprint Review.
+
+
+
+
+   #### 6.2.1.9. Testing Suite Evidence for Sprint Review.
+
+
+
+
+
+   
 # Conclusiones
 
 El proyecto de la pechera inteligente representa una solución innovadora en el cuidado y monitoreo de mascotas, ya que ofrece a los dueños y veterinarios la posibilidad de acceder a información en tiempo real sobre la salud del animal, principalmente a través del control de signos vitales como el ritmo cardiaco y el pulso. Esta propuesta se diferencia en el mercado peruano al no existir actualmente una competencia directa que combine de manera específica bienestar y monitoreo clínico, lo que le otorga una ventaja competitiva clara frente a dispositivos internacionales que priorizan la geolocalización.
