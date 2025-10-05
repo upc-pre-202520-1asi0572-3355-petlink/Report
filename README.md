@@ -3177,16 +3177,24 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 
 ---
    
-   #### 6.2.1.8. Testing Suite Evidence for Sprint Review.
+   #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 
 
+   
+---
+
+   #### 6.2.1.9. Team Collaboration Insights during Sprint.
 
 
-   #### 6.2.1.9. Testing Suite Evidence for Sprint Review.
-
-
-
-
+|Alumno|Actividad|
+|------|---------|
+|Fernandez Alva, Maria Fernanda|Desarrollo del Capítulo VI: Product Implementation, Validation & Deployment, del 6.2 al 6.2.1.4 del documento en formato markdown.|
+|Belleza Tello, Paolo Eduardo|Desarrollo del Capítulo VI: Product Implementation, Validation & Deployment, del 6.1 al 6.1.4 del documento en formato markdown.|
+|Pilares Pocohuanca, Maria|Desarrollo del Capítulo VI: Product Implementation, Validation & Deployment, del 6.2.1.5 al 6.2.19 del documento en formato markdown.|
+|Chávarri Zarzosa, Daniel Jhared|Desarrollo del Desarrollo del Capítulo V: Solution UI/UX Design, del 5.4 al 5.5 del documento en formato markdown.|
+|Góngora Sánchez, Marco Antonio|Desarrollo del Capítulo V: Solution UI/UX Design, del 5.1 al 5.2.3 del documento en formato markdown.|
+|Rondon Añaños, Cristopher|Desarrollo del Capítulo V: Solution UI/UX Design, del 5.2.4 al 5.3.2 del documento en formato markdown. Incluyendo diseño del landing page.|
+|Mayurí Armas, Jose Carlo|Desarrollo del Capítulo V: Solution UI/UX Design, del 5.2.4 al 5.3.2 del documento en formato markdown. Incluyendo web application.|
 
    
 # Conclusiones
