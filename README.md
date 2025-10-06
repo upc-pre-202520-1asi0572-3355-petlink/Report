@@ -2650,15 +2650,375 @@ El diseño lógico de la base de datos para el contexto Records refleja las enti
 </div><br>
 
 # Capitulo V: Solution UI/UX Design
+<p>Este capitulo abarca del planteamiento de la propuesta de UX/UI Desing para la experiencia del usuario.</p>
+
 ## 5.1. Style Guidelines
+<p>En este segmento, se detallarán las guías de estilo específicas para las aplicaciones. Esto será esencial para mantener coherencia en la apariencia visual de los elementos presentes en nuestros productos.</p>
+
 ### 5.1.1. General Style Guidelines
+#### Branding
+PetLink se construye sobre una identidad que conecta personas con sus mascotas mediante tecnología.
+
+El logotipo incorpora un símbolo de huella y la silueta de un ojo, representando la constante atención y alerta a la mascota por parte de nuestro producto. Los colores cómo el verde y naranja, al ser colores cálidos, sugieren innovación amigable.
+
+---
+
+#### Typography
+
+La tipografía utilizada en PetLink refuerza la claridad, modernidad y cercanía del producto.
+
+**Fuente principal**: Poppins — empleada para encabezados, botones y textos destacados. Su geometría redondeada proyecta confianza y suavidad.
+
+**Fuente secundaria**: Inter — aplicada en textos extensos, formularios y componentes del dashboard, garantizando legibilidad en distintos tamaños de pantalla.
+
+
+**Jerarquía tipográfica:**
+- H1 (32–40 px, Bold): títulos hero del landing.
+- H2 (24–28 px, SemiBold): subtítulos de secciones.
+- Body (16 px, Regular): descripciones o párrafos.
+- Small/Caption (12–14 px): etiquetas, mensajes secundarios o enlaces.
+
+**Color de texto:** #212121 para títulos sobre fondo claro y blanco (#FFFFFF) sobre fondos azul-violáceos.
+
+**Alineación:** izquierda o centrada en landing; alineada a la izquierda en formularios y dashboard.
+
+---
+
+#### Colors
+La paleta cromática combina azules tecnológicos y verdes de bienestar, contrastados con fondos neutros
+
+| Tipo | Nombre | Hex | Significado |
+|------|---------|-----|-------------|
+| Primario | Azul PetLink | `#1E88E5` | Confianza, tecnología, conexión |
+| Secundario | Verde Vital | `#4CAF50` | Salud, naturaleza, vitalidad |
+| Acento | Amarillo Cálido | `#FFCA28` | Notificaciones, energía positiva |
+| Gradiente Hero | Azul-violeta | `linear-gradient(135°, #5A5AF8 0%, #7B61FF 100%)` | Fondo principal del landing |
+| Fondo neutro | Gris muy claro | `#F5F6FA` | Limpieza visual y contraste |
+| Texto base | Gris oscuro | `#212121` | Alta legibilidad |
+
+> Todos los colores cumplen contraste **AA (WCAG 2.1)** para accesibilidad.
+
+---
+
+#### Spacing
+El sistema visual se construye sobre una **grilla modular de 8 px**, asegurando coherencia entre pantallas.
+
+- Márgenes y paddings en múltiplos de 8 px (8, 16, 24, 32).  
+- Botones e inputs con padding interno de 12–16 px.  
+- Espaciado vertical entre secciones de 32–48 px.  
+- Uso de “white space” para reforzar jerarquías y evitar saturación.
+
+---
+
+#### Illustrations & Imagery
+Las ilustraciones son **planas, de contorno suave y colores pastel**, representando mascotas felices y tecnología no invasiva.  
+Se privilegian imágenes vectoriales (SVG) para mantener nitidez en todas las resoluciones.  
+La estética busca inspirar **calma, seguridad y ternura**, alineada con el propósito del sistema.
+
+---
+
+#### Tone & Communication
+El tono general de PetLink combina **profesionalismo técnico** con **calidez emocional**.
+
+| Dimensión | Elección | Descripción |
+|------------|-----------|-------------|
+| Divertido / Serio | 🟩 **Equilibrado hacia serio** | Transmite confianza sin rigidez |
+| Formal / Casual | 🟩 **Casual controlado** | Lenguaje natural y cercano |
+| Respetuoso / Irreverente | 🟩 **Respetuoso** | Mantiene empatía y cortesía |
+| Entusiasta / Sereno | 🟩 **Sereno con empatía** | Inspira tranquilidad y cuidado |
+
+---
+
+#### Design Principles
+1. **Empatía visual:** el diseño refleja el vínculo humano-animal con tonos suaves e iconografía amable.  
+2. **Claridad funcional:** prioriza comprensión inmediata y mínima fricción en tareas.  
+3. **Consistencia:** uso uniforme de colores, tipografías y espaciamiento entre módulos web y app.  
+4. **Accesibilidad:** contraste, tamaño de texto y estructura semántica cumplen buenas prácticas de UX.  
+5. **Simplicidad emocional:** cada elemento visual busca comunicar calma y fiabilidad, no saturación técnica.
+
+
 ### 5.1.2. Web, Mobile and IoT Devices Style Guidelines
+Esta guía define los estándares visuales y de interacción que adopta PetLink en su ecosistema digital, abarcando su versión web, la aplicación móvil y la interfaz IoT.  
+Las decisiones visuales se basan en un diseño limpio, profesional y emocionalmente cercano, con predominio de tonos azules, tipografía redondeada y un lenguaje visual accesible, inspirado en las pautas de Material Design 3 y Human Interface Guidelines.
+
+---
+
+#### Web Interface Style (Landing y App Web)
+
+##### Diseño general
+La interfaz web de PetLink comunica confianza, bienestar y tecnología a través de un estilo minimalista con acentos cálidos y elementos ilustrativos que humanizan la tecnología.  
+Se busca que tanto el usuario veterinario como el propietario de mascotas perciban una experiencia **segura, moderna y amable**.
+
+**Principios aplicados:**
+1. **Claridad visual:** estructura jerárquica clara, con títulos grandes y textos legibles.  
+2. **Consistencia:** uso recurrente del mismo esquema de color y tipografía.  
+3. **Accesibilidad:** alto contraste, botones amplios y tipografía sans-serif.  
+4. **Empatía:** uso de ilustraciones amigables de mascotas para reforzar cercanía emocional.
+
+---
+
+##### Tipografía
+El sistema tipográfico combina dos familias de fuentes **sans-serif geométricas y legibles**, que comunican modernidad y cercanía.
+
+| Jerarquía | Fuente | Tamaño | Peso | Color |
+|------------|---------|--------|------|--------|
+| **H1** | *Poppins Bold* | 48–56 px | 700 | `#FFFFFF` o `#1E1E1E` |
+| **H2** | *Poppins SemiBold* | 32–40 px | 600 | `#212121` |
+| **Body** | *Inter Regular* | 16 px | 400 | `#424242` |
+| **Small/Labels** | *Inter Regular* | 12–14 px | 400 | `#616161` |
+
+**Ejemplo visual:**  
+- Landing: “Cuida a tu mascota con tecnología inteligente” → **Poppins Bold**, 56 px, color blanco sobre gradiente.  
+- Subtítulo: “Monitorea en tiempo real los signos vitales...” → **Inter Regular**, 16 px, gris claro.  
+- Botón “Iniciar sesión” → *Poppins SemiBold*, 14 px, blanco sobre azul.
+
+---
+
+##### Colores
+La paleta cromática combina azules tecnológicos, violetas suaves y tonos neutros, generando una atmósfera confiable y relajante.
+
+| Categoría | Color | Hex | Uso |
+|------------|-------|-----|-----|
+| **Primario** | Azul PetLink | `#1E88E5` | Botones principales, header de app |
+| **Secundario** | Azul violáceo | `#5A5AF8` → `#7B61FF` | Fondo principal del landing (gradiente) |
+| **Acento** | Verde Vital | `#4CAF50` | Enlaces activos o confirmaciones |
+| **Resaltado** | Naranja Suave | `#FF8A65` | Botones de acción secundaria o estados alternativos |
+| **Texto Base** | Gris Oscuro | `#212121` | Cuerpo de texto |
+| **Neutros** | Gris Claro | `#F5F6FA` | Fondos y formularios |
+| **Error/Warning** | Rojo | `#E53935` | Alertas o validaciones |
+
+> Todos los colores mantienen contraste mínimo **4.5:1** según WCAG 2.1 AA.
+
+---
+
+##### Botones y elementos interactivos
+
+**Botones principales (“Primarios”):**
+- Fondo: Azul `#1E88E5`
+- Texto: Blanco `#FFFFFF`
+- Radio de borde: 12 px  
+- Hover: Azul más oscuro `#1565C0`
+- Tipografía: *Poppins SemiBold* 14 px  
+- Sombra: `0 2px 6px rgba(0,0,0,0.1)`
+
+**Botones secundarios:**
+- Fondo blanco, borde azul `#1E88E5`, texto azul.
+- Hover: fondo azul translúcido 15%.
+
+**Botones alternativos o de acción rápida:**
+- Fondo naranja `#FF8A65`, texto blanco.  
+- Usados en acciones destacadas o emergentes (ej. “Crear cuenta”).
+
+---
+
+##### Inputs y formularios
+Los formularios priorizan la limpieza visual y la retroalimentación clara.
+
+| Estado | Estilo |
+|--------|--------|
+| **Normal** | Fondo blanco, borde gris `#E0E0E0` |
+| **Focus** | Borde azul `#1E88E5`, sombra leve |
+| **Error** | Borde rojo `#E53935`, texto auxiliar rojo 12 px |
+| **Disabled** | Fondo gris `#F5F5F5`, texto #9E9E9E |
+
+**Ejemplo:**  
+Formulario de inicio de sesión con campos de correo y contraseña, etiquetas flotantes, y botones de inicio rápido (Google/Microsoft).
+
+---
+
+##### Navegación
+**Barra superior (Navbar):**
+- Fondo blanco con sombra sutil.  
+- Logo “PetLink” en azul `#1E88E5`.  
+- Enlaces de navegación en gris oscuro `#424242`, cambio a azul en hover.  
+- Botón “Iniciar sesión” → Azul sólido con texto blanco.  
+
+**Dashboard (Web interna):**
+- Navbar azul `#1E88E5` con texto blanco.  
+- Distribución horizontal con secciones “Inicio”, “Mascotas”, “Historias Clínicas”, etc.  
+
+---
+
+##### Imágenes e ilustraciones
+- Estilo **flat illustration**: líneas suaves, sin contornos duros.  
+- Personajes (mascotas) con gestos positivos y paleta pastel.  
+- Fondos neutros que contrastan con figuras cálidas.  
+- Uso en secciones clave del landing para comunicar empatía y accesibilidad.
+
+---
+
+#### Mobile Interface Style
+
+La versión móvil adapta los mismos elementos visuales a un entorno táctil.
+
+- **Estructura:** navegación inferior (bottom bar) con íconos claros y nombres cortos.  
+- **Botones:** ocupan todo el ancho, con radio 20–24 px.  
+- **Tipografía:** incrementa ligeramente a 18 px en títulos y 16 px en cuerpo.  
+- **Feedback:** microanimaciones al presionar botones y confirmaciones mediante *snackbars*.  
+- **Color predominante:** azul primario `#1E88E5`, blanco y gris claro para contraste.  
+
+Ejemplo:  
+- “Registrar mascota” → Botón flotante azul circular (FAB) con ícono de “+”.  
+- Alertas (salud o conexión IoT) → tarjetas con borde de color verde o amarillo según severidad.
+
+---
+
+#### IoT Interface Style
+
+El diseño para los **dispositivos IoT (collar y módulo de monitoreo)** se centra en **simplicidad visual y legibilidad inmediata**.
+
+##### Collar inteligente
+- Pantalla monocromática o de bajo color.  
+- Indicadores minimalistas: ícono de conexión, batería, frecuencia cardíaca.  
+- Luz LED:
+  - Azul: conexión estable  
+  - Rojo: batería baja  
+  - Verde: sincronización activa  
+
+##### Dashboard veterinario IoT
+- Interfaz sincronizada con los dispositivos.  
+- Gráficos circulares y barras lineales (estilo Material Design).  
+- Colores de estado:
+  - Verde → Normal  
+  - Amarillo → Advertencia  
+  - Rojo → Alerta  
+- Actualización automática cada 5 segundos.  
+
+---
+
+#### Principios de diseño responsive
+
+1. **Consistencia visual:** mismos colores, tipografías y estilos en todas las plataformas.  
+2. **Diseño adaptativo:** componentes fluidos que se reorganizan según ancho de pantalla.  
+3. **Accesibilidad:** contraste adecuado, textos escalables y zonas táctiles amplias.  
+4. **Rendimiento:** uso de SVG, lazy loading de imágenes y optimización de carga.  
+5. **Empatía visual:** estética calmada y comunicación clara para reducir estrés en usuarios.
+
+---
+
+#### Referencias visuales
+
+- [Material Design 3 – Components](https://m3.material.io/components)  
+- [IBM Carbon Design System – Responsive Grid](https://carbondesignsystem.com/guidelines/2x-grid/overview/)  
+- [Google Fonts – Poppins / Inter](https://fonts.google.com/)  
+
+> Esta guía consolida los lineamientos visuales reales de la interfaz actual de PetLink, asegurando coherencia entre el diseño web, móvil e IoT.
+
 ## 5.2. Information Architecture
 ### 5.2.1. Organization Systems
+El sistema de organización de PetLink combina un **modelo jerárquico y temático** con una estructura **orientada a tareas**, para facilitar la gestión y consulta de información veterinaria.
+
+**Modelo jerárquico principal:**
+1. **Landing Page:** presentación general del producto y descarga de la app.
+2. **App Web / Dashboard:** módulo principal para usuarios autenticados.
+3. **Módulos funcionales:**
+   - **Mascotas:** registro, historial y seguimiento clínico.
+   - **Historias Clínicas:** fichas médicas con diagnóstico, tratamientos y evolución.
+   - **Tratamientos:** programación, control y notificación de dosis.
+   - **Monitoreo IoT:** visualización de datos en tiempo real desde los collares inteligentes.
+   - **Usuarios:** administración de perfiles, veterinarios y dueños.
+   - **Dashboard:** resumen general y métricas de estado.
+   - **Perfil:** configuración de cuenta y preferencias.
+
+**Principio de organización:**  
+- **Por usuario y función.** Cada vista se construye según las necesidades específicas del rol (veterinario o dueño).
+- **Escaneabilidad.** Las páginas utilizan títulos y secciones cortas con jerarquía visual clara (H1 > H2 > H3).  
+- **Consistencia semántica.** Cada módulo mantiene el mismo patrón visual y de flujo de información.
+
+---
+
 ### 5.2.2. Labeling Systems
+El sistema de etiquetado define cómo se nombran y presentan los elementos de navegación y contenido dentro de la plataforma, garantizando **claridad, coherencia lingüística y orientación al usuario**.
+
+**Principios aplicados:**
+- **Lenguaje natural y empático:** las etiquetas se formulan de manera sencilla y directa (“Monitoreo IoT”, “Historial Médico”, “Agregar Mascota”).  
+- **Consistencia lingüística:** todos los nombres usan sustantivos o verbos en infinitivo según la acción (“Iniciar sesión”, “Registrar mascota”).  
+- **Evita tecnicismos:** se prioriza la comprensión general por parte de usuarios no técnicos.  
+- **Multiplataforma coherente:** los mismos términos se mantienen en la app móvil, la web y el dashboard.
+
+---
+
 ### 5.2.3. Searching Systems
+PetLink integra un sistema de búsqueda contextual y predictiva enfocado en **eficiencia y relevancia**, facilitando el acceso a información médica o registros específicos.
+
+**Características:**
+- **Búsqueda por nombre o ID de mascota.**  
+- **Filtrado dinámico:** permite segmentar por especie, edad, veterinario asignado o estado de tratamiento.  
+- **Autocomplete inteligente:** sugiere resultados mientras el usuario escribe.  
+- **Normalización de datos:** ignora mayúsculas/minúsculas y acentos.  
+- **Indexación semántica:** prioriza los resultados más recientes o frecuentemente consultados.  
+
+**Ejemplo de uso:**
+> El usuario escribe “Luna” → el sistema sugiere “Luna – paciente activo (IoT conectado)” o “Luna – historial clínico”.
+
+**Beneficios:**
+- Disminuye el tiempo de búsqueda en más del 50% respecto a la navegación manual.  
+- Favorece la exploración guiada mediante autocompletado y filtros visibles. 
+
 ### 5.2.4. SEO Tags and Meta Tags
+La plataforma implementa un conjunto de **meta etiquetas semánticas y de optimización SEO**, especialmente en la versión pública (Landing Page), para mejorar la visibilidad en buscadores y garantizar un correcto pre-renderizado en redes sociales.
+
+**Ejemplo de configuración de metadatos (HTML):**
+
+```html
+<!-- Meta Tags Generales -->
+<title>PetLink | Monitoreo IoT para la salud de tu mascota</title>
+<meta name="description" content="Plataforma IoT que monitorea en tiempo real los signos vitales de tu mascota. Confianza para veterinarios, tranquilidad para dueños.">
+<meta name="keywords" content="PetLink, IoT, veterinaria, salud animal, mascotas, monitoreo en tiempo real, bienestar animal">
+<meta name="author" content="Equipo PetLink">
+
+<!-- SEO Técnico -->
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://petlink.pe">
+
+<!-- Open Graph / Social -->
+<meta property="og:title" content="PetLink | Tecnología IoT para tu mascota">
+<meta property="og:description" content="Cuida a tu mascota con monitoreo inteligente y apoyo veterinario profesional.">
+<meta property="og:image" content="https://petlink.pe/assets/preview.png">
+<meta property="og:url" content="https://petlink.pe">
+<meta property="og:type" content="website">
+
+<!-- Favicon -->
+<link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+```
+**Decisiones SEO clave:**
+- Uso de títulos descriptivos que incluyen palabras clave relevantes (“IoT”, “mascotas”, “veterinaria”).
+- Meta descripción redactada en tono empático y orientado al beneficio del usuario.
+- Inclusión de Open Graph y Twitter Cards para mejorar el aspecto visual en redes.
+- URLs limpias, estructuradas y semánticas (`/monitoreo`, `/historial`, `/mascotas`).
+
 ### 5.2.5. Navigation Systems
+El sistema de navegación de **PetLink** está diseñado para garantizar **fluidez, orientación y accesibilidad** en todos los dispositivos.  
+Su estructura favorece la comprensión inmediata del contexto y minimiza la carga cognitiva del usuario, manteniendo la coherencia visual entre la versión web, móvil y dashboard veterinario.
+
+---
+
+#### Estructura principal
+
+- **Barra superior (Web):** navegación horizontal con logotipo y enlaces visibles (`Inicio`, `Mascotas`, `Tratamientos`, `Dashboard`, `Perfil`).  
+- **Menú desplegable móvil:** reorganiza los mismos enlaces en una vista tipo *hamburguesa*, optimizada para pantallas menores a 768 px.  
+- **Breadcrumbs (rastro de navegación):** visibles en los módulos internos del dashboard para indicar jerarquía, por ejemplo:  
+  > `Inicio > Mascotas > Luna`  
+- **Footer (Landing):** incluye accesos secundarios a `Términos y condiciones`, `Política de privacidad` y redes sociales institucionales.
+
+---
+
+#### Jerarquía de navegación
+
+1. **Global Navigation:** disponible en todas las vistas principales del sistema.  
+2. **Local Navigation:** contextual dentro de cada módulo (por ejemplo, dentro de *Mascotas*, aparecen las opciones *Historial* y *Tratamientos*).  
+3. **Utility Navigation:** acceso rápido a herramientas comunes como *Perfil*, *Cerrar sesión* y *Centro de ayuda*.
+
+---
+
+#### Patrones de interacción
+
+- **Resaltado activo:** el enlace actual se muestra en color azul `#1E88E5` con subrayado, ayudando al usuario a reconocer su ubicación.  
+- **Animaciones suaves:** transición de 150 ms en hover o cambio de sección para generar una experiencia fluida.  
+- **Sticky Header:** la barra superior permanece fija durante el desplazamiento vertical, garantizando accesibilidad constante.  
+- **Responsive Adaptation:** a partir de 768 px de ancho, el menú principal se colapsa a un ícono de navegación lateral (*hamburger menu*).
+
+
 ## 5.3. Landing Page UI Design
 ### 5.3.1. Landing Page Wireframe
 En esta sección se presenta el wireframe de la landing page de PetWatch, diseñado para ofrecer una experiencia de usuario intuitiva y atractiva. El wireframe incluye los siguientes elementos clave:
