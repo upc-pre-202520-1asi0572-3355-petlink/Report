@@ -3063,10 +3063,84 @@ En esta sección se presenta el mock-up de la landing page de PetWatch, diseñad
 Enlace a landing page: [Landing Page PetWatch](https://upc-pre-202520-1asi0572-3355-petlink.github.io/landing-page)
 
 ## 5.4. Applications UX/UI Design
+En este segmento se presentará el proceso de diseño de la aplicación web, desde los wireframes hasta los mock-ups. Se tuvo en cuenta las guías de estilo y arquitectura de información previamente explicadas.
+
 ### 5.4.1. Applications Wireframes
+En esta sección se presentarán los wireframes de la aplicación web. Estos son los esquemas de baja fidelidad, un blueprint para saber cómo vamos a estructurar la aplicación web antes de continuar con las guías de estilo e imágenes.
+
+**Iniciar Sesión / Registro**
+<img src="Capitulo 5/appuxui/wireframes/login-wireframe.png" alt="Login WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+<img src="Capitulo 5/appuxui/wireframes/signup-wireframe.png" alt="SignUp WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**Home**
+<img src="Capitulo 5/appuxui/wireframes/home-wireframe.png" alt="Home WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+<img src="Capitulo 5/appuxui/wireframes/bar-home-wireframe.png" alt="Bar Home WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**Pet List**
+<img src="Capitulo 5/appuxui/wireframes/pet-list1-wireframe.png" alt="Pet List 1 WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+<img src="Capitulo 5/appuxui/wireframes/pet-list2-wireframe.png" alt="Pet List 2 WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+<img src="Capitulo 5/appuxui/wireframes/pet-list3-wireframe.png" alt="Pet List 2 WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**Medical History**
+<img src="Capitulo 5/appuxui/wireframes/medical-history1-wireframe.png" alt="Pet Medical History 1 WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+<img src="Capitulo 5/appuxui/wireframes/medical-history2-wireframe.png" alt="Pet Medical History 2 WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**Treatments**
+<img src="Capitulo 5/appuxui/wireframes/treatments1-wireframe.png" alt="Treatments 1 WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+<img src="Capitulo 5/appuxui/wireframes/treatments2-wireframe.png" alt="Treatments 2 WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**Monitoring**
+<img src="Capitulo 5/appuxui/wireframes/monitoring-wireframe.png" alt="Monitoring WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**Dashboard**
+<img src="Capitulo 5/appuxui/wireframes/dashboard-wireframe.png" alt="Dashboard WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**User Management**
+<img src="Capitulo 5/appuxui/wireframes/user-management-wireframe.png" alt="User Management WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**Profile**
+<img src="Capitulo 5/appuxui/wireframes/profile-wireframe.png" alt="Profile WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
 ### 5.4.2. Applications Wireflow Diagrams
-### 5.4.3. Applications Mock-ups
+
+
+### 5.4.3. Applications Mock-ups 
+**Iniciar Sesión / Registro**
+<img src="Capitulo 5/appuxui/mockups/login-mockup.png" alt="Login Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+<img src="Capitulo 5/appuxui/mockups/signup-mockup.png" alt="SignUp Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**Home**
+<img src="Capitulo 5/appuxui/mockups/home-mockup.png" alt="Home Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+<img src="Capitulo 5/appuxui/mockups/bar-home-mockup.png" alt="Bar Home Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**Pet List**
+<img src="Capitulo 5/appuxui/mockups/pet-list1-mockup.png" alt="Pet List 1 Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+<img src="Capitulo 5/appuxui/mockups/pet-list2-mockup.png" alt="Pet List 2 Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+<img src="Capitulo 5/appuxui/mockups/pet-list3-mockup.png" alt="Pet List 2 Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**Medical History**
+<img src="Capitulo 5/appuxui/mockups/medical-history1-mockup.png" alt="Pet Medical History 1 Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+<img src="Capitulo 5/appuxui/mockups/medical-history2-mockup.png" alt="Pet Medical History 2 Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**Treatments**
+<img src="Capitulo 5/appuxui/mockups/treatments1-mockup.png" alt="Treatments 1 Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+<img src="Capitulo 5/appuxui/mockups/treatments2-mockup.png" alt="Treatments 2 Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**Monitoring**
+<img src="Capitulo 5/appuxui/mockups/monitoring-mockup.png" alt="Monitoring Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**Dashboard**
+<img src="Capitulo 5/appuxui/mockups/dashboard-mockup.png" alt="Dashboard Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**User Management**
+<img src="Capitulo 5/appuxui/mockups/user-management-mockup.png" alt="User Management Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**Profile**
+<img src="Capitulo 5/appuxui/mockups/profile-mockup.png" alt="Profile Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
 ### 5.4.4. Applications User Flow Diagrams
+
+
 ## 5.5. Applications Prototyping
 
 # Capítulo VI: Product Implementation, Validation & Deployment
