@@ -2667,9 +2667,7 @@ El logotipo incorpora un símbolo de huella y la silueta de un ojo, representand
 
 La tipografía utilizada en PetLink refuerza la claridad, modernidad y cercanía del producto.
 
-**Fuente principal**: Poppins — empleada para encabezados, botones y textos destacados. Su geometría redondeada proyecta confianza y suavidad.
-
-**Fuente secundaria**: Inter — aplicada en textos extensos, formularios y componentes del dashboard, garantizando legibilidad en distintos tamaños de pantalla.
+**Fuente principal**: Inter — empleada para encabezados, botones y textos destacados. También es aspectos secundarios cómo en textos extensos, formularios y componentes del dashboard, garantizando legibilidad en distintos tamaños de pantalla.
 
 
 **Jerarquía tipográfica:**
