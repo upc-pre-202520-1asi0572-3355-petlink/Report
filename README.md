@@ -3184,6 +3184,87 @@ En esta sección se mostrarán los posibles caminos que puede seguir el usuario 
 
 ## 5.5. Applications Prototyping
 
+En esta sección se presentan los prototipos de interfaz de usuario (UI) desarrollados para DebtGo, tanto en su versión Desktop como en Mobile Web Browser, los cuales incluyen simulación de interacción y navegación de acuerdo con los User Flow Diagrams definidos en etapas previas del proyecto.
+
+El propósito de esta fase es demostrar cómo las decisiones de diseño e interacción se alinean con la arquitectura de información del sistema, garantizando una experiencia fluida, coherente y orientada a las necesidades del usuario final —en este caso, los emprendedores y consultores financieros que utilizan DebtGo para gestionar sus deudas, presupuestos y asesorías.
+
+Las decisiones de interacción se basaron en criterios de usabilidad, jerarquía visual, accesibilidad y consistencia, asegurando que cada flujo de navegación represente de manera fiel las funcionalidades clave del sistema: registro de usuarios, búsqueda y comparación de servicios financieros, gestión de solicitudes de asesoría, seguimiento de pagos y visualización de métricas financieras.
+
+Asimismo, se evidencia la relación entre el sistema de navegación y los tipos de interacción seleccionados **(botones, formularios dinámicos, notificaciones contextuales y menús responsivos)**, que permiten mantener una experiencia intuitiva y consistente entre dispositivos.
+
+## INICIO DE SESIÓN Y RECUPERAR CONTRASEÑA
+
+Pantalla de autenticación que permite al usuario ingresar con su cuenta PetLink o mediante Google/Microsoft. También ofrece la opción de recordar sesión y recuperar contraseña.
+
+<img src="Capitulo 5/inicio-sesion.PNG" alt="Inicio-Sesion" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img> <br> <br>
+<img src="Capitulo 5/recuperar-contraseña.PNG" alt="Recuperar-Contraseña" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img> <br> <br>
+
+
+## REGISTRARSE
+
+Formulario donde el usuario puede registrar una nueva mascota ingresando su nombre, especie, edad y estado de salud. El botón *“Guardar Mascota”* almacena la información en la base de datos.
+
+<img src="Capitulo 5/registrar.PNG" alt="Registrar" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img> <br> <br>
+
+
+## PANTALLA DE INICIO
+
+Muestra el mensaje de bienvenida al usuario una vez que inicia sesión. Desde aquí se puede registrar una nueva mascota, alternar entre modo claro/oscuro y ver el saludo personalizado con el nombre del usuario. Tiene una gestión fácil de mascotas, monitoreo de salud, seguridad de datos, notificaciones, dashboard veterinario e integración con dispositivos IoT. Contiene un formulario donde el usuario puede registrar una nueva mascota ingresando su nombre, especie, edad y estado de salud. El botón *“Guardar Mascota”* almacena la información en la base de datos.
+
+<img src="Capitulo 5/bienvenida1.PNG" alt="Bienvenida1" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img> <br> <br>
+<img src="Capitulo 5/bienvenida2.PNG" alt="Bienvenida2" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img> <br> <br>
+<img src="Capitulo 5/bienvenida3.PNG" alt="Bienvenida3" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img> <br> <br>
+
+
+## LISTA DE MASCOTAS
+
+Tabla que muestra todas las mascotas registradas con sus datos principales (nombre, especie, edad y estado de salud). Permite editar o eliminar registros fácilmente.
+
+<img src="Capitulo 5/mascota.PNG" alt="Mascota" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img> <br> <br>
+
+
+## HISTORIAS CLÍNICAS 
+
+Vista para registrar y consultar el historial médico de las mascotas. Incluye campos como diagnóstico, fecha y observaciones, además de una tabla con los registros existentes.
+
+<img src="Capitulo 5/historial-clinico.PNG" alt="Historial-Clinico" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img> <br> <br>
+
+
+## TRATAMIENTOS
+
+Permite registrar, consultar y dar seguimiento a los tratamientos médicos de cada mascota **(medicamentos, terapias o vacunas)**. Muestra el estado actual de cada tratamiento y opciones para suspender, finalizar o eliminar.
+
+<img src="Capitulo 5/historial-clinico.PNG" alt="Historial-Clinico" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img> <br> <br>
+
+
+## MONITOREO IOT
+
+Panel de monitoreo en tiempo real que muestra signos vitales de mascotas internadas con dispositivos IoT activos. Incluye ritmo cardíaco, nivel de actividad, estado LED y opciones para visualizar gráficas.
+
+<img src="Capitulo 5/monitoreo-iot.PNG" alt="Historial-Clinico" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img> <br> <br>
+
+
+## DASHBOARD VETERINARIO
+
+Resumen visual del estado general de las mascotas monitorizadas. Presenta indicadores **(críticos, estables y alertas)**, un gráfico circular y la lista de pacientes en tiempo real para apoyar la toma de decisiones clínicas.
+
+<img src="Capitulo 5/dashboard.PNG" alt="Dashboard" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img> <br> <br>
+
+
+## USUARIOS
+
+Esta sección está destinada a la administración de usuarios dentro del sistema. Desde aquí, los administradores pueden registrar nuevos usuarios, asignar roles (como Veterinario, Técnico o Administrador), definir su estado (Activo/Inactivo) y realizar acciones de edición o eliminación. Facilita el control de accesos y permisos para un manejo ordenado y seguro de la plataforma.
+
+<img src="Capitulo 5/usuarios.PNG" alt="Usuarios" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img> <br> <br>
+
+
+## MI PERFIL
+
+En esta pantalla, el usuario puede consultar y actualizar su información personal, incluyendo nombre, correo, rol, estado y contraseña. Permite mantener los datos al día para garantizar seguridad de acceso y personalización del sistema, brindando control sobre la cuenta individual dentro de PetLink.
+
+<img src="Capitulo 5/perfil.PNG" alt="Perfil" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img> <br> <br>
+
+
 # Capítulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management.
