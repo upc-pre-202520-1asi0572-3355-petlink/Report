@@ -3089,9 +3089,6 @@ En esta sección se presentarán los wireframes de la aplicación web. Estos son
 <img src="Capitulo 5/appuxui/wireframes/treatments1-wireframe.png" alt="Treatments 1 WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
 <img src="Capitulo 5/appuxui/wireframes/treatments2-wireframe.png" alt="Treatments 2 WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
 
-**Monitoring**
-<img src="Capitulo 5/appuxui/wireframes/monitoring-wireframe.png" alt="Monitoring WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
-
 **Dashboard**
 <img src="Capitulo 5/appuxui/wireframes/dashboard-wireframe.png" alt="Dashboard WireFrame" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
 
