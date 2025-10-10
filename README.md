@@ -3103,8 +3103,30 @@ En esta sección se presentarán los wireframes de la aplicación web. Estos son
 
 ### 5.4.2. Applications Wireflow Diagrams
 
+**User Goal:** Como dueño de una mascota, quiero poder registrarme, iniciar sesión y recuperar mi contraseña para acceder de forma segura a la aplicación web.
+<img src="Capitulo 5/appuxui/wireframes/user-flow-1.png" alt="User Flow 1" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
 
-### 5.4.3. Applications Mock-ups 
+**User Goal:** Como dueño de una mascota, quiero ver el perfil de mi mascota (datos básicos, vacunas, alergias) para validar que su información esté completa.
+<img src="Capitulo 5/appuxui/wireframes/user-flow-2.png" alt="User Flow 2" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**User Goal:** Como dueño de una mascota, quiero marcar dosis como tomadas/omitidas para llevar control del tratamiento y que el sistema me recuerde pendientes.
+<img src="Capitulo 5/appuxui/wireframes/user-flow-3.png" alt="User Flow 3" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**User Goal:** Como dueño de una mascota, quiero monitorizar en tiempo real signos relevantes cuando mi mascota esté internada.
+<img src="Capitulo 5/appuxui/wireframes/user-flow-4.png" alt="User Flow 4" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**User Goal:** Como dueño de una mascota, quiero ver la evolución del internamiento para entender el progreso de mi mascota.
+<img src="Capitulo 5/appuxui/wireframes/user-flow-5.png" alt="User Flow 5" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**User Goal:** Como dueño de una mascota, quiero actualizar los datos de mi perfil para mantener mi cuenta al día.
+<img src="Capitulo 5/appuxui/wireframes/user-flow-6.png" alt="User Flow 6" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+### 5.4.3. Applications Mock-ups
+
+En esta sección se presentan los mock-ups de la aplicación web. Es decir, a base de los wireframes vistos anteriormente se ha creado una esquematización de alta fidelidad, acorde a las guías de estilo, arquitectura de la información y componentes mencionados en secciones anteriores. 
+
+Enlace al Figma: https://www.figma.com/design/QPNvZJ6zslp5gUEoxnlWwU/Petlink?node-id=1-2&t=KDTSD6RmhXn9rXIU-1
+
 **Iniciar Sesión / Registro**
 <img src="Capitulo 5/appuxui/mockups/login-mockup.png" alt="Login Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
 <img src="Capitulo 5/appuxui/mockups/signup-mockup.png" alt="SignUp Mockup" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
@@ -3140,6 +3162,25 @@ En esta sección se presentarán los wireframes de la aplicación web. Estos son
 
 ### 5.4.4. Applications User Flow Diagrams
 
+En esta sección se mostrarán los posibles caminos que puede seguir el usuario al momento de navegar por la aplicación web. De esta forma, se podrá tener una base de cómo los usuarios navegarán en la aplicación.
+
+**User Goal:** Como dueño de una mascota, quiero poder registrarme, iniciar sesión y recuperar mi contraseña para acceder de forma segura a la aplicación web.
+<img src="Capitulo 5/appuxui/mockups/user-flow-1-m.png" alt="User Flow 1" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**User Goal:** Como dueño de una mascota, quiero ver el perfil de mi mascota (datos básicos, vacunas, alergias) para validar que su información esté completa.
+<img src="Capitulo 5/appuxui/mockups/user-flow-2-m.png" alt="User Flow 2" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**User Goal:** Como dueño de una mascota, quiero marcar dosis como tomadas/omitidas para llevar control del tratamiento y que el sistema me recuerde pendientes.
+<img src="Capitulo 5/appuxui/mockups/user-flow-3-m.png" alt="User Flow 3" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**User Goal:** Como dueño de una mascota, quiero monitorizar en tiempo real signos relevantes cuando mi mascota esté internada.
+<img src="Capitulo 5/appuxui/mockups/user-flow-4-m.png" alt="User Flow 4" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**User Goal:** Como dueño de una mascota, quiero ver la evolución del internamiento para entender el progreso de mi mascota.
+<img src="Capitulo 5/appuxui/mockups/user-flow-5-m.png" alt="User Flow 5" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
+
+**User Goal:** Como dueño de una mascota, quiero actualizar los datos de mi perfil para mantener mi cuenta al día.
+<img src="Capitulo 5/appuxui/mockups/user-flow-6-m.png" alt="User Flow 6" style="display: block; margin: 0 auto; max-width: 100%; height: auto;"></img>
 
 ## 5.5. Applications Prototyping
 
