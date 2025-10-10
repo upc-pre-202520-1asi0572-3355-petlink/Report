@@ -148,8 +148,8 @@ A continuación, se detalla el proceso de elaboración del informe para cada ent
 - Todos los miembros del equipo contribuyeron en la redacción del Informe. Se dividió en secciones específicas para cada capítulo, lo que permitió un mayor avance y equidad en el desarrollo del informe.
 
 <div align="center">
-  <img align="center" src="/falta" style="width:300px; margin: 10px;">
-  <img align="center" src="/falta" style="width:300px; margin: 10px;">
+    <img align="center" src="Capítulo 1/contributors-tp1.PNG" style="width:300px; margin: 10px;">
+  <img align="center" src="/Capítulo 1/pulse.PNG" style="width:300px; margin: 10px;">
 </div>
 
 # Contenido 
