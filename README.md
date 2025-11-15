@@ -3836,17 +3836,172 @@ Para el Sprint 1, se ha realizado algunas pruebas usando BDD (Behavior Driven De
 |Rondon Añaños, Cristopher|Desarrollo del Capítulo V: Solution UI/UX Design, del 5.2.4 al 5.3.2 del documento en formato markdown. Incluyendo diseño del landing page.|
 |Mayurí Armas, Jose Carlo|Desarrollo del Capítulo V: Solution UI/UX Design, del 5.2.4 al 5.3.2 del documento en formato markdown. Incluyendo web application.|
 
-### 6.2.2 Sprint 2
+#### 6.2.2. Sprint 2
 
-#### 6.2.2.1 Sprint Planning 2
+#### 6.2.2.1. Sprint Planning 2
 
 En esta parte mostramos las tareas que se realizaron en este sprint.
 
-<di align="center">
-    <img src="./Capitulo 6/PetWatch-Trello2.png">
-</div><br>
+<div align="center">
+  <img align="center" src="./Capitulo 6/PetWatch-Trello.png">
+</div><br><br>
 
-#### 6.2.2.2 Aspect Leaders and Collaborators
+<table border="1px" align="center">
+      <tr>
+          <th>Sprint #</th>
+          <th>Sprint 1</th>
+      </tr>
+      <tr> 
+          <td colspan="2" style="text-align: center;">Sprint Planning Background</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Date</td>
+          <td>02-10-2025</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Time</td>
+          <td>4:40 pm - 6:00 pm</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Location</td>
+          <td>Canal de Voz del Meet</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Prepared By</td>
+          <td>Pilares Pocohuanca, Maria</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Attendees (to planning meeting)</td>
+          <td>
+              Belleza Tello, Paolo Eduardo<br>
+              Fernandez Alva, María Fernanda<br>
+              Pilares Pocohuanca, Maria<br>
+              Chávarri Zarzosa, Daniel Jhared<br>
+              Góngora Sánchez, Marco Antonio<br>
+              Rondon Añaños, Cristopher<br>
+              Mayurí Armas, Jose Carlo
+          </td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Sprint 0 Review Summary</td>
+          <td>Debido a que es nuestro primer sprint de desarrollo, no existe un review summary del sprint.</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Sprint 0 Retrospective Summary</td>
+          <td>Debido a que es nuestro primer sprint de desarrollo, no existen planes de mejora.</td>
+      </tr>
+      <tr> 
+          <td colspan="2" style="text-align: center;">Sprint Goal & User Stories</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Sprint 1 Goal</td>
+          <td>
+              El objetivo principal de este sprint es la creación de la landing page junto a la aplicación web de nuestro producto llamado PetWatch. Esperamos que estas páginas ofrezca una experiencia visualmente atractiva y   una información concisa, lo cual se validará con la interacción de los usuarios en cada parte.
+          </td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Sprint 1 Velocity</td>
+          <td>40</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Sum of Story Points</td>
+          <td>40</td>
+      </tr>
+    </table>
+
+   #### 6.2.2.2. Aspect Leaders and Collaborators
+
+   <table border="1" style="border-collapse: collapse; text-align: center;">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Elaboración del diseño y los estilos</th>
+    <th>Diagramas de flujo y mock-ups de la landing page</th>
+    <th>Diagramas de flujo y mock-ups de la aplicacin web</th>
+    <th>Elaboración de la aplicacion web</th>
+    <th>Elaboracion de la landing page</th>
+    <th>Despliegues de las aplicaciones</th>
+    <th>Informe del seguimiento del proyecto</th>
+  </tr>
+  <tr>
+    <td>Góngora Sánchez, Marco Antonio</td>
+    <td>m4rcous</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>mariapilares</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Belleza Tello, Paolo Eduardo</td>
+    <td>PaoloBellezaTelloo</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Fernandez Alva, María Fernanda</td>
+    <td>MariaFernandaFernandezAlva</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Chávarri Zarzosa, Daniel Jhared</td>
+    <td>Daniel-10806</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Rondon Añaños, Cristopher</td>
+    <td>Cris200399</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Mayurí Armas, Jose Carlo</td>
+    <td>JoseArmas10</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
+
 #### 6.2.2.3 Sprint Backlog 2
 
 <table border="1" cellspacing="0" cellpadding="4">
