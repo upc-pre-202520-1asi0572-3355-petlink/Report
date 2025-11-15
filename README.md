@@ -4063,6 +4063,15 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 </table>
 
 #### 6.2.2.6 Execution Evidence for Sprint Review
+
+Durante el Sprint 2 se desarrollaron e integraron las funcionalidades esenciales para el usuario “Dueño de mascota” en la aplicación móvil. A continuación, se presenta la evidencia de su ejecución mediante capturas de pantalla.
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="./Capitulo 6/pw_inicio.jpeg" style="width: 200px;">
+    <img src="./Capitulo 6/pw_monitoring.jpeg" style="width: 200px;">
+    <img src="./Capitulo 6/pw_dashboard.jpeg" style="width: 200px;">
+</div><br>
+
 #### 6.2.2.7 Services Deployment Evidence for Sprint Review
 #### 6.2.2.8 Software Deployment Evidence for Sprint Review
 #### 6.2.2.9 Team Collaboration Insights during Sprint
