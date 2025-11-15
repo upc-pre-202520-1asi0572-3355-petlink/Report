@@ -3836,6 +3836,180 @@ Para el Sprint 1, se ha realizado algunas pruebas usando BDD (Behavior Driven De
 |Rondon Añaños, Cristopher|Desarrollo del Capítulo V: Solution UI/UX Design, del 5.2.4 al 5.3.2 del documento en formato markdown. Incluyendo diseño del landing page.|
 |Mayurí Armas, Jose Carlo|Desarrollo del Capítulo V: Solution UI/UX Design, del 5.2.4 al 5.3.2 del documento en formato markdown. Incluyendo web application.|
 
+### 6.2.2 Sprint 2
+#### 6.2.2.1 Sprint Planning 2
+#### 6.2.2.2 Aspect Leaders and Collaborators
+#### 6.2.2.3 Sprint Backlog 2
+
+<table border="1" cellspacing="0" cellpadding="4">
+  <tr>
+    <th style="text-align: center;"><b>Sprint #</b></th>
+    <th colspan="7" style="text-align: center;"><b>Sprint 2</b></th>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align: center;"><b>User Story</b></td>
+    <td colspan="6" style="text-align: center;"><b>Work-item / Task</b></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><b>ID</b></td>
+    <td style="text-align: center;"><b>Title</b></td>
+    <td style="text-align: center;"><b>ID</b></td>
+    <td style="text-align: center;"><b>Title</b></td>
+    <td style="text-align: center;"><b>Description</b></td>
+    <td style="text-align: center;"><b>Estimation (hours)</b></td>
+    <td style="text-align: center;"><b>Assigned To</b></td>
+    <td style="text-align: center;"><b>Status</b></td>
+  </tr>
+  <tr>
+    <td>US11</td>
+    <td>Historial Clínico</td>
+    <td>T11</td>
+    <td>Consulta de historia clínica</td>
+    <td>Visualiza todos los tratamientos y medicinas que su perro ha tenido hasta la fecha</td>
+    <td style="text-align: center;">4h</td>
+    <td>Chávarri, Daniel & Rondon, Cristopher</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+  <tr>
+    <td>US12</td>
+    <td>Visualizar los medicamentos de la mascota</td>
+    <td>T12</td>
+    <td>Consulta de tratamientos</td>
+    <td>Visualiza a que hora debe tomar sus medicamentos, asi como cuando es su próxima cita</td>
+    <td style="text-align: center;">4h</td>
+    <td>Chávarri, Daniel & Rondon, Cristopher</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+  <tr>
+    <td>US14</td>
+    <td>Gestionar a los usuarios</td>
+    <td>T13</td>
+    <td>Gestión de usuarios</td>
+    <td>Seguridad y control entre los usuarios que se registraron en PetWatch</td>
+    <td style="text-align: center;">3h</td>
+    <td>Chávarri, Daniel & Rondon, Cristopher</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+  <tr>
+    <td>US15</td>
+    <td>Actualización de datos personales</td>
+    <td>T14</td>
+    <td>Perfil de usuario</td>
+    <td>Implementacion del apartado de "Perfil" donde se puede actualizar el correo y la contraseña</td>
+    <td style="text-align: center;">3h</td>
+    <td>Chávarri, Daniel & Rondon, Cristopher</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+  <tr>
+    <td>US18</td>
+    <td>Visualización del estado actual de la mascota</td>
+    <td>T15</td>
+    <td>Evolución de mascota internada</td>
+    <td>Tener un registro de como va la salud de la mascota y sus cuidados.</td>
+    <td style="text-align: center;">5h</td>
+    <td>Chávarri, Daniel & Rondon, Cristopher</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+</table>
+
+#### 6.2.2.4 Development Evidence for Sprint Review
+
+ A continuación, se presenta una tabla con información de ejemplo sobre los repositorios y commits realizados durante el sprint:
+
+  **Link del repositorio de la App móvil:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/mobile-app](https://github.com/upc-pre-202520-1asi0572-3355-petlink/mobile-app)
+
+  **Link del repositorio de la Landing Page:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/landing-page](https://github.com/upc-pre-202520-1asi0572-3355-petlink/landing-page)
+
+  **Link del repositorio del Backend:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-backend](https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-backend)
+
+  <table>
+    <tr>
+     <td><strong>Repository</strong></td>
+     <td><strong>Branch</strong></td>
+     <td><strong>Commit Id</strong></td>
+     <td><strong>Commit Message</strong></td>
+     <td><strong>Commit Message Body</strong></td>
+     <td><strong>Commited on (Date)</strong></td>
+    </tr>
+    <tr>
+     <td>mobile-app</td>
+     <td>main</td>
+     <td>b969cca</td>
+     <td>feat: first commit</td>
+     <td>-</td>
+     <td>10/11/2025</td>
+    </tr>
+    <tr>
+     <td>mobile-app</td>
+     <td>main</td>
+     <td>65a525d</td>
+     <td>feat: limpieza de archivos</td>
+     <td>-</td>
+     <td>12/11/2025</td>
+    </tr>
+    <tr>
+     <td>mobile-app</td>
+     <td>main</td>
+     <td>29afd09</td>
+     <td>feat: add api arch</td>
+     <td>-</td>
+     <td>12/11/2025</td>
+    </tr>
+    <tr>
+     <td>landing-page</td>
+     <td>main</td>
+     <td>7c27fc9</td>
+     <td>code: change amount</td>
+     <td>-</td>
+     <td>13/11/2025</td>
+    </tr>
+    <tr>
+     <td>landing-page</td>
+     <td>main</td>
+     <td>46caebe</td>
+     <td>code: fix hero</td>
+     <td>-</td>
+     <td>13/11/2025</td>
+    </tr>
+    <tr>
+     <td>landing-page</td>
+     <td>main</td>
+     <td>306311f</td>
+     <td>feat: patch plans</td>
+     <td>-</td>
+     <td>13/11/2025</td>
+    </tr>
+    <tr>
+     <td>petlink-backend</td>
+     <td>main</td>
+     <td>db00019</td>
+     <td>feat: update datasource URL for PostgreSQL connection</td>
+     <td>-</td>
+     <td>13/11/2025</td>
+    </tr>
+    <tr>
+     <td>petlink-backend</td>
+     <td>main</td>
+     <td>adea4e6</td>
+     <td>feat: refactor database configuration to use env variables</td>
+     <td>-</td>
+     <td>13/11/2025</td>
+    </tr>
+  </table>
+
+
+#### 6.2.2.5 Testing Suite Evidence for Sprint Review
+#### 6.2.2.6 Execution Evidence for Sprint Review
+#### 6.2.2.7 Services Deployment Evidence for Sprint Review
+#### 6.2.2.8 Software Deployment Evidence for Sprint Review
+#### 6.2.2.9 Team Collaboration Insights during Sprint
+## 6.3 Validation Interviews
+### 6.3.1 Diseño de Entrevistas
+### 6.3.2 Registro de Entrevistas
+### 6.3.3 Evaluaciones según heurísticas
+## 6.3 Video About-the-product
+
+
    
 # Conclusiones
 
