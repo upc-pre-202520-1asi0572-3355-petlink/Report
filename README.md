@@ -4118,10 +4118,54 @@ A continuación, se diseñaron entrevistas dirigidas a ambos segmentos objetivos
 ### 6.3.2 Registro de Entrevistas
 
 
+
+
 ### 6.3.3 Evaluaciones según heurísticas
 
 
+**UX Heuristics & Principles Evaluation**
 
+*Usability – Inclusive Design – Information Architecture*
+
+CARRERA: Ingeniería de Software
+CURSO: Desarrollo de Soluciones IoT
+SECCIÓN: 3355
+PROFESOR: David Carlos Vera Olivera
+CLIENTE: Maria Fernanda Fernandez, Paolo Belleza, Maria Pilares, Daniel Chávarri, Marco Góngora, Cristopher Rondon, Jose Mayurí.
+
+---
+
+SITE o APP A EVALUAR
+
+*Nombre de App: PetWatch*
+
+Tareas a evaluar:
+- Creación de un usuario
+- Validación de las creaciones
+- Editar perfil de usuario
+- Creación de chequeo
+- Vista de reportes de los sistemas IoT
+- Agregar sistema IoT
+
+---
+
+ESCALA DE SEVERIDAD
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+Nivel 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo.
+Nivel 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release.
+Nivel 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.
+Nivel 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.
+
+---
+
+TABLA RESUMEN
+
+
+
+
+
+---
 
 
 ## 6.3 Video About-the-product
