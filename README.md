@@ -3837,7 +3837,15 @@ Para el Sprint 1, se ha realizado algunas pruebas usando BDD (Behavior Driven De
 |Mayurí Armas, Jose Carlo|Desarrollo del Capítulo V: Solution UI/UX Design, del 5.2.4 al 5.3.2 del documento en formato markdown. Incluyendo web application.|
 
 ### 6.2.2 Sprint 2
+
 #### 6.2.2.1 Sprint Planning 2
+
+En esta parte mostramos las tareas que se realizaron en este sprint.
+
+<di align="center">
+    <img src="./Capitulo 6/PetWatch-Trello2.png">
+</div><br>
+
 #### 6.2.2.2 Aspect Leaders and Collaborators
 #### 6.2.2.3 Sprint Backlog 2
 
