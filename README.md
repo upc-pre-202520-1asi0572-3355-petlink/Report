@@ -4005,8 +4005,63 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
     </tr>
   </table>
 
-
 #### 6.2.2.5 Testing Suite Evidence for Sprint Review
+
+ A continuación, se presenta una tabla con información del repositorio de las pruebas, y los commits realizados durante el sprint:
+
+ **Link del repositorio de Acceptance Test:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/Acceptance-Test](https://github.com/upc-pre-202520-1asi0572-3355-petlink/Acceptance-Test)
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+  <tr>
+    <td>Acceptance-Test</td>
+    <td>main</td>
+    <td>9eff15b</td>
+    <td>feat: add file PetWatch01_historia-clinica.feature</td>
+    <td>------</td>
+    <td>14/11/2025</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Test</td>
+    <td>main</td>
+    <td>c267b53</td>
+    <td>feat: add file PetWatch02_consulta-tratamientos.feature</td>
+    <td>------</td>
+    <td>14/11/2025</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Test</td>
+    <td>main</td>
+    <td>8663577</td>
+    <td>feat: add file PetWatch03_gestion-usuarios.feature</td>
+    <td>------</td>
+    <td>14/11/2025</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Test</td>
+    <td>main</td>
+    <td>812726b</td>
+    <td>feat: add file PetWatch04_perfil-usuario.feature</td>
+    <td>------</td>
+    <td>14/11/2025</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Test</td>
+    <td>main</td>
+    <td>e27280e</td>
+    <td>feat: add file PetWatch05_mascota-internada.feature</td>
+    <td>------</td>
+    <td>14/11/2025</td>
+  </tr>  
+</table>
+
 #### 6.2.2.6 Execution Evidence for Sprint Review
 #### 6.2.2.7 Services Deployment Evidence for Sprint Review
 #### 6.2.2.8 Software Deployment Evidence for Sprint Review
