@@ -161,8 +161,6 @@ A continuación, se detalla el proceso de elaboración del informe para cada ent
   <img align="center" src="/Capítulo 1/pulse-tb2.PNG" style="width:300px; margin: 10px;">
 </div>
 
-TB2-Contributions
-
 # Contenido 
 
 ## [Student Outcome](#student-outcome)
