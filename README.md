@@ -491,7 +491,7 @@ del ABET – EAC - Student Outcome 5.
     <td><strong>Góngora Sánchez, Marco Antonio</strong><br><strong>TB1:</strong> Desarrolló impacts mappings para cada segmento identificando business goals y user stories que manifiesten el cumplimiento de estos. También desarrolló el product backlog priorizando a los user stories mediante story points.</td>
   </tr>
   <tr>
-    <td><strong>Rondon Añaños, Cristopher</strong><br><strong>TB1:</strong> escribir</td>
+    <td><strong>Rondon Añaños, Cristopher</strong><br><strong>TB1:</strong> Desarrollé el product backlog además de colaborar con las entrevistas del usuario <br><strong>TP:</strong> Hice el diseño y despliegue de la landing page <br><strong>TB2:</strong> Hice el diseño y despliegue de nuestra mobile app</td> 
   </tr>
   <tr>
     <td><strong>Mayurí Armas, Jose Carlo</strong><br><strong>TB1:</strong> Elaboró íntegramente la documentación y diagramas técnicos del capítulo 4.2 (IAM, Management y Records), aplicando Domain-Driven Design. Además, integró estos entregables al repositorio en GitHub con commits organizados, lo cual permitió mantener un control de versiones ordenado y transparente para el equipo.</td>
@@ -514,7 +514,7 @@ del ABET – EAC - Student Outcome 5.
     <td><strong>Góngora Sánchez, Marco Antonio</strong><br><strong>TB1:</strong>Para este entrega utilizó UXPRESSIA para la realización de los impacts mappings dando un mejor panorama y contexto detrás.</td>
   </tr>
   <tr>
-    <td><strong>Rondon Añaños, Cristopher</strong><br><strong>TB1:</strong> escribir</td>
+    <td><strong>Rondon Añaños, Cristopher</strong><br><strong>TB1:</strong> Use herramientas y convenciónes para redactar nuestras historias de usuario y criterios de aceptación <br><strong>TP:</strong> Usé Figma como herramienta de diseño así como Tailwind para la estilización de la landing page <br><strong>TB2:</strong> Utilicé figma para el diseño de la aplicación y el framework de flutter para el desarrollo</td> 
   </tr>
   <tr>
     <td><strong>Mayurí Armas, Jose Carlo</strong><br><strong>TB1:</strong> Colaboró activamente con el equipo integrando los diagramas técnicos al repositorio en GitHub mediante commits organizados, lo cual permitió un control de versiones ordenado. Su aporte garantizó que el proyecto mantenga consistencia en los entregables y fluidez en la coordinación grupal.</td></td>
