@@ -282,22 +282,40 @@ A continuación, se detalla el proceso de elaboración del informe para cada ent
       - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
       - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
       - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
-    - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
-      - [6.2.1. Sprint 1](#621-sprint-1)
-      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
-      - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
-      - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
-      - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
 - [Capitulo V: Solution UI/UX Design](#capitulo-v-solution-uiux-design)
   - [5.1. Style Guidelines](#51-style-guidelines)
     - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+      - [Branding](#branding)
+      - [Typography](#typography)
+      - [Colors](#colors)
+      - [Spacing](#spacing)
+      - [Illustrations \& Imagery](#illustrations--imagery)
+      - [Tone \& Communication](#tone--communication)
+      - [Design Principles](#design-principles)
     - [5.1.2. Web, Mobile and IoT Devices Style Guidelines](#512-web-mobile-and-iot-devices-style-guidelines)
+      - [Web Interface Style (Landing y App Web)](#web-interface-style-landing-y-app-web)
+        - [Diseño general](#diseño-general)
+        - [Tipografía](#tipografía)
+        - [Colores](#colores)
+        - [Botones y elementos interactivos](#botones-y-elementos-interactivos)
+        - [Inputs y formularios](#inputs-y-formularios)
+        - [Navegación](#navegación)
+        - [Imágenes e ilustraciones](#imágenes-e-ilustraciones)
+      - [Mobile Interface Style](#mobile-interface-style)
+      - [IoT Interface Style](#iot-interface-style)
+        - [Collar inteligente](#collar-inteligente)
+        - [Dashboard veterinario IoT](#dashboard-veterinario-iot)
+      - [Principios de diseño responsive](#principios-de-diseño-responsive)
+      - [Referencias visuales](#referencias-visuales)
   - [5.2. Information Architecture](#52-information-architecture)
     - [5.2.1. Organization Systems](#521-organization-systems)
     - [5.2.2. Labeling Systems](#522-labeling-systems)
     - [5.2.3. Searching Systems](#523-searching-systems)
     - [5.2.4. SEO Tags and Meta Tags](#524-seo-tags-and-meta-tags)
     - [5.2.5. Navigation Systems](#525-navigation-systems)
+      - [Estructura principal](#estructura-principal)
+      - [Jerarquía de navegación](#jerarquía-de-navegación)
+      - [Patrones de interacción](#patrones-de-interacción)
   - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
     - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
     - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
@@ -307,6 +325,48 @@ A continuación, se detalla el proceso de elaboración del informe para cada ent
     - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
     - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
   - [5.5. Applications Prototyping](#55-applications-prototyping)
+  - [INICIO DE SESIÓN Y RECUPERAR CONTRASEÑA](#inicio-de-sesión-y-recuperar-contraseña)
+  - [REGISTRARSE](#registrarse)
+  - [PANTALLA DE INICIO](#pantalla-de-inicio)
+  - [LISTA DE MASCOTAS](#lista-de-mascotas)
+  - [HISTORIAS CLÍNICAS](#historias-clínicas)
+  - [TRATAMIENTOS](#tratamientos)
+  - [MONITOREO IOT](#monitoreo-iot)
+  - [DASHBOARD VETERINARIO](#dashboard-veterinario)
+  - [USUARIOS](#usuarios)
+  - [MI PERFIL](#mi-perfil)
+- [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment-1)
+  - [6.1. Software Configuration Management.](#61-software-configuration-management)
+    - [6.1.1. Software Development Environment Configuration.](#611-software-development-environment-configuration)
+    - [6.1.2. Source Code Management.](#612-source-code-management)
+    - [6.1.3. Source Code Style Guide \& Conventions.](#613-source-code-style-guide--conventions)
+    - [6.1.4. Software Deployment Configuration.](#614-software-deployment-configuration)
+    - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
+      - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review.](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6. Execution Evidence for Sprint Review.](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review.](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review.](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint.](#6219-team-collaboration-insights-during-sprint)
+      - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+      - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+      - [6.2.2.3 Sprint Backlog 2](#6223-sprint-backlog-2)
+      - [6.2.2.4 Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+      - [6.2.2.5 Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.6 Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+      - [6.2.2.7 Services Deployment Evidence for Sprint Review](#6227-services-deployment-evidence-for-sprint-review)
+      - [6.2.2.8 Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.9 Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+  - [6.3 Validation Interviews](#63-validation-interviews)
+    - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3 Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.3 Video About-the-product](#63-video-about-the-product)
 - [Conclusiones](#conclusiones-1)
 - [Bibliografía](#bibliografía-1)
 - [Anexos](#anexos-1)
@@ -4228,8 +4288,244 @@ Durante el Sprint 2 se desarrollaron e integraron las funcionalidades esenciales
 </div><br>
 
 #### 6.2.2.7 Services Deployment Evidence for Sprint Review
+
+Durante el Sprint 2, se completó exitosamente el despliegue del backend en Render, una plataforma cloud que facilita el deployment automático desde GitHub.
+
+**Backend API - Desplegado en Render**
+
+- **Plataforma:** Render (https://render.com)
+- **URL de producción:** https://petlink-backend-gb69.onrender.com
+- **Documentación API:** https://petlink-backend-gb69.onrender.com/swagger-ui/index.html
+- **Tecnología:** Spring Boot con Java
+- **Base de datos:** PostgreSQL (Render Cloud)
+- **Containerización:** Docker
+
+**Documentación de Endpoints - Swagger UI**
+
+A continuación se presenta la evidencia visual de los servicios desplegados mediante la documentación automática de Swagger UI:
+
+**Controllers implementados - Parte 1:**
+
+<div align="center">
+  <img src="./Capitulo 6/swagger-controllers-1.png" alt="Swagger UI Controllers 1" width="800">
+</div>
+
+Controllers mostrados:
+- **Vitals Controller** - Manejo de signos vitales enviados desde dispositivos IoT
+- **usuario-controller** - Gestión completa de usuarios (GET, POST, PUT, DELETE)
+- **perfil-controller** - Gestión de perfiles de usuario
+
+**Controllers implementados - Parte 2:**
+
+<div align="center">
+  <img src="./Capitulo 6/swagger-controllers-2.png" alt="Swagger UI Controllers 2" width="800">
+</div>
+
+Controllers mostrados:
+- **tratamiento-controller** - Gestión de tratamientos médicos veterinarios
+- **mascota-controller** - CRUD completo para gestión de mascotas
+- **historial-clinico-controller** - Historias clínicas y registros médicos
+
+**Controllers implementados - Parte 3:**
+
+<div align="center">
+  <img src="./Capitulo 6/swagger-controllers-3.png" alt="Swagger UI Controllers 3" width="800">
+</div>
+
+Controllers mostrados:
+- **contacto-controller** - API de formulario de contacto desde landing page
+- **monitoreo-controller** - Monitoreo en tiempo real de signos vitales de mascotas
+- **auth-controller** - Autenticación, registro y recuperación de contraseñas
+- **dashboard-controller** - Endpoints para dashboard veterinario con resúmenes y estadísticas
+
+**Resumen de Servicios Implementados:**
+
+| Controller | Total Endpoints | Endpoints Disponibles |
+|-----------|----------------|----------------------|
+| Vitals | 1 | POST /api/v1/vitals/receive |
+| usuario-controller | 4 | GET, POST, PUT, DELETE /api/v1/usuarios |
+| perfil-controller | 2 | GET, PUT /api/v1/perfil/{id} |
+| tratamiento-controller | 5 | GET, POST, PUT, DELETE, PATCH /api/tratamientos |
+| mascota-controller | 4 | GET, POST, PUT, DELETE /api/mascotas |
+| historial-clinico-controller | 4 | GET, POST, PUT, DELETE /api/historiales |
+| contacto-controller | 2 | GET, POST /api/v1/contacto |
+| monitoreo-controller | 4 | GET, POST, GET (by pet), DELETE /api/monitoreo |
+| auth-controller | 4 | POST (login, register, reset-password, recover-password) |
+| dashboard-controller | 2 | GET /api/dashboard/summary, GET /api/dashboard/monitoreo |
+| health-controller | 1 | GET / |
+
+**Total:** 11 controllers, 33 endpoints REST documentados
+
+**Características del deployment:**
+
+- Integración continua automática con GitHub
+- Deployment automático al hacer push a rama main
+- SSL/TLS configurado automáticamente
+- Health checks automáticos
+- Swagger UI accesible públicamente para documentación
+- Base de datos PostgreSQL en Render Cloud
+
 #### 6.2.2.8 Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se realizaron los siguientes despliegues:
+
+**1. Landing Page**
+
+La landing page de PetWatch se encuentra desplegada en GitHub Pages con las siguientes características:
+
+- **URL de producción:** https://upc-pre-202520-1asi0572-3355-petlink.github.io/landing-page
+- **Plataforma:** GitHub Pages
+- **Integración continua:** Conectada con el repositorio GitHub para despliegues automáticos
+- **Tecnologías:** HTML5, CSS3 con Tailwind CSS, JavaScript vanilla
+
+**Proceso de despliegue realizado:**
+
+1. Configuración del proyecto en GitHub Pages conectado al repositorio
+2. Configuración de build settings en la rama `main`
+3. Despliegue automático activado
+4. Configuración de dominio personalizado (opcional, actualmente usando subdominio de GitHub)
+
+La landing page incluye las siguientes secciones funcionales:
+- Hero section con call-to-action
+- Características principales del producto (Core Features)
+- Explicación del funcionamiento del sistema IoT (How It Works)
+- Beneficios para veterinarios y dueños de mascotas
+- Formulario de contacto
+- Footer con enlaces y redes sociales
+
+**2. Aplicación Web (Frontend)**
+
+El frontend web de PetWatch está desplegado en Netlify:
+
+- **URL de producción:** https://petwatch.netlify.app
+- **Plataforma:** Netlify
+- **Framework:** Angular
+- **Configuración especial:** Archivo `netlify.toml` con reglas de redirección para SPA
+
+**Configuración de despliegue:**
+
+1. Conexión del repositorio GitHub con Netlify
+2. Configuración de comandos de build: `ng build --configuration production`
+3. Directorio de publicación: `dist/`
+4. Variables de entorno configuradas para conexión con backend
+5. Despliegue automático en cada push a rama `main`
+
+**Características del frontend desplegado:**
+- Autenticación de usuarios (login/register)
+- Dashboard para veterinarios
+- Gestión de mascotas
+- Visualización de historiales clínicos
+- Monitoreo en tiempo real (preparado para IoT)
+- Responsive design para diferentes dispositivos
+
+**3. Mobile App**
+
+La aplicación móvil se encuentra en desarrollo activo:
+
+- **Framework:** Flutter
+- **Estado:** 🔄 En desarrollo
+- **Plataformas objetivo:** Android
+- **Funcionalidades en desarrollo:**
+  - Visualización de monitoreo en tiempo real
+  - Dashboard de signos vitales
+  - Notificaciones push para alertas
+  - Gestión de mascotas
+  - Historial de datos IoT
+
+**4. Backend API**
+
+El backend fue desplegado exitosamente en Render durante este sprint:
+
+- **Tecnología:** Spring Boot (Java)
+- **Base de datos:** PostgreSQL (Render Cloud)
+- **Plataforma:** Render
+- **Estado:** ✅ Desplegado en producción
+- **URL:** https://petlink-backend-gb69.onrender.com
+- **Documentación API:** https://petlink-backend-gb69.onrender.com/swagger-ui/index.html
+- **Containerización:** Docker
+- **CI/CD:** Automatizado desde GitHub
+
+**Características del deployment:**
+- Auto-deployment desde GitHub
+- SSL/TLS configurado automáticamente
+- Variables de entorno seguras
+- Logs en tiempo real
+- Health checks automáticos
+- Swagger UI para documentación de endpoints
+
+**Resumen del Sprint 2:**
+
+| Componente | Plataforma | Estado | URL |
+|------------|-----------|--------|-----|
+| Landing Page | GitHub Pages | ✅ Desplegado | https://upc-pre-202520-1asi0572-3355-petlink.github.io/landing-page |
+| Frontend Web | Netlify | ✅ Desplegado | https://petwatch.netlify.app |
+| Backend API | Render | ✅ Desplegado | https://petlink-backend-gb69.onrender.com |
+| Mobile App | - | 🔄 En desarrollo | - |
+
 #### 6.2.2.9 Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo trabajó de manera colaborativa en el desarrollo de diferentes componentes del proyecto PetWatch. A continuación se presenta la evidencia de colaboración del equipo mediante la organización de GitHub.
+
+**Organización del Proyecto en GitHub:**
+
+La siguiente imagen muestra la estructura de la organización del proyecto con todos los repositorios activos:
+
+<div align="center">
+  <img src="./Capitulo 6/github-organization.png" alt="Organización GitHub PetWatch" width="800">
+</div>
+
+**Repositorios activos durante el Sprint 2:**
+
+1. **Report** - Documentación completa del proyecto (actualizada hace 1 hora)
+   - Contiene toda la documentación técnica y de gestión
+   - Incluye diagramas, user stories, y evidencias de sprints
+
+2. **mobile-app** - Aplicación móvil Flutter (última actualización: 16 hrs)
+   - Desarrollo activo de la interfaz para dueños de mascotas
+   - Implementación de vistas de monitoreo en tiempo real
+
+3. **Acceptance-Test** - Pruebas de aceptación Gherkin (actualizada hace 17 hrs)
+   - 5 features principales creadas durante el sprint
+   - Escenarios de prueba para historias de usuario
+
+4. **petlink-backend** - Backend API en Spring Boot (actualizada hace 2 días)
+   - 11 controllers REST implementados
+   - Desplegado en Render con PostgreSQL
+
+5. **landing-page** - Página de aterrizaje (actualizada hace 2 días)
+   - Desplegada en GitHub Pages
+   - Formulario de contacto funcional
+
+**Estadísticas de colaboración por repositorio:**
+
+| Repositorio | Commits Sprint 2 | Estado | Plataforma Deployment |
+|-------------|------------------|--------|----------------------|
+| Landing Page | 3 | ✅ Desplegado | GitHub Pages |
+| Frontend Web | - | ✅ Desplegado | Netlify |
+| Backend API | 5 principales | ✅ Desplegado | Render |
+| Mobile App | ~20 | 🔄 En desarrollo | - |
+| Acceptance Tests | 5 features | ✅ Completado | - |
+
+**Métricas de colaboración:**
+
+- **Total de commits del equipo:** ~30 commits durante el Sprint 2
+- **Repositorios activos:** 5 repositorios con actividad constante
+- **Despliegues exitosos:** 3 componentes en producción
+- **Cobertura de testing:** 5 features de aceptación implementadas
+- **Documentación API:** 11 controllers, 33 endpoints documentados en Swagger
+
+**Conclusión del Sprint 2:**
+
+El equipo demostró una colaboración efectiva y constante durante el Sprint 2. Se logró:
+- ✅ Desplegar exitosamente el backend en Render con documentación completa
+- ✅ Mantener activos Landing Page y Frontend Web
+- ✅ Avanzar significativamente en la aplicación móvil
+- ✅ Crear 5 features de acceptance tests
+- ✅ Mantener la documentación actualizada
+
+Todos los miembros del equipo contribuyeron activamente, evidenciado por las actualizaciones constantes en los diferentes repositorios de la organización.
+
+
 ## 6.3 Validation Interviews
 
 ### 6.3.1 Diseño de Entrevistas
