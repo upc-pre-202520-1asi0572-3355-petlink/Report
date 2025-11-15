@@ -4145,6 +4145,8 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 
   **Link del repositorio del Backend:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-backend](https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-backend)
 
+  **Link del proyecto PetLink en Wokwi:** [https://wokwi.com/projects/447269132790685697](https://wokwi.com/projects/447269132790685697)
+
   <table>
     <tr>
      <td><strong>Repository</strong></td>
