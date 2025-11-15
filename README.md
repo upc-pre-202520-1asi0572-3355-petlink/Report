@@ -4725,7 +4725,7 @@ _Entrevistado 1_
 Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_upc_edu_pe/EU51qE7JL5BPjjDjcZp3I4gBylEr2RF1ww2j9iEuQf79jg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=szusO5)
 <table border="1" style="text-align: left;">
 	<tr>
-		<td colspan="1" rowspan="3"><img src="Capitulo 2\Interviews\Entrevista1B.jpg" alt="" width="400" height="174"></td>
+		<td colspan="1" rowspan="3"><img src="Capitulo 6/entrevistas/Captura-entrevista2.jpg" alt="" width="400" height="174"></td>
     <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
       <br></strong>Bryan<br>Espejo
     </td>
@@ -4755,7 +4755,8 @@ Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_u
 </table>
 
 <strong>Resumen: </strong><br>
-Bryan nos explicó que actualmente el monitoreo de los signos vitales de los animales es manual y programado, lo que genera dificultades como la falta de personal disponible para un monitoreo continuo y el estrés que sufren los animales durante las revisiones. Destacó que un sistema de alertas automáticas para monitorear el pulso y ritmo cardíaco sería extremadamente útil, mejorando la rapidez de la respuesta ante emergencias. Indicó que un dispositivo de monitoreo ideal debe ser no invasivo, resistente, con conectividad en tiempo real, preciso y económico. Además, estaría dispuesto a incorporar esta tecnología, especialmente en casos de alto riesgo y considera que los dueños de mascotas estarían dispuestos a pagar más por este servicio si se comunica adecuadamente el valor de la seguridad que ofrece.
+Bryan nos señaló que la interfaz es muy clara y fácil de navegar. Resaltó el monitoreo en tiempo real como la característica más valiosa, porque le permite tener un control preciso y un seguimiento continuo de cada paciente. Comentó además que la versión web y la app móvil de Petwatch se complementan bien: la web le facilita una vista integral y reportes ordenados, mientras que la app agiliza las tareas en campo. Destacó la consistencia del diseño, los tiempos de respuesta rápidos, las alertas y gráficos que ayudan a priorizar casos y una curva de aprendizaje baja; en conjunto, le resultan herramientas útiles, intuitivas y sin complicaciones.
+
 
 _Entrevistado 2_
 
