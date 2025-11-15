@@ -4379,7 +4379,7 @@ Maria comentó que trabaja como asistente de veterinarios. En su clínica, el mo
 
 *Nombre de App: PetWatch*
 
-* Tareas a evaluar:
+ Tareas a evaluar:
 - Creación de un usuario
 - Validación de las creaciones
 - Editar perfil de usuario
@@ -4391,7 +4391,7 @@ Maria comentó que trabaja como asistente de veterinarios. En su clínica, el mo
 
 **ESCALA DE SEVERIDAD**
 
-* Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 - Nivel 1: Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo.
 - Nivel 2: Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release.
