@@ -3941,14 +3941,14 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 <table border="1px" align="center">
       <tr>
           <th>Sprint #</th>
-          <th>Sprint 1</th>
+          <th>Sprint 2</th>
       </tr>
       <tr> 
           <td colspan="2" style="text-align: center;">Sprint Planning Background</td>
       </tr>
       <tr>
           <td style="font-weight: bold;">Date</td>
-          <td>02-10-2025</td>
+          <td>15-12-2025</td>
       </tr>
       <tr>
           <td style="font-weight: bold;">Time</td>
@@ -3975,24 +3975,39 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
           </td>
       </tr>
       <tr>
-          <td style="font-weight: bold;">Sprint 0 Review Summary</td>
-          <td>Debido a que es nuestro primer sprint de desarrollo, no existe un review summary del sprint.</td>
-      </tr>
+  <td style="font-weight: bold;">Sprint 2 Review Summary</td>
+  <td>
+    Durante el Sprint 2 se cumplió con el objetivo de consolidar los componentes principales del sistema PetWatch:
+    se desplegó el backend en Render con 11 controllers y 33 endpoints documentados en Swagger,
+    se mantuvieron en producción la landing page (GitHub Pages) y el frontend web (Netlify),
+    y se avanzó en el desarrollo de la aplicación móvil para el rol “Dueño de mascota”
+    (historial clínico, tratamientos, perfil y estado de la mascota).
+    Además, se elaboraron evidencias de ejecución mediante capturas de pantalla y pruebas de las funcionalidades desarrolladas.
+  </td>
+</tr>
+<tr>
+  <td style="font-weight: bold;">Sprint 2 Retrospective Summary</td>
+  <td>
+    El equipo destacó como aspectos positivos la colaboración continua en los distintos repositorios,
+    el uso de GitHub, Trello y reuniones por Meet para coordinar tareas, y la correcta configuración de los despliegues en Render, Netlify y GitHub Pages.
+    Como oportunidades de mejora se identificó: definir con mayor claridad los criterios de “Definition of Done”,
+    reservar tiempo específico para pruebas y demos antes del cierre del sprint,
+    y documentar de forma más temprana los cambios realizados en cada componente.
+  </td>
+</tr>
+<tr> 
+  <td colspan="2" style="text-align: center;">Sprint Goal & User Stories</td>
+</tr>
+<tr>
+  <td style="font-weight: bold;">Sprint 2 Goal</td>
+  <td>
+    El objetivo principal de este sprint es consolidar el backend y los componentes web en un entorno de producción estable,
+    e implementar las primeras funcionalidades para el usuario “Dueño de mascota”, dejando preparado el sistema para su
+    integración con la aplicación móvil Flutter y el dispositivo IoT de monitoreo.
+  </td>
+</tr>
       <tr>
-          <td style="font-weight: bold;">Sprint 0 Retrospective Summary</td>
-          <td>Debido a que es nuestro primer sprint de desarrollo, no existen planes de mejora.</td>
-      </tr>
-      <tr> 
-          <td colspan="2" style="text-align: center;">Sprint Goal & User Stories</td>
-      </tr>
-      <tr>
-          <td style="font-weight: bold;">Sprint 1 Goal</td>
-          <td>
-              El objetivo principal de este sprint es la creación de la landing page junto a la aplicación web de nuestro producto llamado PetWatch. Esperamos que estas páginas ofrezca una experiencia visualmente atractiva y   una información concisa, lo cual se validará con la interacción de los usuarios en cada parte.
-          </td>
-      </tr>
-      <tr>
-          <td style="font-weight: bold;">Sprint 1 Velocity</td>
+          <td style="font-weight: bold;">Sprint 2 Velocity</td>
           <td>40</td>
       </tr>
       <tr>
@@ -4003,24 +4018,24 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 
    #### 6.2.2.2. Aspect Leaders and Collaborators
 
-   <table border="1" style="border-collapse: collapse; text-align: center;">
+<table border="1" style="border-collapse: collapse; text-align: center;">
   <tr>
     <th>Team Member (Last Name, First Name)</th>
     <th>GitHub Username</th>
-    <th>Elaboración del diseño y los estilos</th>
-    <th>Diagramas de flujo y mock-ups de la landing page</th>
-    <th>Diagramas de flujo y mock-ups de la aplicacin web</th>
-    <th>Elaboración de la aplicacion web</th>
-    <th>Elaboracion de la landing page</th>
-    <th>Despliegues de las aplicaciones</th>
-    <th>Informe del seguimiento del proyecto</th>
+    <th>Desarrollo de funcionalidades móviles para el usuario “Dueño de mascota”</th>
+    <th>Implementación de controladores y endpoints REST del backend</th>
+    <th>Despliegue del backend en Render</th>
+    <th>Despliegue de la landing page en GitHub Pages</th>
+    <th>Despliegue del frontend web en Netlify</th>
+    <th>Pruebas de aceptación y evidencias de ejecución</th>
+    <th>Informe del seguimiento del proyecto y documentación del Sprint 2</th>
   </tr>
   <tr>
     <td>Góngora Sánchez, Marco Antonio</td>
     <td>m4rcous</td>
+    <td>C</td>
+    <td>C</td>
     <td>L</td>
-    <td>C</td>
-    <td>C</td>
     <td>C</td>
     <td>C</td>
     <td>C</td>
@@ -4042,9 +4057,9 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
     <td>PaoloBellezaTelloo</td>
     <td>C</td>
     <td>C</td>
+    <td>C</td>
+    <td>C</td>
     <td>L</td>
-    <td>C</td>
-    <td>C</td>
     <td>C</td>
     <td>C</td>
   </tr>
@@ -4063,9 +4078,9 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
     <td>Chávarri Zarzosa, Daniel Jhared</td>
     <td>Daniel-10806</td>
     <td>C</td>
-    <td>C</td>
-    <td>C</td>
     <td>L</td>
+    <td>C</td>
+    <td>C</td>
     <td>C</td>
     <td>C</td>
     <td>C</td>
@@ -4075,17 +4090,17 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
     <td>Cris200399</td>
     <td>C</td>
     <td>C</td>
-    <td>C</td>
-    <td>C</td>
     <td>L</td>
+    <td>C</td>
+    <td>C</td>
     <td>C</td>
     <td>C</td>
   </tr>
   <tr>
     <td>Mayurí Armas, Jose Carlo</td>
     <td>JoseArmas10</td>
-    <td>C</td>
     <td>L</td>
+    <td>C</td>
     <td>C</td>
     <td>C</td>
     <td>C</td>
