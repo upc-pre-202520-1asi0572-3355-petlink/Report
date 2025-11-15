@@ -4067,9 +4067,63 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 #### 6.2.2.8 Software Deployment Evidence for Sprint Review
 #### 6.2.2.9 Team Collaboration Insights during Sprint
 ## 6.3 Validation Interviews
+
 ### 6.3.1 Diseño de Entrevistas
+
+A continuación, se diseñaron entrevistas dirigidas a ambos segmentos objetivos definidos para el proyecto. Las preguntas fueron elaboradas con el fin de generar respuestas detalladas por parte de los entrevistados, permitiendo así obtener información valiosa que nos ayude con la mejora continua del producto.
+
+**Datos generales**
+* ¿Cuál es tu nombre?
+* ¿Qué edad tienes?
+* ¿A qué te dedicas?
+* ¿Dónde vives?
+
+
+**Opinión sobre el diseño**
+* ¿Qué te parece el diseño de la aplicación?
+* ¿Consideras que los colores y la disposición de los elementos son adecuados?
+* ¿El diseño te resulta atractivo y fácil de entender?
+
+
+**Experiencia de uso**
+* ¿Cómo describirías tu experiencia al usar la aplicación?
+* ¿Fue sencillo realizar las acciones que necesitabas?
+* ¿Encontraste algún obstáculo al navegar por la aplicación?
+
+
+**Funcionalidad más útil**
+* ¿Cuál fue la función que más te llamó la atención o que más utilizaste?
+* ¿Por qué consideras que esa función fue la más útil?
+
+
+**Sugerencias de mejora**
+* ¿Qué añadirías a la aplicación para mejorarla?
+* ¿Hay algo que cambiarías en el diseño o en las funcionalidades?
+* ¿Crees que falta alguna característica importante para ti?
+
+
+**Impacto general**
+* ¿Crees que la aplicación cumple con sus objetivos?
+* ¿Cómo crees que esta aplicación podría ayudarte en tu día a día?
+* ¿Recomendarías esta aplicación a otras personas? ¿Por qué?
+
+
+**Retroalimentación final**
+* ¿Hay algo más que te gustaría comentar sobre la aplicación?
+* ¿Qué impresión general te deja el uso de esta herramienta?
+
+
+---
+
 ### 6.3.2 Registro de Entrevistas
+
+
 ### 6.3.3 Evaluaciones según heurísticas
+
+
+
+
+
 ## 6.3 Video About-the-product
 
 
