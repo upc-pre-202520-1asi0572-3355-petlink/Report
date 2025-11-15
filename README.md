@@ -119,6 +119,27 @@
                 </ul>
               </td>
             </tr>
+            <tr>
+                <th>TB2</th>
+                <td>15/11/2025</td>
+                <td>
+                  <ul>
+                    <li>Maria Fernanda Fernandez</li>
+                    <li>Paolo Belleza</li>
+                    <li>Maria Pilares</li>
+                    <li>Daniel Chávarri</li>
+                    <li>Marco Góngora</li>
+                    <li>Cristopher Rondon</li>
+                    <li>Jose Mayurí</li>
+                  </ul>
+                </td>
+              <td>            
+                <ul>
+                  <li>Capítulo VI: Product Implementation, Validation & Deployment - Sprint 2</li>
+                  <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+                </ul>
+              </td>
+            </tr>
         </tbody>
 </table>
 
@@ -152,13 +173,15 @@ A continuación, se detalla el proceso de elaboración del informe para cada ent
   <img align="center" src="/Capítulo 1/pulse.PNG" style="width:300px; margin: 10px;">
 </div>
 
+---
+
 **Reporte de colaboración de la entrega del TB2:**
 
 - Todos los miembros del equipo contribuyeron en la redacción del Informe. Se dividió en secciones específicas para cada capítulo, lo que permitió un mayor avance y equidad en el desarrollo del informe.
 
 <div align="center">
-    <img align="center" src="Capítulo 1/TB2-Contributions.PNG" style="width:300px; margin: 10px;">
-  <img align="center" src="/Capítulo 1/pulse-tb2.PNG" style="width:300px; margin: 10px;">
+  <img align="center" src="./Capítulo 1/TB2-Contributions.PNG" style="width:300px; margin: 10px;">
+  <img align="center" src="./Capítulo 1/pulse-tb2.PNG" style="width:300px; margin: 10px;">
 </div>
 
 # Contenido 
@@ -475,11 +498,11 @@ del ABET – EAC - Student Outcome 5.
   </tr>
   <tr>
     <td rowspan="7"><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</strong></td>
-    <td><strong>Fernandez Alva, Maria Fernanda</strong><br><strong>TB1:</strong> Elaboró los cuadros comparativos de competencias y un análisis competitivo, además de diseñar las entrevistas aplicables al proyecto.<br><strong>TP:</strong> Elaboró el informe con respecto al sprint 1, evaluando que el cntenido este de acuerdo con el avance del proyecto.</td>
+    <td><strong>Fernandez Alva, Maria Fernanda</strong><br><strong>TB1:</strong> Elaboró los cuadros comparativos de competencias y un análisis competitivo, además de diseñar las entrevistas aplicables al proyecto.<br><strong>TP:</strong> Elaboró el informe con respecto al sprint 1, evaluando que el cntenido este de acuerdo con el avance del proyecto.<br><strong>TB2:</strong> Elaboró los siguiente puntos para el informe: 6.2.2.3 y 6.2.2.4.</td>
     <td rowspan="7"><strong>TB1:</strong> En esta primera entrega, como grupo logramos ejercer un liderazgo compartido en las distintas etapas del trabajo, ya que cada integrante asumió la responsabilidad de coordinar y liderar tareas específicas como la elaboración de cuadros comparativos, el diseño de entrevistas, la construcción de user personas y la definición de matrices y escenarios. Esta distribución equitativa permitió que el equipo funcione de manera organizada, sin depender de un único líder, y que se avance de forma colaborativa en los capítulos I a IV del proyecto.<br><br><strong>TP:</strong> En esta segunda entrega, nos repartimos con el grupo para entregar de tanto el frontend , backend y la landing page abordando la mayor parte de los user stories especialmente para el segmento objetivo de veterinario. Como equipo nos ayudamos mutuamente para que tengamos todo lo que nos piden en el trabajo.<br><br><strong>TB2:</strong> Como equipo, durante este Sprint consolidamos el avance técnico del proyecto PetLink mediante la integración efectiva de los módulos IoT, backend y aplicación móvil. Se trabajó en la simulación funcional del dispositivo IoT, la implementación y mejora de los endpoints del backend, el registro y consulta de datos en la nube, así como la correcta visualización de la información desde la aplicación móvil. Realizamos pruebas constantes de comunicación, asegurando que los datos generados por la pechera IoT —como signos vitales, estados de salud y eventos clínicos— fueran procesados de forma confiable por el backend y pudieran ser consultados desde el entorno móvil. También generamos evidencias de desarrollo, pruebas y despliegue, cumpliendo con las actividades planificadas en el Sprint Backlog. El trabajo colaborativo permitió demostrar la viabilidad de la solución integral y fortaleció la cohesión entre las áreas de desarrollo IoT, backend y mobile dentro del proyecto.<br><br></td>
   </tr>
   <tr>
-    <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> Desarrolló los perfiles de los dos segmentos objetivo mediante la construcción de user personas, el empathy mapping y el as-is scenario. Estas actividades se realizaron en coordinación grupal para integrar diferentes perspectivas.<br><strong>TP:</strong> Desarrolló el informe del despliegue tanto del frontend como de la landing page.</td>
+    <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> Desarrolló los perfiles de los dos segmentos objetivo mediante la construcción de user personas, el empathy mapping y el as-is scenario. Estas actividades se realizaron en coordinación grupal para integrar diferentes perspectivas.<br><strong>TP:</strong> Desarrolló el informe del despliegue tanto del frontend como de la landing page.<br><strong>TB2:</strong> Elaboró los puntos 6.2.2.5 y 6.2.2.5 junto con el repositorio de acceptance-criterio</td>
   </tr>
   <tr>
     <td><strong>Pilares Pocohuanca, Maria</strong><br><strong>TB1:</strong> Fomenté la participación activa lo que ayudó en la toma de decisiones clave para el proyecto. Del mismo modo para el desarrollo óptimo de los bounded contexts, los cuales son fundamentales para dividir las funcionalidades principales de la aplicación por módulos.</td>
@@ -498,11 +521,11 @@ del ABET – EAC - Student Outcome 5.
   </tr>
   <tr>
     <td rowspan="7"><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
-    <td><strong>Fernandez Alva, Maria Fernanda</strong><br><strong>TB1:</strong> Investigó en internet productos similares al prototipo, identificando coincidencias en objetivos y funcionalidades.<br><strong>TP:</strong> Reviso el repositorio para visualizar que el trabajo se haya subido correctamente con la nomenclatura adecuada.</td>
+    <td><strong>Fernandez Alva, Maria Fernanda</strong><br><strong>TB1:</strong> Investigó en internet productos similares al prototipo, identificando coincidencias en objetivos y funcionalidades.<br><strong>TP:</strong> Reviso el repositorio para visualizar que el trabajo se haya subido correctamente con la nomenclatura adecuada.<br><strong>TB2:</strong> Reviso que las entrevistas se hayan subido en el lugar correcto e igual verifico que los punto que elaboró se hayan hecho de forma correcta.</td>
     <td rowspan="7"><strong>TB1:</strong> En esta primera entrega, el equipo desarrolló un entorno colaborativo e inclusivo, donde se integraron las ideas de todos los miembros mediante el uso de herramientas como Miro y UXPressia, además de la comunicación constante en reuniones. Se establecieron metas claras en cada capítulo del proyecto (Introducción, Requirements Elicitation & Analysis, Requirements Specification y Solution Software Design), se distribuyeron las tareas de manera equitativa y se cumplieron los objetivos planificados. Este trabajo coordinado aseguró que el proyecto avance de manera ordenada, inclusiva y con un alto nivel de compromiso por parte de todos los integrantes.<br><br><strong>TP:</strong> En esta segunda entrega, el equipo desarrollo secciones o partes para que cada uno se sienta mas comodo con lo que sabe elaborar. Todos hiciemos tareas diferentes pero aun asi nos ayudamos o verificamos que lo que hicieron nuestros compañeros este en correto estado. Se establecieron metas claras para abordar correctamente el capitulo 5 y el capitulo 6 con el primer sprint.<br><br><strong>TB2:</strong> Como equipo, durante este Sprint consolidamos el avance técnico del proyecto PetLink mediante la integración efectiva de los módulos IoT, backend y aplicación móvil. Se trabajó en la simulación funcional del dispositivo IoT, la implementación y mejora de los endpoints del backend, el registro y consulta de datos en la nube, así como la correcta visualización de la información desde la aplicación móvil. Realizamos pruebas constantes de comunicación, asegurando que los datos generados por la pechera IoT —como signos vitales, estados de salud y eventos clínicos— fueran procesados de forma confiable por el backend y pudieran ser consultados desde el entorno móvil. También generamos evidencias de desarrollo, pruebas y despliegue, cumpliendo con las actividades planificadas en el Sprint Backlog. El trabajo colaborativo permitió demostrar la viabilidad de la solución integral y fortaleció la cohesión entre las áreas de desarrollo IoT, backend y mobile dentro del proyecto.<br></td>
   </tr>
   <tr>
-    <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> Utilizó herramientas digitales como UXPressia y Miro para elaborar y organizar los requisitos del proyecto, asegurando la claridad y trazabilidad de los mismos dentro del proceso de diseño.<br><strong>TP:</strong> Averiguo diferentes paginas para desplegar de la manera correcta y segura el frontend , backend y landing page. En este caso, se desplego en Netfily por su gran facilidad y seguridad de desplegar de manera pública el frontend.</td>
+    <td><strong>Belleza Tello, Paolo Eduardo</strong><br><strong>TB1:</strong> Utilizó herramientas digitales como UXPressia y Miro para elaborar y organizar los requisitos del proyecto, asegurando la claridad y trazabilidad de los mismos dentro del proceso de diseño.<br><strong>TP:</strong> Averiguo diferentes paginas para desplegar de la manera correcta y segura el frontend , backend y landing page. En este caso, se desplego en Netfily por su gran facilidad y seguridad de desplegar de manera pública el frontend.<br><strong>TB2:</strong> Averiguo como escribir de manera correcta los acceptance criterios para el informe, en especial visualizar como los user stories implementados para este sprint funcionen de manera correcta.</td>
   </tr>
   <tr>
     <td><strong>Pilares Pocohuanca, Maria</strong><br><strong>TB1:</strong> Facilité el uso de herramientas colaborativas y organicé sesiones para revisar el progreso del equipo, tales como reuniones en Google Meet, además de diseñar modelos de dominio y de arquitectura que permitieron una mejor comprensión de la solución.</td>
@@ -4590,7 +4613,7 @@ A continuación, se diseñaron entrevistas dirigidas a ambos segmentos objetivos
 
 
 
-**Link de todas las entrevistas:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/EcrDf05ljwJGgeEv9no0HFMBKCBviI70Cv_P1jFDArf5Wg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Fuv0sb](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/EcrDf05ljwJGgeEv9no0HFMBKCBviI70Cv_P1jFDArf5Wg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Fuv0sb)
+**Link de todas las entrevistas:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/IQCmncQ8xcSQQKcbft7eRg7zAVDPxhfy4K3hDQV4qFyZKHQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7W6PkJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/IQCmncQ8xcSQQKcbft7eRg7zAVDPxhfy4K3hDQV4qFyZKHQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7W6PkJ)
 
 
 **Segmento Objetivo: Dueños de mascotas**
