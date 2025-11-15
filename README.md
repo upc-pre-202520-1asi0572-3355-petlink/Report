@@ -4375,7 +4375,7 @@ CLIENTE: Maria Fernanda Fernandez, Paolo Belleza, Maria Pilares, Daniel Chávarr
 
 ---
 
-SITE o APP A EVALUAR
+**SITE o APP A EVALUAR**
 
 *Nombre de App: PetWatch*
 
@@ -4389,13 +4389,13 @@ Tareas a evaluar:
 
 ---
 
-ESCALA DE SEVERIDAD
+**ESCALA DE SEVERIDAD**
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
-Nivel 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo.
-Nivel 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release.
-Nivel 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.
-Nivel 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.
+Nivel 1: Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo.
+Nivel 2: Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release.
+Nivel 3: Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.
+Nivel 4: Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.
 
 ---
 
