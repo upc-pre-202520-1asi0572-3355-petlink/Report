@@ -4119,6 +4119,246 @@ A continuación, se diseñaron entrevistas dirigidas a ambos segmentos objetivos
 
 
 
+**Link de todas las entrevistas:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/EcrDf05ljwJGgeEv9no0HFMBKCBviI70Cv_P1jFDArf5Wg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Fuv0sb](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/EcrDf05ljwJGgeEv9no0HFMBKCBviI70Cv_P1jFDArf5Wg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Fuv0sb)
+
+
+**Segmento Objetivo: Dueños de mascotas**
+
+_Entrevistado 1_
+
+<table border="1" style="text-align: left;">
+	<tr>
+		<td colspan="1" rowspan="3"><img src="Capitulo 2\Interviews\interviewPetOwner1.jpg" alt="" width="400" height="174"></td>
+    <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
+      <br></strong>Dánely<br>Valdez
+    </td>
+	</tr>
+  <tr>
+    <td>
+      <strong>Edad:<br></strong> 26 años
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Distrito:</strong><br>Ayacucho
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">
+      <strong>Nombre del entrevistador:</strong>
+      <br>Cristopher Rondon Añaños
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Timming: </strong>00:08<br>
+      <strong>Duración: </strong>04:00
+    </td>
+  </tr>    
+</table>
+
+<strong>Resumen: </strong><br>
+<p style="text-align: justify; text-justify: inter-word;">
+El entrevistado muestra una alta preocupación por la salud de su mascota, especialmente por no poder detectar a tiempo signos de enfermedad debido a la incapacidad del animal para comunicar dolor o malestar. Su monitoreo actual se basa en la observación del comportamiento, alimentación y visitas regulares al veterinario, aunque admite sentirse inseguro respecto a si detecta todo a tiempo. <br>
+Existe un gran interés en recibir información en tiempo real durante las visitas veterinarias, lo cual le brindaría tranquilidad y mayor involucramiento en el proceso. Valora significativamente un dispositivo que detecte anomalías en el ritmo cardíaco o el pulso, considerándolo una herramienta potencialmente salvavidas. <br>
+En cuanto al costo, está dispuesto a invertir una cantidad razonable si el servicio es confiable y ofrece beneficios reales para la salud de su mascota.<br>
+Finalmente, comparte una experiencia negativa por falta de información oportuna en una veterinaria, lo que refuerza su interés por soluciones tecnológicas. Confía en dispositivos tecnológicos, siempre que estén respaldados por evidencia científica y sean de buena calidad.
+</p>
+
+_Entrevistado 2_
+
+<table border="1" style="text-align: left;">
+	<tr>
+		<td colspan="1" rowspan="3"><img src="Capitulo 2\Interviews\interviewPetOwner2.jpg" alt="" width="400" height="174"></td>
+    <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
+      <br></strong>Anderson<br>Gonza
+    </td>
+	</tr>
+  <tr>
+    <td>
+      <strong>Edad:<br></strong> 23 años
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Distrito:</strong><br>Villa el Salvador
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">
+      <strong>Nombre del entrevistador:</strong>
+      <br>Marco Antonio Góngora Sánchez
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Timming: </strong>04:00<br>
+      <strong>Duración: </strong>09:13
+    </td>
+  </tr>    
+</table>
+
+<strong>Resumen: </strong><br>
+<p style="text-align: justify; text-justify: inter-word;">
+El entrevistado muestra una alta preocupación por la detección temprana; teme no notar a tiempo síntomas sutiles y vivir “a ciegas” entre controles veterinarios. Su monitoreo actual es observacional (comidas, actividad, sueño) con visitas periódicas, pero percibe un vacío informativo entre citas.
+
+Valora fuertemente recibir datos en tiempo real durante internamientos (esto le daría tranquilidad y aumentaría su confianza en la clínica). Considera crítico un dispositivo que alerte anomalías de pulso o ritmo cardiaco como herramienta de prevención. Está dispuesto a pagar una suscripción de S/.20–30 / mes si la información es clara y confiable.
+
+Reporta una mala experiencia previa por falta de avisos oportunos, lo que refuerza su necesidad de transparencia. Declara confianza en soluciones tecnológicas siempre que sean precisas y fáciles de usar.
+</p>
+
+_Entrevistado 3_
+
+<table border="1" style="text-align: left;">
+	<tr>
+		<td colspan="1" rowspan="3"><img src="Capitulo 2/Interviews/entrevista3-dueño.png" alt="" width="400" height="174"></td>
+    <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
+      <br></strong>Joaquin<br>Tello
+    </td>
+	</tr>
+  <tr>
+    <td>
+      <strong>Edad:<br></strong> 27 años
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Distrito:</strong><br>Comas
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">
+      <strong>Nombre del entrevistador:</strong>
+      <br>Maria Fernanda Fernandez Alva
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Timming: </strong>09:13<br>
+      <strong>Duración: </strong>15:33
+    </td>
+  </tr>    
+</table>
+
+<strong>Resumen: </strong><br>
+Paolo nos comentó en su entrevista que su mascota suele estresarse al ir al veterinario, por lo que evita llevarla con frecuencia. Explicó que, en las pocas ocasiones que fue por temas de salud, se sintió ansioso al no poder quedarse con ella ni conocer su estado. Mencionó que le parecería muy útil poder monitorear la salud de su mascota a distancia, ya que así se sentiría más tranquilo. Además, indicó que le gustaría que este dispositivo sea en forma de pechera y que estaría dispuesto a pagar alrededor de 100 soles por él.
+
+---
+
+**Segmento Objetivo: Veterinarios**
+
+_Entrevistado 1_
+
+Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_upc_edu_pe/EU51qE7JL5BPjjDjcZp3I4gBylEr2RF1ww2j9iEuQf79jg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=szusO5)
+<table border="1" style="text-align: left;">
+	<tr>
+		<td colspan="1" rowspan="3"><img src="Capitulo 2\Interviews\Entrevista1B.jpg" alt="" width="400" height="174"></td>
+    <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
+      <br></strong>Bryan<br>Espejo
+    </td>
+	</tr>
+  <tr>
+    <td>
+      <strong>Edad:<br></strong> 26 años
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Distrito:</strong><br>Rímac
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">
+      <strong>Nombre del entrevistador:</strong>
+      <br>Maria Pilares Pocohuanca
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Timming: </strong>15:40<br>
+      <strong>Duración: </strong>20:00
+    </td>
+  </tr>    
+</table>
+
+<strong>Resumen: </strong><br>
+Bryan nos explicó que actualmente el monitoreo de los signos vitales de los animales es manual y programado, lo que genera dificultades como la falta de personal disponible para un monitoreo continuo y el estrés que sufren los animales durante las revisiones. Destacó que un sistema de alertas automáticas para monitorear el pulso y ritmo cardíaco sería extremadamente útil, mejorando la rapidez de la respuesta ante emergencias. Indicó que un dispositivo de monitoreo ideal debe ser no invasivo, resistente, con conectividad en tiempo real, preciso y económico. Además, estaría dispuesto a incorporar esta tecnología, especialmente en casos de alto riesgo y considera que los dueños de mascotas estarían dispuestos a pagar más por este servicio si se comunica adecuadamente el valor de la seguridad que ofrece.
+
+_Entrevistado 2_
+
+Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_upc_edu_pe/ERC3U22flqJOh5OlS7x3AQYBAnRxHxCt4VRT_miNdY91Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SrpxD9)
+<table border="1" style="text-align: left;">
+	<tr>
+		<td colspan="1" rowspan="3"><img src="Capitulo 2/Interviews/Entrevista2.jpg" alt="" width="400" height="174"></td>
+    <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
+      <br></strong>Alexandra<br>Lenes
+    </td>
+	</tr>
+  <tr>
+    <td>
+      <strong>Edad:<br></strong> 23 años
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Distrito:</strong><br>Los Olivos
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">
+      <strong>Nombre del entrevistador:</strong>
+      <br>Maria Pilares Pocohuanca
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Timming: </strong>20:00<br>
+      <strong>Duración: </strong>22:38
+    </td>
+  </tr>    
+</table>
+
+<strong>Resumen: </strong><br>
+Alexandra comentó que en su práctica veterinaria, el monitoreo de signos vitales se realiza de forma manual y en intervalos, lo que conlleva desafíos como la imposibilidad de tener vigilancia constante y el estrés que causa a los animales. Mencionó que un sistema automatizado de alertas sobre el pulso y ritmo cardíaco sería un avance significativo, permitiéndoles intervenir rápidamente en casos críticos. Para ella, un dispositivo ideal debería ser fácil de colocar, duradero, con conectividad en tiempo real y ofrecer datos precisos y confiables. También destacó que estaría dispuesto a incorporar esta tecnología en su clínica, especialmente en pacientes post-quirúrgicos o en riesgo y consideró que los dueños de mascotas pagarían un extra por la tranquilidad de saber que sus animales están siendo monitoreados de manera constante.
+
+_Entrevistado 3_
+
+Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_upc_edu_pe/EYW593T0ESJAhV2sN0rMXZEBp1frcJc7YkIAfUH1f3WJAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gjxSGo)
+<table border="1" style="text-align: left;">
+	<tr>
+		<td colspan="1" rowspan="3"><img src="Capitulo 2/Interviews/Entrevista3.jpg" alt="" width="400" height="174"></td>
+    <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
+      <br></strong>Maria<br>Peña
+    </td>
+	</tr>
+  <tr>
+    <td>
+      <strong>Edad:<br></strong> 22 años
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Distrito:</strong><br>Breña
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">
+      <strong>Nombre del entrevistador:</strong>
+      <br>Maria Pilares Pocohuanca
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Timming: </strong>22:38<br>
+      <strong>Duración: </strong>27:38
+    </td>
+  </tr>    
+</table>
+
+<strong>Resumen: </strong><br>
+Maria comentó que trabaja como asistente de veterinarios. En su clínica, el monitoreo de signos vitales se realiza de manera manual, utilizando estetoscopio, termómetro digital, observación de la respiración y algunos monitores básicos de pulso y oxigenación. Las principales dificultades incluyen la falta de tiempo y el estrés de los animales, lo que dificulta obtener lecturas precisas. Considera que un sistema de alertas automáticas sobre pulso y ritmo cardíaco sería muy útil, especialmente en pacientes críticos o postquirúrgicos. Las características esenciales para un dispositivo de monitoreo son que sea cómodo, seguro, no invasivo, fácil de usar, con alertas configurables y capacidad para guardar un registro histórico de signos vitales. Estaría dispuesta a incorporar esta tecnología si es accesible económicamente, tiene soporte técnico confiable y precisión comprobada. Maneja entre 40 y 60 animales en observación cada mes y cree que los dueños de mascotas estarían dispuestos a pagar más por un servicio que garantice mayor seguridad y tranquilidad.
+
+
 
 ### 6.3.3 Evaluaciones según heurísticas
 
