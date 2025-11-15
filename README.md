@@ -4375,7 +4375,7 @@ _Entrevistado 3_
 
 <table border="1" style="text-align: left;">
 	<tr>
-		<td colspan="1" rowspan="3"><img src="Capitulo 2/Interviews/entrevista3-dueño.png" alt="" width="400" height="174"></td>
+		<td colspan="1" rowspan="3"><img src="./Capitulo 6/entrevistas/entrevista3-dueño de mascota.png" alt="" width="400" height="174"></td>
     <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
       <br></strong>Joaquin<br>Tello
     </td>
@@ -4405,7 +4405,9 @@ _Entrevistado 3_
 </table>
 
 <strong>Resumen: </strong><br>
-Paolo nos comentó en su entrevista que su mascota suele estresarse al ir al veterinario, por lo que evita llevarla con frecuencia. Explicó que, en las pocas ocasiones que fue por temas de salud, se sintió ansioso al no poder quedarse con ella ni conocer su estado. Mencionó que le parecería muy útil poder monitorear la salud de su mascota a distancia, ya que así se sentiría más tranquilo. Además, indicó que le gustaría que este dispositivo sea en forma de pechera y que estaría dispuesto a pagar alrededor de 100 soles por él.
+Joaquín nos comentó que le encantó la interfaz móvil, pues le resulta bastante práctica. Además, considera muy útil que la información más importante sobre su mascota aparezca apenas ingresa a la aplicación. También expresó que le gusta cómo está organizada la información y que, por el momento, no agregaría más datos ni funcionalidades, ya que lo actual es suficiente para conocer el estado de salud de su mascota.
+
+Asimismo, mencionó que la app le es muy útil porque no puede permanecer muchas horas en la veterinaria cuidándolo. Gracias a la aplicación, puede realizar otras actividades mientras visualiza en tiempo real la evolución y condición de su mascota. Finalmente, nos consultó si el precio de la app está incluido dentro de los servicios de la veterinaria o si corresponde a un pago adicional.
 
 ---
 
