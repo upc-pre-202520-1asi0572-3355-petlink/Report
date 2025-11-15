@@ -4748,7 +4748,7 @@ _Entrevistado 1_
 Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_upc_edu_pe/EU51qE7JL5BPjjDjcZp3I4gBylEr2RF1ww2j9iEuQf79jg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=szusO5)
 <table border="1" style="text-align: left;">
 	<tr>
-		<td colspan="1" rowspan="3"><img src="Capitulo 2\Interviews\Entrevista1B.jpg" alt="" width="400" height="174"></td>
+		<td colspan="1" rowspan="3"><img src="Capitulo 6/entrevistas/Captura-entrevista2.jpg" alt="" width="400" height="174"></td>
     <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
       <br></strong>Bryan<br>Espejo
     </td>
@@ -4778,21 +4778,22 @@ Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_u
 </table>
 
 <strong>Resumen: </strong><br>
-Bryan nos explicó que actualmente el monitoreo de los signos vitales de los animales es manual y programado, lo que genera dificultades como la falta de personal disponible para un monitoreo continuo y el estrés que sufren los animales durante las revisiones. Destacó que un sistema de alertas automáticas para monitorear el pulso y ritmo cardíaco sería extremadamente útil, mejorando la rapidez de la respuesta ante emergencias. Indicó que un dispositivo de monitoreo ideal debe ser no invasivo, resistente, con conectividad en tiempo real, preciso y económico. Además, estaría dispuesto a incorporar esta tecnología, especialmente en casos de alto riesgo y considera que los dueños de mascotas estarían dispuestos a pagar más por este servicio si se comunica adecuadamente el valor de la seguridad que ofrece.
+Bryan nos señaló que la interfaz es muy clara y fácil de navegar. Resaltó el monitoreo en tiempo real como la característica más valiosa, porque le permite tener un control preciso y un seguimiento continuo de cada paciente. Comentó además que la versión web y la app móvil de Petwatch se complementan bien: la web le facilita una vista integral y reportes ordenados, mientras que la app agiliza las tareas en campo. Destacó la consistencia del diseño, los tiempos de respuesta rápidos, las alertas y gráficos que ayudan a priorizar casos y una curva de aprendizaje baja; en conjunto, le resultan herramientas útiles, intuitivas y sin complicaciones.
+
 
 _Entrevistado 2_
 
-Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_upc_edu_pe/ERC3U22flqJOh5OlS7x3AQYBAnRxHxCt4VRT_miNdY91Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SrpxD9)
+Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_upc_edu_pe/IQC03bG2X8uNR54lr0ODfxoCARnnd_6o_-P9GOVjOv30cTA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jFo4LX)
 <table border="1" style="text-align: left;">
 	<tr>
-		<td colspan="1" rowspan="3"><img src="Capitulo 2/Interviews/Entrevista2.jpg" alt="" width="400" height="174"></td>
+		<td colspan="1" rowspan="3"><img src="Capitulo 6/entrevistas/Captura-entrevista1.jpg" alt="" width="400" height="174"></td>
     <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
-      <br></strong>Alexandra<br>Lenes
+      <br></strong>Diego<br>Ramirez
     </td>
 	</tr>
   <tr>
     <td>
-      <strong>Edad:<br></strong> 23 años
+      <strong>Edad:<br></strong> 26 años
     </td>
   </tr>
   <tr>
@@ -4815,14 +4816,14 @@ Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_u
 </table>
 
 <strong>Resumen: </strong><br>
-Alexandra comentó que en su práctica veterinaria, el monitoreo de signos vitales se realiza de forma manual y en intervalos, lo que conlleva desafíos como la imposibilidad de tener vigilancia constante y el estrés que causa a los animales. Mencionó que un sistema automatizado de alertas sobre el pulso y ritmo cardíaco sería un avance significativo, permitiéndoles intervenir rápidamente en casos críticos. Para ella, un dispositivo ideal debería ser fácil de colocar, duradero, con conectividad en tiempo real y ofrecer datos precisos y confiables. También destacó que estaría dispuesto a incorporar esta tecnología en su clínica, especialmente en pacientes post-quirúrgicos o en riesgo y consideró que los dueños de mascotas pagarían un extra por la tranquilidad de saber que sus animales están siendo monitoreados de manera constante.
+Diego nos explicó que la interfaz le parece amigable, sobre todo la opción de monitoreo en tiempo real considera que es muy relevante en este producto, ya que le permite tener un mayor control y seguimiento de su mascota. Asimismo, argumenta que la aplicación es muy útil y no presenta complicaciones en cuanto su uso.
 
 _Entrevistado 3_
 
-Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_upc_edu_pe/EYW593T0ESJAhV2sN0rMXZEBp1frcJc7YkIAfUH1f3WJAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gjxSGo)
+Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_upc_edu_pe/IQDQLa2_brThSY2RyhyKGFIfAfLKbiiUJ0maFa8uZJbFjtw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=i9LrEt)
 <table border="1" style="text-align: left;">
 	<tr>
-		<td colspan="1" rowspan="3"><img src="Capitulo 2/Interviews/Entrevista3.jpg" alt="" width="400" height="174"></td>
+		<td colspan="1" rowspan="3"><img src="Capitulo 6/entrevistas/Captura-entrevistavet3.jpg" alt="" width="400" height="174"></td>
     <td colspan="1" rowspan="1"><strong>Nombre del entrevistado:
       <br></strong>Maria<br>Peña
     </td>
@@ -4852,7 +4853,7 @@ Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_u
 </table>
 
 <strong>Resumen: </strong><br>
-Maria comentó que trabaja como asistente de veterinarios. En su clínica, el monitoreo de signos vitales se realiza de manera manual, utilizando estetoscopio, termómetro digital, observación de la respiración y algunos monitores básicos de pulso y oxigenación. Las principales dificultades incluyen la falta de tiempo y el estrés de los animales, lo que dificulta obtener lecturas precisas. Considera que un sistema de alertas automáticas sobre pulso y ritmo cardíaco sería muy útil, especialmente en pacientes críticos o postquirúrgicos. Las características esenciales para un dispositivo de monitoreo son que sea cómodo, seguro, no invasivo, fácil de usar, con alertas configurables y capacidad para guardar un registro histórico de signos vitales. Estaría dispuesta a incorporar esta tecnología si es accesible económicamente, tiene soporte técnico confiable y precisión comprobada. Maneja entre 40 y 60 animales en observación cada mes y cree que los dueños de mascotas estarían dispuestos a pagar más por un servicio que garantice mayor seguridad y tranquilidad.
+Maria comentó que la interfaz le resultó intuitiva. Destacó el monitoreo en tiempo real como la función más importante, porque le brinda mayor control y seguimiento de cada paciente, en este caso, perros y gatos en su mayoría. Además, señaló que tanto la versión web como la app móvil de Petwatch le parecen útiles y fáciles de usar, sin generar complicaciones ni comentarios adicionales.
 
 
 
