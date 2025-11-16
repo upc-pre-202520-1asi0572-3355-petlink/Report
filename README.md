@@ -4921,7 +4921,7 @@ TABLA RESUMEN
 ---
 
 ## 6.3 Video About-the-product
-[About the Product]([https://wokwi.com/projects/447269132790685697](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a085_upc_edu_pe/IQAQFNmkU9aITYX0X2IMgxqWAZ2w4d66h4uIrmslZuEEWp0?e=AfzeoJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
+[About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a085_upc_edu_pe/IQAQFNmkU9aITYX0X2IMgxqWAZ2w4d66h4uIrmslZuEEWp0?e=AfzeoJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
    
 # Conclusiones
 
