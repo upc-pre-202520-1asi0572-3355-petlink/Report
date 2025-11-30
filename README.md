@@ -4995,7 +4995,13 @@ Para confirmar el despliegue del componente móvil en Firebase, debes incluir la
 
   <div style="justify-content: center;">
     <img src="./Capitulo 6/Sprint3/firebase.png">
-  </div><br><br>
+  </div>
+
+  ---
+
+  <div style="justify-content: center;">
+    <img src="./Capitulo 6/Sprint3/firebase-2.png">
+  </div><br>
 
 2. **Acceso a la URL de Producción/Prueba:** Muestra una captura de pantalla de la aplicación móvil ejecutándose en un navegador o en un dispositivo móvil, verificando que la URL de Firebase es funcional.
 
