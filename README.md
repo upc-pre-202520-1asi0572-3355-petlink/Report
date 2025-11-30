@@ -4943,13 +4943,13 @@ Durante el Sprint 3, se desarrollo principalmente la comunicación del backend c
 * Unión del backend con el Iot y su Id
 
     <div style="display: flex; justify-content: center; gap: 10px;">
-      <img src="./Capitulo 6/Sprint3/backend-1.png" style="width: 400px;">
-      <img src="./Capitulo 6/Sprint3/backend-2.png" style="width: 400px;">
+      <img src="./Capitulo 6/Sprint3/backend-1.png" style="width: 320px;">
+      <img src="./Capitulo 6/Sprint3/backend-2.png" style="width: 320px;">
     </div><br>
 
     <div style="display: flex; justify-content: center; gap: 10px;">
-      <img src="./Capitulo 6/Sprint3/Iot.png" style="width: 400px;">
-      <img src="./Capitulo 6/Sprint3/Iot-2.png" style="width: 400px;">
+      <img src="./Capitulo 6/Sprint3/Iot.png" style="width: 320px;">
+      <img src="./Capitulo 6/Sprint3/Iot-2.png" style="width: 320px;">
     </div><br>
 
 * Unión de la app móvil con la Landing Page
@@ -4997,7 +4997,88 @@ Para confirmar el despliegue del componente móvil en Firebase, debes incluir la
 
 #### 6.2.3.8 Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 3 se realizaron los siguientes despliegues:
 
+**1. Landing Page**
+
+La landing page de PetWatch se encuentra desplegada en GitHub Pages con las siguientes características:
+
+- **URL de producción:** https://upc-pre-202520-1asi0572-3355-petlink.github.io/landing-page
+- **Plataforma:** GitHub Pages
+- **Integración continua:** Conectada con el repositorio GitHub para despliegues automáticos
+- **Tecnologías:** HTML5, CSS3 con Tailwind CSS, JavaScript vanilla
+
+**Proceso de despliegue realizado:**
+
+1. Configuración del proyecto en GitHub Pages conectado al repositorio
+2. Configuración de build settings en la rama `main`
+3. Despliegue automático activado
+4. Configuración de dominio personalizado (opcional, actualmente usando subdominio de GitHub)
+
+**2. Aplicación Web (Frontend)**
+
+El frontend web de PetWatch está desplegado en Netlify:
+
+- **URL de producción:** https://petwatch.netlify.app
+- **Plataforma:** Netlify
+- **Framework:** Angular
+- **Configuración especial:** Archivo `netlify.toml` con reglas de redirección para SPA
+
+**Configuración de despliegue:**
+
+1. Conexión del repositorio GitHub con Netlify
+2. Configuración de comandos de build: `ng build --configuration production`
+3. Directorio de publicación: `dist/`
+4. Variables de entorno configuradas para conexión con backend
+5. Despliegue automático en cada push a rama `main`
+
+**3. Mobile App**
+
+La aplicación móvil se encuentra en desarrollo activo:
+
+- **URL de producción:** https://petlink-134ba.web.app/
+- **Framework:** Flutter
+- **Plataformas:** Firebase
+- **Funcionalidades en desarrollo:**
+  - Visualización de monitoreo en tiempo real
+  - Dashboard de signos vitales
+  - Notificaciones push para alertas
+  - Gestión de mascotas
+  - Historial de datos IoT
+
+**4. Backend API**
+
+El backend fue desplegado exitosamente en Render durante este sprint:
+
+- **Tecnología:** Spring Boot (Java)
+- **Base de datos:** PostgreSQL (Render Cloud)
+- **Plataforma:** Render
+- **Estado:** Desplegado en producción
+- **URL:** https://petlink-backend-gb69.onrender.com
+- **Documentación API:** https://petlink-backend-gb69.onrender.com/swagger-ui/index.html
+- **Containerización:** Docker
+- **CI/CD:** Automatizado desde GitHub
+
+**5. Dispositivo IOT**
+
+El dispositivo IoT fue desarrollado y probado en un entorno de simulación funcional (Wokwi):
+
+- **Tecnología:** C/C++ (Arduino Framework)
+- **Base de datos:** ESP32 (Simulado)
+- **Plataforma:** Wokwi
+- **Estado:** Simulación funcional
+- **URL:** https://wokwi.com/projects/447269132790685697
+- **Funcionalidad:** Conexión al Backend API (Render)
+
+**Resumen del Sprint 3:**
+
+| Componente | Plataforma | Estado | URL |
+|------------|-----------|--------|-----|
+| Landing Page | GitHub Pages | Desplegado | https://upc-pre-202520-1asi0572-3355-petlink.github.io/landing-page |
+| Frontend Web | Netlify | Desplegado | https://petwatch.netlify.app |
+| Backend API | Render | Desplegado | https://petlink-backend-gb69.onrender.com |
+| Mobile App | Firebase | Desplegado | https://petlink-134ba.web.app/ |
+| Dispositivo IoT (Wokwi) | Wokwi | Simulación funcional | https://wokwi.com/projects/447269132790685697 |
 
 #### 6.2.3.9 Team Collaboration Insights during Sprint
 
