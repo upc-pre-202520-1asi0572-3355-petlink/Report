@@ -4943,14 +4943,26 @@ Durante el Sprint 3, se desarrollo principalmente la comunicación del backend c
 * Unión del backend con el Iot y su Id
 
     <div style="display: flex; justify-content: center; gap: 10px;">
-      <img src="./Capitulo 6/Sprint3/backend-1.png" style="width: 320px;">
-      <img src="./Capitulo 6/Sprint3/backend-2.png" style="width: 320px;">
-    </div><br>
+      <img src="./Capitulo 6/Sprint3/backend-1.png">
+    </div>
+	
+	---
+  
+	<div style="display: flex; justify-content: center; gap: 10px;">
+      <img src="./Capitulo 6/Sprint3/backend-2.png">
+    </div>
+
+	---
 
     <div style="display: flex; justify-content: center; gap: 10px;">
-      <img src="./Capitulo 6/Sprint3/Iot.png" style="width: 320px;">
-      <img src="./Capitulo 6/Sprint3/Iot-2.png" style="width: 320px;">
-    </div><br>
+      <img src="./Capitulo 6/Sprint3/Iot.png">
+    </div>
+
+	---
+
+  	<div style="display: flex; justify-content: center; gap: 10px;">
+      <img src="./Capitulo 6/Sprint3/Iot-2.png">
+    </div><br>  	
 
 * Unión de la app móvil con la Landing Page
 
@@ -4989,11 +5001,13 @@ Para confirmar el despliegue del componente móvil en Firebase, debes incluir la
 
   <div style="display: flex; justify-content: center; gap: 10px;">
     <img src="./Capitulo 6/Sprint3/evidencia-1.png">
-</div><br>
+  </div>
 
-<div style="display: flex; justify-content: center; gap: 10px;">
+  ---
+
+  <div style="display: flex; justify-content: center; gap: 10px;">
     <img src="./Capitulo 6/Sprint3/evidencia-2.png">
-</div>
+  </div>
 
 #### 6.2.3.8 Software Deployment Evidence for Sprint Review
 
