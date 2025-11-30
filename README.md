@@ -2812,10 +2812,10 @@ El tono general de PetLink combina **profesionalismo técnico** con **calidez em
 
 | Dimensión | Elección | Descripción |
 |------------|-----------|-------------|
-| Divertido / Serio | 🟩 **Equilibrado hacia serio** | Transmite confianza sin rigidez |
-| Formal / Casual | 🟩 **Casual controlado** | Lenguaje natural y cercano |
-| Respetuoso / Irreverente | 🟩 **Respetuoso** | Mantiene empatía y cortesía |
-| Entusiasta / Sereno | 🟩 **Sereno con empatía** | Inspira tranquilidad y cuidado |
+| Divertido / Serio | **Equilibrado hacia serio** | Transmite confianza sin rigidez |
+| Formal / Casual | **Casual controlado** | Lenguaje natural y cercano |
+| Respetuoso / Irreverente | **Respetuoso** | Mantiene empatía y cortesía |
+| Entusiasta / Sereno | **Sereno con empatía** | Inspira tranquilidad y cuidado |
 
 ---
 
@@ -4472,7 +4472,7 @@ El frontend web de PetWatch está desplegado en Netlify:
 La aplicación móvil se encuentra en desarrollo activo:
 
 - **Framework:** Flutter
-- **Estado:** 🔄 En desarrollo
+- **Estado:** En desarrollo
 - **Plataformas objetivo:** Android
 - **Funcionalidades en desarrollo:**
   - Visualización de monitoreo en tiempo real
@@ -4488,7 +4488,7 @@ El backend fue desplegado exitosamente en Render durante este sprint:
 - **Tecnología:** Spring Boot (Java)
 - **Base de datos:** PostgreSQL (Render Cloud)
 - **Plataforma:** Render
-- **Estado:** ✅ Desplegado en producción
+- **Estado:** Desplegado en producción
 - **URL:** https://petlink-backend-gb69.onrender.com
 - **Documentación API:** https://petlink-backend-gb69.onrender.com/swagger-ui/index.html
 - **Containerización:** Docker
@@ -4506,10 +4506,10 @@ El backend fue desplegado exitosamente en Render durante este sprint:
 
 | Componente | Plataforma | Estado | URL |
 |------------|-----------|--------|-----|
-| Landing Page | GitHub Pages | ✅ Desplegado | https://upc-pre-202520-1asi0572-3355-petlink.github.io/landing-page |
-| Frontend Web | Netlify | ✅ Desplegado | https://petwatch.netlify.app |
-| Backend API | Render | ✅ Desplegado | https://petlink-backend-gb69.onrender.com |
-| Mobile App | - | 🔄 En desarrollo | - |
+| Landing Page | GitHub Pages | Desplegado | https://upc-pre-202520-1asi0572-3355-petlink.github.io/landing-page |
+| Frontend Web | Netlify | Desplegado | https://petwatch.netlify.app |
+| Backend API | Render | Desplegado | https://petlink-backend-gb69.onrender.com |
+| Mobile App | - | En desarrollo | - |
 
 #### 6.2.2.9 Team Collaboration Insights during Sprint
 
@@ -4549,11 +4549,11 @@ La siguiente imagen muestra la estructura de la organización del proyecto con t
 
 | Repositorio | Commits Sprint 2 | Estado | Plataforma Deployment |
 |-------------|------------------|--------|----------------------|
-| Landing Page | 3 | ✅ Desplegado | GitHub Pages |
-| Frontend Web | - | ✅ Desplegado | Netlify |
-| Backend API | 5 principales | ✅ Desplegado | Render |
-| Mobile App | ~20 | 🔄 En desarrollo | - |
-| Acceptance Tests | 5 features | ✅ Completado | - |
+| Landing Page | 3 | Desplegado | GitHub Pages |
+| Frontend Web | - | Desplegado | Netlify |
+| Backend API | 5 principales | Desplegado | Render |
+| Mobile App | ~20 | En desarrollo | - |
+| Acceptance Tests | 5 features | Completado | - |
 
 **Métricas de colaboración:**
 
@@ -4566,14 +4566,450 @@ La siguiente imagen muestra la estructura de la organización del proyecto con t
 **Conclusión del Sprint 2:**
 
 El equipo demostró una colaboración efectiva y constante durante el Sprint 2. Se logró:
-- ✅ Desplegar exitosamente el backend en Render con documentación completa
-- ✅ Mantener activos Landing Page y Frontend Web
-- ✅ Avanzar significativamente en la aplicación móvil
-- ✅ Crear 5 features de acceptance tests
-- ✅ Mantener la documentación actualizada
+- Desplegar exitosamente el backend en Render con documentación completa
+- Mantener activos Landing Page y Frontend Web
+- Avanzar significativamente en la aplicación móvil
+- Crear 5 features de acceptance tests
+- Mantener la documentación actualizada
 
 Todos los miembros del equipo contribuyeron activamente, evidenciado por las actualizaciones constantes en los diferentes repositorios de la organización.
 
+#### 6.2.3. Sprint 3
+
+#### 6.2.3.1. Sprint Planning 3
+
+En esta parte mostramos las tareas que se realizaron en este sprint.
+
+<div align="center">
+  <img align="center" src="./Capitulo 6/Sprint3/PetWatch _ Trello.png">
+</div><br><br>
+
+<table border="1px" align="center">
+      <tr>
+          <th>Sprint #</th>
+          <th>Sprint 2</th>
+      </tr>
+      <tr> 
+          <td colspan="2" style="text-align: center;">Sprint Planning Background</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Date</td>
+          <td>30-11-2025</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Time</td>
+          <td>10 am - 6:00 pm</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Location</td>
+          <td>Canal de Voz del Meet & Grupo de Whatsapp</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Prepared By</td>
+          <td>Chávarri Zarzosa, Daniel Jhared</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Attendees (to planning meeting)</td>
+          <td>
+              Belleza Tello, Paolo Eduardo<br>
+              Fernandez Alva, María Fernanda<br>
+              Pilares Pocohuanca, Maria<br>
+              Chávarri Zarzosa, Daniel Jhared<br>
+              Góngora Sánchez, Marco Antonio<br>
+              Rondon Añaños, Cristopher<br>
+              Mayurí Armas, Jose Carlo
+          </td>
+      </tr>
+      <tr>
+  <td style="font-weight: bold;">Sprint 2 Review Summary</td>
+  <td>
+    Durante el Sprint 2 se cumplió con el objetivo de consolidar los componentes principales del sistema PetWatch:
+    se desplegó el backend en Render y los documentados en Swagger,
+    se mantuvieron en producción la landing page (GitHub Pages) y el frontend web (Netlify),
+    y se avanzó en el desarrollo de la aplicación móvil para el rol “Dueño de mascota”
+  </td>
+</tr>
+<tr>
+  <td style="font-weight: bold;">Sprint 2 Retrospective Summary</td>
+  <td>
+    No hubo ninguna observación, el profesor indico que todo estaba correcto con las funcionalidades del proyecto e indico que debemos ahora enfocarnos en la implementación del dispositivo iot en fisico. Indico que ese dispositivo no debe conectarse con la producción, puede ser independiente.
+  </td>
+</tr>
+<tr> 
+  <td colspan="2" style="text-align: center;">Sprint Goal & User Stories</td>
+</tr>
+<tr>
+  <td style="font-weight: bold;">Sprint 3 Goal</td>
+  <td>
+    El objetivo principal de este sprint 3, es enfocarnos en conectar el dispositivo IOT (virtual) con el backend y a su vez con la aplicación web y la aplicación móvil. Y elaborar el dispositivo iot de manera fisica. Implementación del boton de descarga de la aplicación móvil en la Landing Page.
+  </td>
+</tr>
+      <tr>
+          <td style="font-weight: bold;">Sprint 3 Velocity</td>
+          <td>18</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;">Sum of Story Points</td>
+          <td>18</td>
+      </tr>
+    </table>
+
+   #### 6.2.3.2. Aspect Leaders and Collaborators
+
+<table border="1" style="border-collapse: collapse; text-align: center;">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Actualizar el backend a Sprint Boot</th>
+    <th>Actualización del PPT e Informe</th>
+    <th>Despliegue de la aplicación móvil</th>
+    <th>Elaboración del ultimo Sprint: 3</th>
+    <th>Elaboración de la conexión entre el IOT y el Backend</th>
+    <th>Elaboración de la conexión entre el IOT y el Frontend</th>
+    <th>Elaboración de la conexión entre el IOT y el móvil</th>
+  </tr>
+  <tr>
+    <td>Góngora Sánchez, Marco Antonio</td>
+    <td>m4rcous</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Pilares Pocohuanca, Maria</td>
+    <td>mariapilares</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Belleza Tello, Paolo Eduardo</td>
+    <td>PaoloBellezaTelloo</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Fernandez Alva, María Fernanda</td>
+    <td>MariaFernandaFernandezAlva</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Chávarri Zarzosa, Daniel Jhared</td>
+    <td>Daniel-10806</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Rondon Añaños, Cristopher</td>
+    <td>Cris200399</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Mayurí Armas, Jose Carlo</td>
+    <td>JoseArmas10</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
+
+#### 6.2.3.3 Sprint Backlog 3
+
+<table border="1" cellspacing="0" cellpadding="4">
+  <tr>
+    <th style="text-align: center;"><b>Sprint #</b></th>
+    <th colspan="7" style="text-align: center;"><b>Sprint 3</b></th>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align: center;"><b>User Story</b></td>
+    <td colspan="6" style="text-align: center;"><b>Work-item / Task</b></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><b>ID</b></td>
+    <td style="text-align: center;"><b>Title</b></td>
+    <td style="text-align: center;"><b>ID</b></td>
+    <td style="text-align: center;"><b>Title</b></td>
+    <td style="text-align: center;"><b>Description</b></td>
+    <td style="text-align: center;"><b>Estimation (hours)</b></td>
+    <td style="text-align: center;"><b>Assigned To</b></td>
+    <td style="text-align: center;"><b>Status</b></td>
+  </tr>
+  <tr>
+    <td>US08</td>
+    <td>Asociar Pechera al IOT</td>
+    <td>T16</td>
+    <td>Registrar la pechera a la aplicación web</td>
+    <td>Ingresar el id_mascota a la aplicación web para registrar su estado de salud de la mascota</td>
+    <td style="text-align: center;">2h</td>
+    <td>
+        <ul>
+            <li>Belleza Tello, Paolo Eduardo</li>
+            <li>Fernandez Alva, María Fernanda</li>
+        </ul>
+    </td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td>Monitoreo en tiempo real</td>
+    <td>T17</td>
+    <td>Visualizar su estado de salud de la mascota las 24 horas</td>
+    <td>Monitorear su ritmo cardiaco a la mascota en todo momento</td>
+    <td style="text-align: center;">4h</td>
+    <td>
+        <ul>
+            <li>Pilares Pocohuanca, Maria</li>
+            <li>Mayurí Armas, Jose Carlo</li>
+        </ul>    
+    </td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+  <tr>
+    <td>US20</td>
+    <td>Reportes Automáticos</td>
+    <td>T18</td>
+    <td>Enviar información del IOT a la aplicación Web</td>
+    <td>Enviar la información recolectada por el IOT a la aplicación web como en la aplicación móvil para ver el estado actual de la mascota</td>
+    <td style="text-align: center;">5h</td>
+    <td>
+        <ul>
+            <li>Chávarri Zarzosa, Daniel Jhared</li>
+            <li>Góngora Sánchez, Marco Antonio</li>
+            <li>Rondon Añaños, Cristopher</li>
+        </ul>
+    </td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+</table>
+
+#### 6.2.3.4 Development Evidence for Sprint Review
+
+ A continuación, se presenta una tabla con información de ejemplo sobre los repositorios y commits realizados durante el sprint:
+
+  **Link del repositorio del Frontend:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-frontend](https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-frontend)
+
+  **Link del repositorio del Backend:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-backend](https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-backend)
+
+  **Link del repositorio de la Landing Page:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/landing-page](https://github.com/upc-pre-202520-1asi0572-3355-petlink/landing-page)
+
+  **Link del proyecto PetLink en Wokwi:** [https://wokwi.com/projects/447269132790685697](https://wokwi.com/projects/447269132790685697)
+
+  <table>
+    <tr>
+     <td><strong>Repository</strong></td>
+     <td><strong>Branch</strong></td>
+     <td><strong>Commit Id</strong></td>
+     <td><strong>Commit Message</strong></td>
+     <td><strong>Commit Message Body</strong></td>
+     <td><strong>Commited on (Date)</strong></td>
+    </tr>
+    <tr>
+     <td>petlink-backend</td>
+     <td>main</td>
+     <td>2b315d1</td>
+     <td>feat(prod): properties update</td>
+     <td>-</td>
+     <td>29/11/2025</td>
+    </tr>
+    <tr>
+     <td>petlink-backend</td>
+     <td>main</td>
+     <td>073de3b</td>
+     <td>fix: another properties fix</td>
+     <td>-</td>
+     <td>29/11/2025</td>
+    </tr>
+    <tr>
+     <td>petlink-backend</td>
+     <td>main</td>
+     <td>0548df</td>
+     <td>fix: another properties fix</td>
+     <td>-</td>
+     <td>29/11/2025</td>
+    </tr>
+    <tr>
+     <td>petlink-frontend</td>
+     <td>main</td>
+     <td>a1de399</td>
+     <td>feat: add a base to relation with collares and mascotas</td>
+     <td>-</td>
+     <td>29/11/2025</td>
+    </tr>
+    <tr>
+     <td>petlink-frontend</td>
+     <td>main</td>
+     <td>0e10416</td>
+     <td>feat: update remove collares</td>
+     <td>-</td>
+     <td>28/11/2025</td>
+    </tr>
+    <tr>
+     <td>petlink-frontend</td>
+     <td>main</td>
+     <td>0862435</td>
+     <td>feat: update back url</td>
+     <td>-</td>
+     <td>28/11/2025</td>
+    </tr>
+    <tr>
+     <td>landing-page</td>
+     <td>main</td>
+     <td>86d871a</td>
+     <td>feat: Implementation of a button to download the mobile application</td>
+     <td>-</td>
+     <td>30/11/2025</td>
+    </tr>
+  </table>
+
+#### 6.2.3.5 Testing Suite Evidence for Sprint Review
+
+ A continuación, se presenta una tabla con información del repositorio de las pruebas, y los commits realizados durante el sprint:
+
+ **Link del repositorio de Acceptance Test:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/Acceptance-Test](https://github.com/upc-pre-202520-1asi0572-3355-petlink/Acceptance-Test)
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+  <tr>
+    <td>Acceptance-Test</td>
+    <td>main</td>
+    <td>3673d9c</td>
+    <td>feat: add file PetWatch08_reporte-automatico.feature</td>
+    <td>------</td>
+    <td>30/11/2025</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Test</td>
+    <td>main</td>
+    <td>b7c00a5</td>
+    <td>feat: add file PetWatch07_monitoreo-tiempo-real.feature</td>
+    <td>------</td>
+    <td>30/11/2025</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Test</td>
+    <td>main</td>
+    <td>94ce5bf</td>
+    <td>feat: add file PetWatch06_asociar-pechera.feature</td>
+    <td>------</td>
+    <td>30/11/2025</td>
+  </tr>
+</table>
+
+#### 6.2.3.6 Execution Evidence for Sprint Review
+
+Durante el Sprint 3, se desarrollo principalmente la comunicación del backend con el dispositivo IoT virtual. Como la comunicación del Frontend con el dispositivo IoT virtual.
+
+* Unión del backend con el Iot y su Id
+
+    <div style="display: flex; justify-content: center; gap: 10px;">
+      <img src="./Capitulo 6/Sprint3/backend-1.png" style="width: 400px;">
+      <img src="./Capitulo 6/Sprint3/backend-2.png" style="width: 400px;">
+    </div><br>
+
+    <div style="display: flex; justify-content: center; gap: 10px;">
+      <img src="./Capitulo 6/Sprint3/Iot.png" style="width: 400px;">
+      <img src="./Capitulo 6/Sprint3/Iot-2.png" style="width: 400px;">
+    </div><br>
+
+* Unión de la app móvil con la Landing Page
+
+    <div style="display: flex; justify-content: center; gap: 10px;">
+      <img src="./Capitulo 6/Sprint3/landing-cambio.png">
+    </div><br>
+
+* Unión del backend actualizado con el Frontend
+
+    <div style="display: flex; justify-content: center; gap: 10px;">
+      <img src="./Capitulo 6/Sprint3/Frontend-1.png">
+    </div><br>
+
+#### 6.2.3.7 Services Deployment Evidence for Sprint Review
+
+Durante el Sprint 3, se completó exitosamente el despliegue de la app móvil en Firebase, una plataforma que facilita el deployment automático desde GitHub.
+
+**App móvil - Desplegado en Firebase**
+
+- **Plataforma:** Firebase (https://firebase.google.com/)
+- **URL de producción:** https://petlink-134ba.web.app/
+- **Tecnología:** flutter (Dart)
+- **Integración CI/CD:**	Firebase CLI
+- **Estado:** Desplegado (Alpha/Testing)
+
+**EVIDENCIAS DEL DESPLIEGUE**
+Para confirmar el despliegue del componente móvil en Firebase, debes incluir la siguiente evidencia visual:
+
+1. **Consola de Firebase:** Muestra una captura de pantalla de la sección de Hosting de Firebase o la sección de App Distribution donde se vea claramente el nombre del proyecto.
+
+  <div style="justify-content: center;">
+    <img src="./Capitulo 6/Sprint3/firebase.png">
+  </div><br><br>
+
+2. **Acceso a la URL de Producción/Prueba:** Muestra una captura de pantalla de la aplicación móvil ejecutándose en un navegador o en un dispositivo móvil, verificando que la URL de Firebase es funcional.
+
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="./Capitulo 6/Sprint3/evidencia-1.png">
+</div><br>
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="./Capitulo 6/Sprint3/evidencia-2.png">
+</div>
+
+#### 6.2.3.8 Software Deployment Evidence for Sprint Review
+
+
+
+#### 6.2.3.9 Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, el equipo trabajó de manera colaborativa en el desarrollo de diferentes componentes del proyecto PetWatch. A continuación se presenta la evidencia de colaboración del equipo mediante la organización de GitHub.
+
+**Organización del Proyecto en GitHub:**
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="./Capitulo 6/Sprint3/contributors-tb1.png">
+</div><br>
+
+Todos los miembros del equipo contribuyeron activamente, evidenciado por las actualizaciones constantes en los diferentes repositorios de la organización.
 
 ## 6.3 Validation Interviews
 
@@ -4912,14 +5348,6 @@ Maria comentó que la interfaz le resultó intuitiva. Destacó el monitoreo en t
 
 ---
 
-TABLA RESUMEN
-
-
-
-
-
----
-
 ## 6.3 Video About-the-product
 [About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a085_upc_edu_pe/IQAQFNmkU9aITYX0X2IMgxqWAZ2w4d66h4uIrmslZuEEWp0?e=AfzeoJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
    
@@ -4941,6 +5369,8 @@ Weenect. (s.f.). _Collares GPS para perros y gatos_. Invoxia. https://www.weenec
 
 # Anexos
 
-- **Enlace de las entrevistas:** [url]()
-
-- **As-is Scenario Mapping:** [https://miro.com/app/board/uXjVJLcWnqE=/?share_link_id=752790406657](https://miro.com/app/board/uXjVJLcWnqE=/?share_link_id=752790406657)
+- **URL de la Landing Page desplegada:** https://upc-pre-202520-1asi0572-3355-petlink.github.io/landing-page
+- **URL del Backend desplegado:** https://petlink-backend-gb69.onrender.com/swagger-ui/index.html
+- **URL de la aplicación web desplegada:** https://petwatch.netlify.app
+- **URL de la aplicación móvil desplegada:** https://petlink-134ba.web.app/
+- **URL del dispositivo IoT:** https://wokwi.com/projects/447269132790685697
