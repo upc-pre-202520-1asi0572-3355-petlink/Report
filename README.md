@@ -5494,6 +5494,16 @@ El mercado objetivo está compuesto tanto por dueños de mascotas preocupados po
 
 Si bien existen amenazas como la llegada de nuevas tecnologías extranjeras y la necesidad de inversión en dispositivos confiables, el proyecto se posiciona como una alternativa diferenciada y de alto valor agregado. En conclusión, la pechera inteligente no solo busca mejorar la calidad de vida de las mascotas, sino también brindar tranquilidad a los dueños y apoyo en la labor de los profesionales veterinarios, consolidándose como un producto con potencial de escalabilidad y proyección en el sector de cuidado animal.
 
+# Video About-the-Team
+
+El video "About-the-Team" tiene como objetivo presentar a los miembros del equipo PetLink y, de manera crucial, evidenciar la aplicación efectiva del ABET-EAC Student Outcome 5  a través de una dinámica de equipo organizada, colaborativa y enfocada en resultados.
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="./Capitulo 6/Sprint3/about-the-team.png">
+</div><br>
+
+**Video de About-the-Team:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/cQq4xgl1L6WZS6cY_4GlbLcsEgUAxT7EBOl7pSe0ZQxrIMwFpg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/cQq4xgl1L6WZS6cY_4GlbLcsEgUAxT7EBOl7pSe0ZQxrIMwFpg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&)
+
 # Bibliografía
 
 Trackisafe. (s.f.). _Help and Support_. Invoxia. https://trackisafe.com/en-help-and-support/
@@ -5510,4 +5520,4 @@ Weenect. (s.f.). _Collares GPS para perros y gatos_. Invoxia. https://www.weenec
 - **URL de la aplicación móvil desplegada:** https://petlink-134ba.web.app/
 - **URL del dispositivo IoT:** https://wokwi.com/projects/447269132790685697
 - **URL del About-the-Product:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a085_upc_edu_pe/IQAQFNmkU9aITYX0X2IMgxqWAZ2w4d66h4uIrmslZuEEWp0?e=AfzeoJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-- **URL del About-the-Team:** 
+- **URL del About-the-Team:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/cQq4xgl1L6WZS6cY_4GlbLcsEgUAxT7EBOl7pSe0ZQxrIMwFpg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&
