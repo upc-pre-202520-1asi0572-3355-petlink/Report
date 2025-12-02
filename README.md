@@ -140,6 +140,27 @@
                 </ul>
               </td>
             </tr>
+            <tr>
+                <th>TP</th>
+                <td>02/12/2025</td>
+                <td>
+                  <ul>
+                    <li>Maria Fernanda Fernandez</li>
+                    <li>Paolo Belleza</li>
+                    <li>Maria Pilares</li>
+                    <li>Daniel Chávarri</li>
+                    <li>Marco Góngora</li>
+                    <li>Cristopher Rondon</li>
+                    <li>Jose Mayurí</li>
+                  </ul>
+                </td>
+              <td>            
+                <ul>
+                  <li>Capítulo VI: Product Implementation, Validation & Deployment - Sprint 3</li>
+                  <li>Cambios con respecto a la retroalimentación del profesor</li>
+                </ul>
+              </td>
+            </tr>
         </tbody>
 </table>
 
@@ -182,6 +203,17 @@ A continuación, se detalla el proceso de elaboración del informe para cada ent
 <div align="center">
   <img align="center" src="./Capítulo 1/TB2-Contributions.PNG" style="width:300px; margin: 10px;">
   <img align="center" src="./Capítulo 1/pulse-tb2.PNG" style="width:300px; margin: 10px;">
+</div>
+
+---
+
+**Reporte de colaboración de la entrega del TP:**
+
+- Todos los miembros del equipo contribuyeron en la redacción del Informe. Se dividió en secciones específicas para cada capítulo, lo que permitió un mayor avance y equidad en el desarrollo del informe.
+
+<div align="center">
+  <img align="center" src="./Capitulo 6/Sprint3/contribuidores.png" style="width:300px; margin: 10px;">
+  <img align="center" src="./Capitulo 6/Sprint3/commits.png" style="width:300px; margin: 10px;">
 </div>
 
 # Contenido 
@@ -635,7 +667,7 @@ A diferencia de los métodos tradicionales, PetLink no solo registra la informac
   </tr>
   <tr>
     <th>
-      <img src="Capítulo 1/Cristopher.jpg" width="200px">
+      <img src="Capítulo 1/Cristopher.JPG" width="200px">
     </th>
     <td valign="top">
       <p><b>Rondon Añaños, Cristopher</b></p>
@@ -5478,3 +5510,4 @@ Weenect. (s.f.). _Collares GPS para perros y gatos_. Invoxia. https://www.weenec
 - **URL de la aplicación móvil desplegada:** https://petlink-134ba.web.app/
 - **URL del dispositivo IoT:** https://wokwi.com/projects/447269132790685697
 - **URL del About-the-Product:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a085_upc_edu_pe/IQAQFNmkU9aITYX0X2IMgxqWAZ2w4d66h4uIrmslZuEEWp0?e=AfzeoJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **URL del About-the-Team:** 
