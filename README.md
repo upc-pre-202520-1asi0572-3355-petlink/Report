@@ -5502,7 +5502,7 @@ El video "About-the-Team" tiene como objetivo presentar a los miembros del equip
   <img src="./Capitulo 6/Sprint3/about-the-team.png">
 </div><br>
 
-**Video de About-the-Team:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/cQq4xgl1L6WZS6cY_4GlbLcsEgUAxT7EBOl7pSe0ZQxrIMwFpg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/cQq4xgl1L6WZS6cY_4GlbLcsEgUAxT7EBOl7pSe0ZQxrIMwFpg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&)
+**Video de About-the-Team:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/cQoohwMIExOLSoSuaceGoDM2EgUAY1YssI3JShZ_Jh2HG_fF9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/cQoohwMIExOLSoSuaceGoDM2EgUAY1YssI3JShZ_Jh2HG_fF9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&)
 
 # Bibliografía
 
@@ -5520,4 +5520,4 @@ Weenect. (s.f.). _Collares GPS para perros y gatos_. Invoxia. https://www.weenec
 - **URL de la aplicación móvil desplegada:** https://petlink-134ba.web.app/
 - **URL del dispositivo IoT:** https://wokwi.com/projects/447269132790685697
 - **URL del About-the-Product:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a085_upc_edu_pe/IQAQFNmkU9aITYX0X2IMgxqWAZ2w4d66h4uIrmslZuEEWp0?e=AfzeoJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-- **URL del About-the-Team:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/cQq4xgl1L6WZS6cY_4GlbLcsEgUAxT7EBOl7pSe0ZQxrIMwFpg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&
+- **URL del About-the-Team:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/cQoohwMIExOLSoSuaceGoDM2EgUAY1YssI3JShZ_Jh2HG_fF9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&
