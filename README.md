@@ -141,7 +141,7 @@
               </td>
             </tr>
             <tr>
-                <th>TP</th>
+                <th>TF</th>
                 <td>02/12/2025</td>
                 <td>
                   <ul>
@@ -207,7 +207,7 @@ A continuación, se detalla el proceso de elaboración del informe para cada ent
 
 ---
 
-**Reporte de colaboración de la entrega del TP:**
+**Reporte de colaboración de la entrega del TF:**
 
 - Todos los miembros del equipo contribuyeron en la redacción del Informe. Se dividió en secciones específicas para cada capítulo, lo que permitió un mayor avance y equidad en el desarrollo del informe.
 
