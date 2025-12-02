@@ -5163,8 +5163,6 @@ A continuación, se diseñaron entrevistas dirigidas a ambos segmentos objetivos
 
 ### 6.3.2 Registro de Entrevistas
 
-
-
 **Link de todas las entrevistas:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/IQCmncQ8xcSQQKcbft7eRg7zAVDPxhfy4K3hDQV4qFyZKHQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7W6PkJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/IQCmncQ8xcSQQKcbft7eRg7zAVDPxhfy4K3hDQV4qFyZKHQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7W6PkJ)
 
 
@@ -5297,7 +5295,6 @@ Asimismo, mencionó que la app le es muy útil porque no puede permanecer muchas
 
 _Entrevistado 1_
 
-Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_upc_edu_pe/EU51qE7JL5BPjjDjcZp3I4gBylEr2RF1ww2j9iEuQf79jg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=szusO5)
 <table border="1" style="text-align: left;">
 	<tr>
 		<td colspan="1" rowspan="3"><img src="Capitulo 6/entrevistas/Captura-entrevista2.jpg" alt="" width="400" height="174"></td>
@@ -5335,7 +5332,6 @@ Bryan nos señaló que la interfaz es muy clara y fácil de navegar. Resaltó el
 
 _Entrevistado 2_
 
-Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_upc_edu_pe/IQC03bG2X8uNR54lr0ODfxoCARnnd_6o_-P9GOVjOv30cTA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jFo4LX)
 <table border="1" style="text-align: left;">
 	<tr>
 		<td colspan="1" rowspan="3"><img src="Capitulo 6/entrevistas/Captura-entrevista1.jpg" alt="" width="400" height="174"></td>
@@ -5372,7 +5368,6 @@ Diego nos explicó que la interfaz le parece amigable, sobre todo la opción de 
 
 _Entrevistado 3_
 
-Entrevista: [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215528_upc_edu_pe/IQDQLa2_brThSY2RyhyKGFIfAfLKbiiUJ0maFa8uZJbFjtw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=i9LrEt)
 <table border="1" style="text-align: left;">
 	<tr>
 		<td colspan="1" rowspan="3"><img src="Capitulo 6/entrevistas/Captura-entrevistavet3.jpg" alt="" width="400" height="174"></td>
@@ -5450,7 +5445,14 @@ Maria comentó que la interfaz le resultó intuitiva. Destacó el monitoreo en t
 ---
 
 ## 6.3 Video About-the-product
-[About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a085_upc_edu_pe/IQAQFNmkU9aITYX0X2IMgxqWAZ2w4d66h4uIrmslZuEEWp0?e=AfzeoJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Esta sección presenta la demostración funcional del producto PetWatch, cumpliendo con el objetivo de evidenciar la integración de sus componentes: la simulación del dispositivo IoT, el Backend API y la interfaz móvil.
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="./Capitulo 6/about-the-product.png">
+</div><br>
+
+**Video de About-the-Product:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a085_upc_edu_pe/IQAQFNmkU9aITYX0X2IMgxqWAZ2w4d66h4uIrmslZuEEWp0?e=AfzeoJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a085_upc_edu_pe/IQAQFNmkU9aITYX0X2IMgxqWAZ2w4d66h4uIrmslZuEEWp0?e=AfzeoJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
    
 # Conclusiones
 
@@ -5475,3 +5477,4 @@ Weenect. (s.f.). _Collares GPS para perros y gatos_. Invoxia. https://www.weenec
 - **URL de la aplicación web desplegada:** https://petwatch.netlify.app
 - **URL de la aplicación móvil desplegada:** https://petlink-134ba.web.app/
 - **URL del dispositivo IoT:** https://wokwi.com/projects/447269132790685697
+- **URL del About-the-Product:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a085_upc_edu_pe/IQAQFNmkU9aITYX0X2IMgxqWAZ2w4d66h4uIrmslZuEEWp0?e=AfzeoJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
