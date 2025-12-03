@@ -4854,11 +4854,13 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 
   **Link del repositorio del Frontend:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-frontend](https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-frontend)
 
-  **Link del repositorio del Backend:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-backend](https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-backend)
+  **Link del repositorio del Backend:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-back3nd](https://github.com/upc-pre-202520-1asi0572-3355-petlink/petlink-back3nd)
 
   **Link del repositorio de la Landing Page:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/landing-page](https://github.com/upc-pre-202520-1asi0572-3355-petlink/landing-page)
 
-  **Link del proyecto PetLink en Wokwi:** [https://wokwi.com/projects/447269132790685697](https://wokwi.com/projects/447269132790685697)
+  **Link del repositorio de la Aplicación móvil:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/mobile-app](https://github.com/upc-pre-202520-1asi0572-3355-petlink/mobile-app)
+
+  **Link del repositorio del Wokwi:** [https://github.com/upc-pre-202520-1asi0572-3355-petlink/wokwi-app](https://github.com/upc-pre-202520-1asi0572-3355-petlink/wokwi-app)
 
   <table>
     <tr>
@@ -4868,30 +4870,6 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
      <td><strong>Commit Message</strong></td>
      <td><strong>Commit Message Body</strong></td>
      <td><strong>Commited on (Date)</strong></td>
-    </tr>
-    <tr>
-     <td>petlink-backend</td>
-     <td>main</td>
-     <td>2b315d1</td>
-     <td>feat(prod): properties update</td>
-     <td>-</td>
-     <td>29/11/2025</td>
-    </tr>
-    <tr>
-     <td>petlink-backend</td>
-     <td>main</td>
-     <td>073de3b</td>
-     <td>fix: another properties fix</td>
-     <td>-</td>
-     <td>29/11/2025</td>
-    </tr>
-    <tr>
-     <td>petlink-backend</td>
-     <td>main</td>
-     <td>0548df</td>
-     <td>fix: another properties fix</td>
-     <td>-</td>
-     <td>29/11/2025</td>
     </tr>
     <tr>
      <td>petlink-frontend</td>
@@ -4924,6 +4902,62 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
      <td>feat: Implementation of a button to download the mobile application</td>
      <td>-</td>
      <td>30/11/2025</td>
+    </tr>
+    <tr>
+     <td>wokwi-app</td>
+     <td>main</td>
+     <td>047048e</td>
+     <td>feat: Change Wokwi badge image in README</td>
+     <td>-</td>
+     <td>02/12/2025</td>
+    </tr>
+    <tr>
+     <td>wokwi-app</td>
+     <td>main</td>
+     <td>29b3ef5</td>
+     <td>feat: Change Wokwi simulation image in README</td>
+     <td>-</td>
+     <td>02/12/2025</td>
+    </tr>
+    <tr>
+     <td>petlink-back3nd</td>
+     <td>master</td>
+     <td>6467885</td>
+     <td>feat: add dashboard controller/services/dto</td>
+     <td>-</td>
+     <td>02/12/2025</td>
+    </tr>
+    <tr>
+     <td>petlink-back3nd</td>
+     <td>master</td>
+     <td>b054c24</td>
+     <td>feat: add variability to heart status field and add fake login</td>
+     <td>-</td>
+     <td>02/12/2025</td>
+    </tr>
+    <tr>
+     <td>mobile-app</td>
+     <td>main</td>
+     <td>a30d391</td>
+     <td>feat: Update API base URL and endpoint for pet data</td>
+     <td>-</td>
+     <td>02/12/2025</td>
+    </tr>
+    <tr>
+     <td>petlink-frontend</td>
+     <td>main</td>
+     <td>bdc03c3d</td>
+     <td>feat: add dashboard</td>
+     <td>-</td>
+     <td>02/12/2025</td>
+    </tr>
+    <tr>
+     <td>petlink-frontend</td>
+     <td>main</td>
+     <td>d9eccd3</td>
+     <td>feat: login interface</td>
+     <td>-</td>
+     <td>02/12/2025</td>
     </tr>
   </table>
 
