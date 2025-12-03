@@ -5011,24 +5011,23 @@ Durante el Sprint 3, la evidencia se centró en la integración completa del flu
 |Backend|Documentación en Swagger|https://petlink-backend-3.onrender.com/swagger-ui/index.html#/|
 |Simulación IoT|Wokwi Project|https://wokwi.com/projects/446707706509743105|
 |Frontend Web|Login de Aplicación|https://petlink-frontend.onrender.com/login|
-|Mobile App|Firebase Hosting||
+|Mobile App|Firebase Hosting|url|
 
-<br>
 
 * **Evidencia 1: Demostración de Integración IoT-Backend**
   Esta evidencia demuestra cómo el dispositivo virtual se conecta al nuevo backend y genera datos vitales.
 
   1. **Configuración del Backend:** Se muestra la configuración de Spring Boot para conectar la API a la base de datos y manejar las peticiones de IoT.
 
-  <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="./Capitulo 6/Sprint3/Backend-1.png">
-  </div><br>
+      <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="./Capitulo 6/Sprint3/Backend-1.png">
+      </div><br>
 
   2. **URL de Conexión IoT:** El código en Wokwi utiliza explícitamente la nueva URL del backend para enviar los datos de signos vitales.
 
-  <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="./Capitulo 6/Sprint3/Backend-2.png">
-  </div><br>
+      <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="./Capitulo 6/Sprint3/Backend-2.png">
+      </div><br>
 
   3. **Configuración del IoT (Wokwi - Código C++):** El código simula la pechera IoT (ESP32) y realiza peticiones POST al nuevo endpoint del backend.
 
