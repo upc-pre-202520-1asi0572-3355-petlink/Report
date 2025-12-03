@@ -4868,7 +4868,7 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
      <td><strong>Branch</strong></td>
      <td><strong>Commit Id</strong></td>
      <td><strong>Commit Message</strong></td>
-     <td><strong>Commit Message Body</strong></td>
+     <td><strong>Trazabilidad</strong></td>
      <td><strong>Commited on (Date)</strong></td>
     </tr>
     <tr>
@@ -4876,7 +4876,7 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
      <td>main</td>
      <td>a1de399</td>
      <td>feat: add a base to relation with collares and mascotas</td>
-     <td>-</td>
+     <td>US09</td>
      <td>29/11/2025</td>
     </tr>
     <tr>
@@ -4884,7 +4884,7 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
      <td>main</td>
      <td>0e10416</td>
      <td>feat: update remove collares</td>
-     <td>-</td>
+     <td>US09</td>
      <td>28/11/2025</td>
     </tr>
     <tr>
@@ -4892,7 +4892,7 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
      <td>main</td>
      <td>0862435</td>
      <td>feat: update back url</td>
-     <td>-</td>
+     <td>US13</td>
      <td>28/11/2025</td>
     </tr>
     <tr>
@@ -4900,7 +4900,7 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
      <td>main</td>
      <td>86d871a</td>
      <td>feat: Implementation of a button to download the mobile application</td>
-     <td>-</td>
+     <td>US05</td>
      <td>30/11/2025</td>
     </tr>
     <tr>
@@ -4908,7 +4908,7 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
      <td>main</td>
      <td>047048e</td>
      <td>feat: Change Wokwi badge image in README</td>
-     <td>-</td>
+     <td>US19</td>
      <td>02/12/2025</td>
     </tr>
     <tr>
@@ -4916,7 +4916,7 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
      <td>main</td>
      <td>29b3ef5</td>
      <td>feat: Change Wokwi simulation image in README</td>
-     <td>-</td>
+     <td>US19</td>
      <td>02/12/2025</td>
     </tr>
     <tr>
@@ -4924,7 +4924,7 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
      <td>master</td>
      <td>6467885</td>
      <td>feat: add dashboard controller/services/dto</td>
-     <td>-</td>
+     <td>US13-US19</td>
      <td>02/12/2025</td>
     </tr>
     <tr>
@@ -4932,7 +4932,7 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
      <td>master</td>
      <td>b054c24</td>
      <td>feat: add variability to heart status field and add fake login</td>
-     <td>-</td>
+     <td>US13</td>
      <td>02/12/2025</td>
     </tr>
     <tr>
@@ -4940,7 +4940,7 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
      <td>main</td>
      <td>a30d391</td>
      <td>feat: Update API base URL and endpoint for pet data</td>
-     <td>-</td>
+     <td>US13</td>
      <td>02/12/2025</td>
     </tr>
     <tr>
@@ -4948,7 +4948,7 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
      <td>main</td>
      <td>bdc03c3d</td>
      <td>feat: add dashboard</td>
-     <td>-</td>
+     <td>US06</td>
      <td>02/12/2025</td>
     </tr>
     <tr>
@@ -4956,7 +4956,7 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
      <td>main</td>
      <td>d9eccd3</td>
      <td>feat: login interface</td>
-     <td>-</td>
+     <td>US06</td>
      <td>02/12/2025</td>
     </tr>
   </table>
@@ -5004,43 +5004,94 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 
 #### 6.2.3.6 Execution Evidence for Sprint Review
 
-Durante el Sprint 3, se desarrollo principalmente la comunicación del backend con el dispositivo IoT virtual. Como la comunicación del Frontend con el dispositivo IoT virtual.
+Durante el Sprint 3, la evidencia se centró en la integración completa del flujo IoT-Backend-Frontend, demostrando la trazabilidad de los datos en tiempo real.
 
-* Unión del backend con el Iot y su Id
+|Componente|Enlace de Producción|Nueva URL|
+|----------|--------------------|---------|
+|Backend|Documentación en Swagger|https://petlink-backend-3.onrender.com/swagger-ui/index.html#/|
+|Simulación IoT|Wokwi Project|https://wokwi.com/projects/446707706509743105|
+|Frontend Web|Login de Aplicación|https://petlink-frontend.onrender.com/login|
+|Mobile App|Firebase Hosting||
 
-    <div style="display: flex; justify-content: center; gap: 10px;">
-      <img src="./Capitulo 6/Sprint3/backend-1.png">
-    </div>
+<br>
+
+* **Evidencia 1: Demostración de Integración IoT-Backend**
+  Esta evidencia demuestra cómo el dispositivo virtual se conecta al nuevo backend y genera datos vitales.
+
+  1. **Configuración del Backend:** Se muestra la configuración de Spring Boot para conectar la API a la base de datos y manejar las peticiones de IoT. 2.
+
+      <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="./Capitulo 6/Sprint3/Backend-1.png">
+      </div><br>
+
+  2. **URL de Conexión IoT:** El código en Wokwi utiliza explícitamente la nueva URL del backend para enviar los datos de signos vitales.
+
+      <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="./Capitulo 6/Sprint3/Backend-2.png">
+      </div><br>
+
+  3. **Configuración del IoT (Wokwi - Código C++):** El código simula la pechera IoT (ESP32) y realiza peticiones POST al nuevo endpoint del backend.
+
+      <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="./Capitulo 6/Sprint3/Backend-3.png">
+      </div><br>
+
+  4. **Lógica de Estado:** Se comprueba la lógica para clasificar el estado de la mascota (ESTABLE, ALERTA, CRITICO) en función del ritmo cardíaco (bpm), lo que activa el indicador LED.
+
+      <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="./Capitulo 6/Sprint3/Backend-4.png">
+      </div>
+
+      <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="./Capitulo 6/Sprint3/Backend-5.png">
+      </div><br>
 	
 	---
+
+* **Evidencia 2: Conexión Frontend y Mobile App con el Nuevo Backend**
+  Se confirma que las interfaces de usuario (Web y Móvil) consumen los datos del nuevo API desplegado.
+
+  1. **Frontend Web:** Se actualizó el archivo environment.ts para que la aplicación web consuma la URL base del nuevo backend desplegado en Render: `apiUrl: 'https://petlink-backend-3.onrender.com/api'`.
   
-	<div style="display: flex; justify-content: center; gap: 10px;">
-      <img src="./Capitulo 6/Sprint3/backend-2.png">
-    </div>
+	    <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="./Capitulo 6/Sprint3/Frontend-1.png">
+      </div><br>
+
+  2. **Mobile App:** Se realizó la actualización de la URL base en la aplicación móvil para asegurar la recepción de datos en tiempo real y la visualización de alertas.
+
+      <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="./Capitulo 6/Sprint3/Mobile-1.png">
+      </div><br>
+
+  3. **Lógica de Despliegue (application.yml):** El archivo de configuración confirma el deployment del microservicio petlink-backend junto con la base de datos PostgreSQL para persistir los datos de IoT.
+
+      <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="./Capitulo 6/Sprint3/Backend-6.png">
+      </div><br>
 
 	---
 
-    <div style="display: flex; justify-content: center; gap: 10px;">
-      <img src="./Capitulo 6/Sprint3/Iot.png">
-    </div>
-
-	---
-
-  	<div style="display: flex; justify-content: center; gap: 10px;">
-      <img src="./Capitulo 6/Sprint3/Iot-2.png">
-    </div><br>  	
-
-* Unión de la app móvil con la Landing Page
+* **Evidencia 3: Conexión entre la Landing Page y Mobile App**
+  Se confirma que se puede acceder a la Mobile App mediente el boton de `Descargar App móvil` que tiene la Landing Page.
 
     <div style="display: flex; justify-content: center; gap: 10px;">
       <img src="./Capitulo 6/Sprint3/landing-cambio.png">
     </div><br>
 
-* Unión del backend actualizado con el Frontend
+* **Demostración Funcional: Flujo IoT - Aplicación**
+  La siguiente evidencia audiovisual demuestra, en tiempo real, el flujo completo de datos y alertas críticas, verificando la integración de los componentes desplegados:
 
-    <div style="display: flex; justify-content: center; gap: 10px;">
-      <img src="./Capitulo 6/Sprint3/Frontend-1.png">
-    </div><br>
+  1. Activación IoT: Se inicia la simulación del Dispositivo IoT (Wokwi) enviando datos de signos vitales (Ritmo Cardíaco).
+
+  2. Procesamiento de Alertas: El Backend API (Render) recibe la telemetría y, al detectar una anomalía (ej. CRITICO), procesa el estado.
+
+  3. Visualización en Tiempo Real: El estado de la mascota se actualiza simultáneamente en la Aplicación Web (Frontend) y la Aplicación Móvil (Flutter), mostrando la alerta y los datos actualizados.
+
+      <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="./Capitulo 6/Sprint3/evidencia-final.jpeg">
+      </div><br>
+
+      **URL del vídeo:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191a137_upc_edu_pe/IQCAGDgJp2cMRKueGa-iRg47ASNTRjcoU6A8yV0-RoxjlJw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=z1HHnq](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191a137_upc_edu_pe/IQCAGDgJp2cMRKueGa-iRg47ASNTRjcoU6A8yV0-RoxjlJw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=z1HHnq)
 
 #### 6.2.3.7 Services Deployment Evidence for Sprint Review
 
@@ -5103,16 +5154,15 @@ La landing page de PetWatch se encuentra desplegada en GitHub Pages con las sigu
 
 **2. Aplicación Web (Frontend)**
 
-El frontend web de PetWatch está desplegado en Netlify:
+El frontend web de PetWatch está desplegado en Render:
 
-- **URL de producción:** https://petwatch.netlify.app
-- **Plataforma:** Netlify
+- **URL de producción:** https://petlink-frontend.onrender.com/login
+- **Plataforma:** Render
 - **Framework:** Angular
-- **Configuración especial:** Archivo `netlify.toml` con reglas de redirección para SPA
 
 **Configuración de despliegue:**
 
-1. Conexión del repositorio GitHub con Netlify
+1. Conexión del repositorio GitHub con Render
 2. Configuración de comandos de build: `ng build --configuration production`
 3. Directorio de publicación: `dist/`
 4. Variables de entorno configuradas para conexión con backend
@@ -5140,8 +5190,8 @@ El backend fue desplegado exitosamente en Render durante este sprint:
 - **Base de datos:** PostgreSQL (Render Cloud)
 - **Plataforma:** Render
 - **Estado:** Desplegado en producción
-- **URL:** https://petlink-backend-gb69.onrender.com
-- **Documentación API:** https://petlink-backend-gb69.onrender.com/swagger-ui/index.html
+- **URL:** https://petlink-backend-3.onrender.com
+- **Documentación API:** https://petlink-backend-3.onrender.com/swagger-ui/index.html#/
 - **Containerización:** Docker
 - **CI/CD:** Automatizado desde GitHub
 
@@ -5153,7 +5203,7 @@ El dispositivo IoT fue desarrollado y probado en un entorno de simulación funci
 - **Base de datos:** ESP32 (Simulado)
 - **Plataforma:** Wokwi
 - **Estado:** Simulación funcional
-- **URL:** https://wokwi.com/projects/447269132790685697
+- **URL:** https://wokwi.com/projects/446707706509743105
 - **Funcionalidad:** Conexión al Backend API (Render)
 
 **Resumen del Sprint 3:**
@@ -5161,10 +5211,10 @@ El dispositivo IoT fue desarrollado y probado en un entorno de simulación funci
 | Componente | Plataforma | Estado | URL |
 |------------|-----------|--------|-----|
 | Landing Page | GitHub Pages | Desplegado | https://upc-pre-202520-1asi0572-3355-petlink.github.io/landing-page |
-| Frontend Web | Netlify | Desplegado | https://petwatch.netlify.app |
-| Backend API | Render | Desplegado | https://petlink-backend-gb69.onrender.com |
+| Frontend Web | Netlify | Desplegado | https://petlink-frontend.onrender.com/login |
+| Backend API | Render | Desplegado | https://petlink-backend-3.onrender.com/swagger-ui/index.html#/ |
 | Mobile App | Firebase | Desplegado | https://petlink-134ba.web.app/ |
-| Dispositivo IoT (Wokwi) | Wokwi | Simulación funcional | https://wokwi.com/projects/447269132790685697 |
+| Dispositivo IoT (Wokwi) | Wokwi | Simulación funcional | https://wokwi.com/projects/446707706509743105 |
 
 #### 6.2.3.9 Team Collaboration Insights during Sprint
 
@@ -5549,8 +5599,8 @@ Weenect. (s.f.). _Collares GPS para perros y gatos_. Invoxia. https://www.weenec
 # Anexos
 
 - **URL de la Landing Page desplegada:** https://upc-pre-202520-1asi0572-3355-petlink.github.io/landing-page
-- **URL del Backend desplegado:** https://petlink-backend-gb69.onrender.com/swagger-ui/index.html
-- **URL de la aplicación web desplegada:** https://petwatch.netlify.app
+- **URL del Backend desplegado:** https://petlink-backend-3.onrender.com/swagger-ui/index.html#/
+- **URL de la aplicación web desplegada:** https://petlink-frontend.onrender.com/login
 - **URL de la aplicación móvil desplegada:** https://petlink-134ba.web.app/
 - **URL del dispositivo IoT:** https://wokwi.com/projects/447269132790685697
 - **URL del About-the-Product:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a085_upc_edu_pe/IQAQFNmkU9aITYX0X2IMgxqWAZ2w4d66h4uIrmslZuEEWp0?e=AfzeoJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
