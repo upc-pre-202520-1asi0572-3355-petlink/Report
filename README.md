@@ -5011,7 +5011,7 @@ Durante el Sprint 3, la evidencia se centró en la integración completa del flu
 |Backend|Documentación en Swagger|https://petlink-backend-3.onrender.com/swagger-ui/index.html#/|
 |Simulación IoT|Wokwi Project|https://wokwi.com/projects/446707706509743105|
 |Frontend Web|Login de Aplicación|https://petlink-frontend.onrender.com/login|
-|Mobile App|Firebase Hosting|url|
+|Mobile App|Firebase Hosting|https://petlinkmobile.web.app/|
 
 
 * **Evidencia 1: Demostración de Integración IoT-Backend**
@@ -5103,7 +5103,7 @@ Durante el Sprint 3, se completó exitosamente el despliegue de la app móvil en
 **App móvil - Desplegado en Firebase**
 
 - **Plataforma:** Firebase (https://firebase.google.com/)
-- **URL de producción:** https://petlink-134ba.web.app/
+- **URL de producción:** https://petlinkmobile.web.app/
 - **Tecnología:** flutter (Dart)
 - **Integración CI/CD:**	Firebase CLI
 - **Estado:** Desplegado (Alpha/Testing)
@@ -5175,7 +5175,7 @@ El frontend web de PetWatch está desplegado en Render:
 
 La aplicación móvil se encuentra en desarrollo activo:
 
-- **URL de producción:** https://petlink-134ba.web.app/
+- **URL de producción:** https://petlinkmobile.web.app/
 - **Framework:** Flutter
 - **Plataformas:** Firebase
 - **Funcionalidades en desarrollo:**
@@ -5216,7 +5216,7 @@ El dispositivo IoT fue desarrollado y probado en un entorno de simulación funci
 | Landing Page | GitHub Pages | Desplegado | https://upc-pre-202520-1asi0572-3355-petlink.github.io/landing-page |
 | Frontend Web | Netlify | Desplegado | https://petlink-frontend.onrender.com/login |
 | Backend API | Render | Desplegado | https://petlink-backend-3.onrender.com/swagger-ui/index.html#/ |
-| Mobile App | Firebase | Desplegado | https://petlink-134ba.web.app/ |
+| Mobile App | Firebase | Desplegado | https://petlinkmobile.web.app/ |
 | Dispositivo IoT (Wokwi) | Wokwi | Simulación funcional | https://wokwi.com/projects/446707706509743105 |
 
 #### 6.2.3.9 Team Collaboration Insights during Sprint
@@ -5604,7 +5604,7 @@ Weenect. (s.f.). _Collares GPS para perros y gatos_. Invoxia. https://www.weenec
 - **URL de la Landing Page desplegada:** https://upc-pre-202520-1asi0572-3355-petlink.github.io/landing-page
 - **URL del Backend desplegado:** https://petlink-backend-3.onrender.com/swagger-ui/index.html#/
 - **URL de la aplicación web desplegada:** https://petlink-frontend.onrender.com/login
-- **URL de la aplicación móvil desplegada:** https://petlink-134ba.web.app/
+- **URL de la aplicación móvil desplegada:** https://petlinkmobile.web.app/
 - **URL del dispositivo IoT:** https://wokwi.com/projects/447269132790685697
 - **URL del About-the-Product:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a085_upc_edu_pe/IQAQFNmkU9aITYX0X2IMgxqWAZ2w4d66h4uIrmslZuEEWp0?e=AfzeoJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 - **URL del About-the-Team:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c131_upc_edu_pe/cQoohwMIExOLSoSuaceGoDM2EgUAY1YssI3JShZ_Jh2HG_fF9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&
